@@ -10,6 +10,8 @@ export const korea: Destination = {
   summary:
     'Hyundai Staria untuk Incheon transfer serta tur Seoul, Nami, Busan, dan Jeju.',
   accent: 'sky',
+  heroImage: '/images/hero-korea.webp',
+  bookingImage: '/images/section-info.webp',
   highlights: [
     'Incheon airport transfer',
     'Seoul & Nami Island',
@@ -30,11 +32,7 @@ export const korea: Destination = {
     {
       service: 'Jeju Tour (8+1h)',
       price: 5950000,
-      note: 'Harga Jeju Tour menunggu konfirmasi akhir karena terdapat anomali pada sumber.',
     },
-  ],
-  terms: [
-    'Harga utama Jeju Tour mengikuti angka IDR 5.950.000 pada sumber, namun masih memerlukan konfirmasi pemilik bisnis sebelum publikasi produksi.',
   ],
   faqs: [
     {
@@ -47,9 +45,9 @@ export const korea: Destination = {
         'Ya. Tersedia airport pick-up/sending dan opsi Incheon Airport + Seoul Tour.',
     },
     {
-      question: 'Apakah harga Jeju sudah final?',
+      question: 'Apakah tersedia layanan transportasi di Jeju?',
       answer:
-        'Belum. Salah satu baris sumber harga Jeju memiliki anomali dan perlu dikonfirmasi sebelum publikasi produksi.',
+        'Ya. Tersedia layanan Jeju Airport + Jeju Tour dan Jeju Tour dengan durasi yang tercantum pada daftar harga.',
     },
   ],
   seo: {
