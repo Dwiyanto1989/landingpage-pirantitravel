@@ -124,6 +124,32 @@
   .button-secondary:active {
     transform: scale(0.96);
   }
+  .button-whatsapp {
+    display: inline-flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    border-radius: 0.875rem;
+    padding: 0.75rem 1.125rem;
+    background: linear-gradient(135deg, #128c7e, #075e54);
+    color: white;
+    font-weight: 750;
+    box-shadow:
+      0 1px 2px rgb(7 94 84 / 0.22),
+      0 8px 22px rgb(37 211 102 / 0.24);
+    transition-property: transform, background, box-shadow;
+    transition-duration: 150ms;
+  }
+  .button-whatsapp:hover {
+    background: linear-gradient(135deg, #0f7a6e, #064e46);
+    box-shadow:
+      0 1px 2px rgb(7 94 84 / 0.28),
+      0 10px 26px rgb(37 211 102 / 0.3);
+  }
+  .button-whatsapp:active {
+    transform: scale(0.96);
+  }
   .card {
     border-radius: 1.5rem;
     background: white;

@@ -120,11 +120,7 @@ const hasDetails =
         <strong>Catatan harga:</strong> {generalPriceDisclaimer}
       </div>
       <div class="mt-7">
-        <WhatsAppCTA
-          destination={destination.name}
-          placement="pricing"
-          label={`Cek harga ${destination.name}`}
-        />
+        <WhatsAppCTA destination={destination.name} placement="pricing" />
       </div>
     </div>
   </section>
@@ -262,11 +258,7 @@ const hasDetails =
           Kirim detail perjalanan {destination.name} Anda
         </h2>
       </div>
-      <WhatsAppCTA
-        destination={destination.name}
-        placement="final"
-        class="bg-white text-brand-700 hover:bg-brand-50"
-      />
+      <WhatsAppCTA destination={destination.name} placement="final" />
     </div>
   </section>
 </BaseLayout>

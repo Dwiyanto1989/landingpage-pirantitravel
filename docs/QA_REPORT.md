@@ -12,7 +12,7 @@ Validated on 2026-09-29 against `workflow/workflow/14_ACCEPTANCE_CHECKLIST.md`.
 - Pricing integrity test passes against `workflow/content/normalized-pricing.json` for all four destinations.
 - Destination terms, exclusions, general disclaimer, and the unresolved Korea Jeju warning are visible.
 - WhatsApp URL generation strips non-digits and URL-encodes destination-aware inquiry text.
-- WhatsApp values come only from environment configuration; empty configuration renders a clear disabled state and hides the unusable mobile sticky bar.
+- WhatsApp CTAs use the configured Piranti Travel number and remain overrideable through environment configuration.
 - Active CTAs expose conversion, destination, and placement data attributes and push `whatsapp_click` to `dataLayer`.
 - Each page has a unique title, description, canonical, Open Graph/Twitter metadata, and truthful structured data without ratings.
 - Development output uses `noindex,nofollow` and disallows crawling in `robots.txt`.

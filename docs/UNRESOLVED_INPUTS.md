@@ -2,7 +2,6 @@
 
 These values remain intentionally empty or marked as draft. They do not block the development build.
 
-- WhatsApp number
 - Business email
 - Legal entity name
 - Physical office address

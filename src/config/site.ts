@@ -6,7 +6,7 @@ export const siteConfig = {
   isProduction: siteEnvironment === 'production',
   devOrigin: 'https://piranti.east.local',
   prodOrigin: 'https://piranti-travel.com',
-  whatsappNumber: import.meta.env.PUBLIC_WHATSAPP_NUMBER ?? '',
+  whatsappNumber: import.meta.env.PUBLIC_WHATSAPP_NUMBER || '6283873355999',
   email: import.meta.env.PUBLIC_CONTACT_EMAIL ?? '',
   legalName: import.meta.env.PUBLIC_LEGAL_NAME ?? '',
   officeAddress: import.meta.env.PUBLIC_OFFICE_ADDRESS ?? '',

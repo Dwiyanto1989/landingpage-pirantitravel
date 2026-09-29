@@ -12,7 +12,7 @@ npm ci
 npm run dev
 ```
 
-Without `PUBLIC_WHATSAPP_NUMBER`, WhatsApp CTAs intentionally render disabled. Supply digits with an international country code in `.env`; do not commit `.env`.
+WhatsApp CTAs default to Piranti Travel's configured number. Override `PUBLIC_WHATSAPP_NUMBER` with international-format digits in `.env` when needed; do not commit `.env`.
 
 ## Validation
 
