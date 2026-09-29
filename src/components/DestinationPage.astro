@@ -93,7 +93,7 @@ const hasDetails =
                 >
                   {vehicle.name}
                 </h3>
-                <p class="text-sm font-bold text-brand-600">
+                <p class="text-sm font-bold text-brand-700">
                   {vehicle.capacity}
                 </p>
               </div>
@@ -252,10 +252,10 @@ const hasDetails =
       <FAQ items={destination.faqs} />
     </div>
   </section>
-  <section class="bg-accent-500 py-16 text-[#071f22]">
+  <section class="cta-gradient py-16 text-white">
     <div class="shell flex flex-col items-start justify-between gap-7 lg:flex-row lg:items-center">
       <div>
-        <p class="text-sm font-extrabold uppercase tracking-[.14em] text-[#071f22]">
+        <p class="text-sm font-extrabold uppercase tracking-[.14em] text-white/80">
           Siap cek jadwal?
         </p>
         <h2 class="mt-2 text-3xl font-extrabold sm:text-4xl">
@@ -265,7 +265,7 @@ const hasDetails =
       <WhatsAppCTA
         destination={destination.name}
         placement="final"
-        class="bg-brand-900 text-white hover:bg-brand-800"
+        class="bg-white text-brand-700 hover:bg-brand-50"
       />
     </div>
   </section>
