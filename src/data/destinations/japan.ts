@@ -10,6 +10,8 @@ export const japan: Destination = {
   summary:
     'Alphard dan HiAce untuk city tour, day trip, serta airport transfer.',
   accent: 'sakura',
+  heroImage: '/images/hero-japan.webp',
+  bookingImage: '/images/section-info.webp',
   highlights: [
     'Tokyo, Osaka & Kyoto',
     'Mt. Fuji day trip',

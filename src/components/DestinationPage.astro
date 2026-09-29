@@ -50,6 +50,7 @@ const hasDetails =
     description={destination.description}
     destination={destination.name}
     highlights={destination.highlights}
+    backgroundImage={destination.heroImage}
   />
 
   <section
@@ -226,7 +227,18 @@ const hasDetails =
     </div>
   </section>
 
-  <section class="section">
+  <section
+    class:list={[
+      'section',
+      destination.bookingImage &&
+        'bg-brand-50 bg-cover bg-center bg-fixed bg-no-repeat',
+    ]}
+    style={
+      destination.bookingImage
+        ? `background-image: linear-gradient(rgb(231 244 255 / 0.68), rgb(231 244 255 / 0.68)), url('${destination.bookingImage}');`
+        : undefined
+    }
+  >
     <div class="shell">
       <div class="max-w-2xl">
         <p class="eyebrow">Cara booking</p>

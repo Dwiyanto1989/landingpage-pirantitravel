@@ -31,6 +31,8 @@ export type Destination = {
   description: string;
   summary: string;
   accent: string;
+  heroImage?: string;
+  bookingImage?: string;
   highlights: string[];
   fleet: string[];
   services?: ServicePrice[];
