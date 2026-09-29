@@ -1,0 +1,12 @@
+.git
+.astro
+dist
+node_modules
+.env
+.env.*
+!.env.example
+workflow
+docs
+tests
+deploy
+*.log

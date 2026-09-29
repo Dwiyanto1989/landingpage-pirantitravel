@@ -1,0 +1,44 @@
+---
+import { siteConfig } from '../config/site';
+import { buildWhatsAppLink } from '../lib/whatsapp';
+import type { CTAConfig } from '../types';
+
+interface Props extends CTAConfig {
+  compact?: boolean;
+  class?: string;
+}
+const {
+  destination = '',
+  placement,
+  label = 'Cek Harga & Availability',
+  compact = false,
+  class: className = '',
+} = Astro.props;
+const href = buildWhatsAppLink(siteConfig.whatsappNumber, destination);
+const classes = `${compact ? 'inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-accent-500 px-4 py-2.5 text-sm font-bold text-brand-900 shadow-button transition-transform duration-150 active:scale-[.96]' : 'button-primary'} ${className}`;
+---
+
+{href ? (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class={classes}
+    data-conversion="whatsapp"
+    data-destination={destination || 'general'}
+    data-placement={placement}
+  >
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="h-5 w-5 fill-current">
+      <path d="M12 2a9.8 9.8 0 0 0-8.4 14.9L2 22l5.2-1.5A10 10 0 1 0 12 2Zm0 18.2a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.9.9-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.3 0-.4.1-.5l.4-.5.2-.4c.1-.1 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.5 3.9.6.3 1.1.4 1.5.5.7.2 1.3.2 1.8.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.2-.2-.4-.3-.6-.4Z" />
+    </svg>
+    {label}
+  </a>
+) : (
+  <span
+    class={`${classes} cursor-not-allowed !bg-slate-300 !text-slate-700 !shadow-none`}
+    role="status"
+    title="Isi PUBLIC_WHATSAPP_NUMBER untuk mengaktifkan tombol"
+  >
+    WhatsApp belum dikonfigurasi
+  </span>
+)}

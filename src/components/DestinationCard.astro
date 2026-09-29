@@ -1,0 +1,47 @@
+---
+import type { Destination } from '../types';
+interface Props {
+  destination: Destination;
+}
+const { destination } = Astro.props;
+const tones = {
+  sakura: 'from-rose-100 to-orange-50',
+  sky: 'from-sky-100 to-indigo-50',
+  gold: 'from-amber-100 to-orange-50',
+  coral: 'from-red-100 to-rose-50',
+};
+---
+
+<article class="card group flex h-full flex-col overflow-hidden">
+  <div
+    class={`relative h-40 overflow-hidden bg-gradient-to-br ${tones[destination.accent as keyof typeof tones]}`}
+  >
+    <div class="absolute -right-6 -top-10 h-36 w-36 rounded-full bg-white/60"></div>
+    <div class="absolute bottom-5 left-6 text-3xl font-black text-brand-900/85">
+      {destination.name}
+    </div>
+    <span class="absolute bottom-5 right-6 text-sm font-bold text-brand-700">
+      0
+      {['japan', 'korea', 'bangkok', 'singapore'].indexOf(destination.slug) + 1}
+    </span>
+  </div>
+  <div class="flex flex-1 flex-col p-6">
+    <p class="text-sm leading-6 text-slate-600">{destination.summary}</p>
+    <ul class="mt-5 space-y-2 text-sm text-slate-700">
+      {destination.highlights.slice(0, 2).map((item) => (
+        <li class="flex gap-2">
+          <span aria-hidden="true" class="text-accent-500">
+            ●
+          </span>
+          {item}
+        </li>
+      ))}
+    </ul>
+    <a
+      href={`/${destination.slug}`}
+      class="mt-6 inline-flex min-h-11 items-center gap-2 self-start rounded-lg font-bold text-brand-700 group-hover:text-brand-500"
+    >
+      Lihat harga & layanan <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>

@@ -1,0 +1,70 @@
+---
+import { siteConfig } from '../config/site';
+import { navigation } from '../data/site';
+import WhatsAppCTA from './WhatsAppCTA.astro';
+---
+
+<footer class="bg-brand-900 pb-24 text-white md:pb-0">
+  <div class="shell grid gap-10 py-14 md:grid-cols-[1.3fr_1fr_1fr]">
+    <div>
+      <img
+        src="/brand/piranti-travel-logo.png"
+        width="377"
+        height="90"
+        alt="Piranti Travel"
+        loading="lazy"
+        class="h-12 w-auto"
+      />
+      <p class="mt-4 max-w-sm text-sm leading-6 text-white/65">
+        Private transport, airport transfer, dan private tour untuk perjalanan
+        Japan, Korea, Bangkok, dan Singapore.
+      </p>
+    </div>
+    <div>
+      <h2 class="text-sm font-bold tracking-wide text-white">Destinasi</h2>
+      <ul class="mt-3 grid grid-cols-2 gap-1 text-sm text-white/70">
+        {navigation.map(({ href, label }) => (
+          <li>
+            <a
+              href={href}
+              class="inline-flex min-h-11 items-center hover:text-white"
+            >
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-sm font-bold tracking-wide text-white">Hubungi kami</h2>
+      <div class="mt-4">
+        <WhatsAppCTA placement="footer" label="Chat via WhatsApp" compact />
+      </div>
+      {siteConfig.email && (
+        <a
+          href={`mailto:${siteConfig.email}`}
+          class="mt-3 block text-sm text-white/70 hover:text-white"
+        >
+          {siteConfig.email}
+        </a>
+      )}
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <div class="shell flex flex-col gap-3 py-5 text-xs text-white/55 sm:flex-row sm:items-center sm:justify-between">
+      <p>
+        © {new Date().getFullYear()}{' '}
+        {siteConfig.legalName || siteConfig.brandName}. Informasi harga perlu
+        dikonfirmasi.
+      </p>
+      <nav aria-label="Tautan legal" class="flex gap-5">
+        <a href="/privacy" class="hover:text-white">
+          Privasi
+        </a>
+        <a href="/terms" class="hover:text-white">
+          Ketentuan
+        </a>
+      </nav>
+    </div>
+  </div>
+</footer>

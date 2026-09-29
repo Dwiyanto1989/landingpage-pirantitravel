@@ -1,0 +1,272 @@
+---
+import type { Destination } from '../types';
+import { generalPriceDisclaimer } from '../data/site';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BookingSteps from './BookingSteps.astro';
+import FAQ from './FAQ.astro';
+import FleetCard from './FleetCard.astro';
+import Hero from './Hero.astro';
+import PriceTable from './PriceTable.astro';
+import WhatsAppCTA from './WhatsAppCTA.astro';
+
+interface Props {
+  destination: Destination;
+}
+const { destination } = Astro.props;
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: destination.faqs.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer },
+  })),
+};
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: `Private transport ${destination.name}`,
+  provider: { '@type': 'TravelAgency', name: 'Piranti Travel' },
+  areaServed: destination.name,
+  description: destination.description,
+};
+const hasDetails =
+  destination.inclusions ||
+  destination.exclusions ||
+  destination.additional ||
+  destination.terms;
+---
+
+<BaseLayout
+  title={destination.seo.title}
+  description={destination.seo.description}
+  path={`/${destination.slug}`}
+  destination={destination.name}
+  schema={[serviceSchema, faqSchema]}
+>
+  <Hero
+    eyebrow={destination.eyebrow}
+    title={destination.title}
+    description={destination.description}
+    destination={destination.name}
+    highlights={destination.highlights}
+  />
+
+  <section
+    aria-label="Ringkasan layanan"
+    class="border-b border-brand-900/8 bg-white"
+  >
+    <div class="shell grid divide-y divide-brand-900/8 py-3 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+      {destination.highlights.map((item) => (
+        <p class="flex min-h-16 items-center gap-3 px-3 py-3 text-sm font-bold text-brand-900 sm:px-6">
+          <span aria-hidden="true" class="text-accent-500">
+            ✓
+          </span>
+          {item}
+        </p>
+      ))}
+    </div>
+  </section>
+
+  <section id="harga" class="section scroll-mt-4">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Harga layanan</p>
+        <h2 class="section-title mt-3">
+          Pilih layanan yang paling mendekati rencana Anda
+        </h2>
+        <p class="mt-5 leading-7 text-slate-600">
+          Gunakan harga berikut sebagai referensi awal. Kirim detail tanggal dan
+          rute untuk mendapatkan penawaran final.
+        </p>
+      </div>
+      <div class="mt-10 space-y-7">
+        {destination.vehicles ? (
+          destination.vehicles.map((vehicle) => (
+            <section
+              aria-labelledby={`vehicle-${vehicle.name.replaceAll(' ', '-').toLowerCase()}`}
+            >
+              <div class="mb-3 flex flex-wrap items-end justify-between gap-2">
+                <h3
+                  id={`vehicle-${vehicle.name.replaceAll(' ', '-').toLowerCase()}`}
+                  class="text-2xl font-extrabold text-brand-900"
+                >
+                  {vehicle.name}
+                </h3>
+                <p class="text-sm font-bold text-brand-600">
+                  {vehicle.capacity}
+                </p>
+              </div>
+              <PriceTable services={vehicle.services ?? []} />
+              <div class="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+                <p class="rounded-xl bg-emerald-50 p-4 text-emerald-900">
+                  <strong>Termasuk:</strong> {vehicle.includes?.join(', ')}
+                </p>
+                <p class="rounded-xl bg-amber-50 p-4 text-amber-900">
+                  <strong>Tidak termasuk:</strong>{' '}
+                  {vehicle.excludes?.join(', ')}
+                </p>
+              </div>
+            </section>
+          ))
+        ) : (
+          <PriceTable
+            services={destination.services ?? []}
+            columns={destination.priceColumns}
+          />
+        )}
+      </div>
+      <div class="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-6 text-amber-950">
+        <strong>Catatan harga:</strong> {generalPriceDisclaimer}
+      </div>
+      <div class="mt-7">
+        <WhatsAppCTA
+          destination={destination.name}
+          placement="pricing"
+          label={`Cek harga ${destination.name}`}
+        />
+      </div>
+    </div>
+  </section>
+
+  {hasDetails && (
+    <section class="section bg-brand-50">
+      <div class="shell grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
+        <div>
+          <p class="eyebrow">Sebelum booking</p>
+          <h2 class="section-title mt-3">Detail yang perlu Anda tahu</h2>
+          <p class="mt-5 leading-7 text-slate-600">
+            Periksa cakupan layanan dan biaya tambahan agar penawaran sesuai
+            dengan kebutuhan perjalanan.
+          </p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          {destination.inclusions && (
+            <article class="card p-6">
+              <h3 class="text-lg font-extrabold text-brand-900">
+                Sudah termasuk
+              </h3>
+              <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                {destination.inclusions.map((item) => (
+                  <li class="flex gap-3">
+                    <span aria-hidden="true" class="text-emerald-600">
+                      ✓
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )}
+          {destination.exclusions && (
+            <article class="card p-6">
+              <h3 class="text-lg font-extrabold text-brand-900">
+                Belum termasuk
+              </h3>
+              <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                {destination.exclusions.map((item) => (
+                  <li class="flex gap-3">
+                    <span aria-hidden="true" class="text-amber-600">
+                      •
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )}
+          {destination.additional && (
+            <article class="card p-6">
+              <h3 class="text-lg font-extrabold text-brand-900">
+                Biaya tambahan
+              </h3>
+              <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                {destination.additional.map((item) => (
+                  <li class="flex gap-3">
+                    <span aria-hidden="true" class="text-accent-500">
+                      +
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )}
+          {destination.terms && (
+            <article class="card p-6">
+              <h3 class="text-lg font-extrabold text-brand-900">
+                Ketentuan penting
+              </h3>
+              <ul class="mt-4 space-y-3 text-sm text-slate-600">
+                {destination.terms.map((item) => (
+                  <li class="flex gap-3">
+                    <span aria-hidden="true" class="text-brand-600">
+                      →
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section bg-white">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Armada</p>
+        <h2 class="section-title mt-3">
+          Kendaraan untuk perjalanan {destination.name}
+        </h2>
+      </div>
+      <div class="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {destination.fleet.map((name, index) => (
+          <FleetCard {name} {index} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Cara booking</p>
+        <h2 class="section-title mt-3">
+          Tiga langkah menuju perjalanan yang lebih praktis
+        </h2>
+      </div>
+      <div class="mt-9">
+        <BookingSteps />
+      </div>
+    </div>
+  </section>
+  <section class="section bg-brand-50">
+    <div class="shell grid gap-10 lg:grid-cols-[.75fr_1.25fr]">
+      <div>
+        <p class="eyebrow">Pertanyaan umum</p>
+        <h2 class="section-title mt-3">Informasi penting sebelum inquiry</h2>
+      </div>
+      <FAQ items={destination.faqs} />
+    </div>
+  </section>
+  <section class="bg-accent-500 py-16 text-[#071f22]">
+    <div class="shell flex flex-col items-start justify-between gap-7 lg:flex-row lg:items-center">
+      <div>
+        <p class="text-sm font-extrabold uppercase tracking-[.14em] text-[#071f22]">
+          Siap cek jadwal?
+        </p>
+        <h2 class="mt-2 text-3xl font-extrabold sm:text-4xl">
+          Kirim detail perjalanan {destination.name} Anda
+        </h2>
+      </div>
+      <WhatsAppCTA
+        destination={destination.name}
+        placement="final"
+        class="bg-brand-900 text-white hover:bg-brand-800"
+      />
+    </div>
+  </section>
+</BaseLayout>

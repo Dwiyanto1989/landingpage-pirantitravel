@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import DestinationCard from '../components/DestinationCard.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import FleetCard from '../components/FleetCard.astro';
+import FeatureGrid from '../components/FeatureGrid.astro';
+import BookingSteps from '../components/BookingSteps.astro';
+import FAQ from '../components/FAQ.astro';
+import WhatsAppCTA from '../components/WhatsAppCTA.astro';
+import { destinations } from '../data/destinations';
+import { homeFaqs } from '../data/site';
+
+const title =
+  'Piranti Travel | Private Transport Jepang, Korea, Bangkok & Singapore';
+const description =
+  'Temukan private transport, airport transfer, dan private tour untuk Jepang, Korea, Bangkok, dan Singapore bersama Piranti Travel.';
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: homeFaqs.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer },
+  })),
+};
+const fleet = [
+  'Alphard',
+  'HiAce',
+  'Hyundai Staria',
+  'VIP Van',
+  'Coaster',
+  'Bus',
+];
+---
+
+<BaseLayout {title} {description} path="/" schema={faqSchema}>
+  <Hero
+    eyebrow="Private transport untuk perjalanan Asia"
+    title="Perjalanan privat, dari bandara hingga destinasi pilihan"
+    description="Lihat referensi harga transport untuk Japan, Korea, Bangkok, dan Singapore. Pilih layanan, kirim detail perjalanan, lalu dapatkan penawaran sesuai kebutuhan Anda."
+    home
+  />
+
+  <section
+    aria-label="Keunggulan layanan"
+    class="border-b border-brand-900/8 bg-white"
+  >
+    <div class="shell grid divide-y divide-brand-900/8 py-3 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+      {[
+        'Harga referensi dalam IDR',
+        'Pilihan untuk keluarga & grup',
+        'Airport transfer & private tour',
+      ].map((item) => (
+        <p class="flex min-h-16 items-center gap-3 px-3 py-3 text-sm font-bold text-brand-900 sm:px-6">
+          <span aria-hidden="true" class="text-accent-500">
+            ✓
+          </span>
+          {item}
+        </p>
+      ))}
+    </div>
+  </section>
+
+  <section id="destinasi" class="section scroll-mt-4">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Pilih destinasi</p>
+        <h2 class="section-title mt-3">
+          Mulai dari kota yang ingin Anda jelajahi
+        </h2>
+        <p class="mt-5 leading-7 text-slate-600">
+          Setiap halaman memuat kendaraan, rute, ketentuan, dan referensi harga
+          yang berbeda.
+        </p>
+      </div>
+      <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {destinations.map((destination) => (
+          <DestinationCard {destination} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-brand-50">
+    <div class="shell">
+      <div class="grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
+        <div>
+          <p class="eyebrow">Kebutuhan perjalanan</p>
+          <h2 class="section-title mt-3">Satu tempat untuk rute privat Anda</h2>
+          <p class="mt-5 leading-7 text-slate-600">
+            Bandingkan pilihan berdasarkan tujuan, durasi, kapasitas kendaraan,
+            dan cakupan biaya.
+          </p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <ServiceCard
+            icon="✈"
+            title="Airport transfer"
+            text="Jemput atau antar bandara dengan kendaraan yang sesuai jumlah penumpang dan bagasi."
+          />
+          <ServiceCard
+            icon="⌖"
+            title="City tour privat"
+            text="Susun kunjungan kota dengan waktu layanan yang jelas dan kendaraan khusus grup Anda."
+          />
+          <ServiceCard
+            icon="↗"
+            title="Day trip"
+            text="Perjalanan satu hari ke Mt. Fuji, Nami Island, Ayutthaya, Pattaya, dan destinasi lainnya."
+          />
+          <ServiceCard
+            icon="◫"
+            title="Transport grup"
+            text="HiAce, Coaster, dan Bus untuk kebutuhan keluarga besar atau rombongan."
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="shell">
+      <div class="flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
+        <div class="max-w-2xl">
+          <p class="eyebrow">Pilihan armada</p>
+          <h2 class="section-title mt-3">Dari kendaraan keluarga hingga bus</h2>
+        </div>
+        <p class="max-w-sm text-sm leading-6 text-slate-600">
+          Ketersediaan tipe kendaraan mengikuti destinasi, tanggal, dan
+          kebutuhan bagasi.
+        </p>
+      </div>
+      <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {fleet.map((name, index) => (
+          <FleetCard {name} {index} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
+      <div>
+        <p class="eyebrow">Kenapa Piranti Travel</p>
+        <h2 class="section-title mt-3">
+          Lebih mudah membandingkan sebelum bertanya
+        </h2>
+        <p class="mt-5 leading-7 text-slate-600">
+          Informasi disusun per destinasi agar Anda bisa memahami pilihan
+          sebelum mengirim detail perjalanan.
+        </p>
+      </div>
+      <FeatureGrid />
+    </div>
+  </section>
+  <section class="section bg-brand-50">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Cara booking</p>
+        <h2 class="section-title mt-3">
+          Detail yang tepat, penawaran yang lebih relevan
+        </h2>
+      </div>
+      <div class="mt-9">
+        <BookingSteps />
+      </div>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="shell grid gap-10 lg:grid-cols-[.75fr_1.25fr]">
+      <div>
+        <p class="eyebrow">Pertanyaan umum</p>
+        <h2 class="section-title mt-3">Sebelum Anda mengirim inquiry</h2>
+      </div>
+      <FAQ items={homeFaqs} />
+    </div>
+  </section>
+  <section class="bg-accent-500 py-16 text-[#071f22]">
+    <div class="shell flex flex-col items-start justify-between gap-7 lg:flex-row lg:items-center">
+      <div>
+        <p class="text-sm font-extrabold uppercase tracking-[.14em] text-[#071f22]">
+          Punya rencana perjalanan?
+        </p>
+        <h2 class="mt-2 max-w-2xl text-3xl font-extrabold sm:text-4xl">
+          Kirim tanggal, rute, dan jumlah penumpang Anda
+        </h2>
+      </div>
+      <WhatsAppCTA
+        placement="final"
+        class="bg-brand-900 text-white hover:bg-brand-800"
+      />
+    </div>
+  </section>
+</BaseLayout>

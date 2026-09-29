@@ -1,0 +1,96 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import MobileStickyCTA from '../components/MobileStickyCTA.astro';
+import SeoHead from '../components/SeoHead.astro';
+import { siteConfig } from '../config/site';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  destination?: string;
+  schema?: Record<string, unknown> | Record<string, unknown>[];
+}
+const { title, description, path, destination = '', schema } = Astro.props;
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'TravelAgency',
+  name: siteConfig.brandName,
+  url: siteConfig.origin,
+  logo: new URL('/brand/piranti-travel-logo.png', siteConfig.origin).toString(),
+  ...(siteConfig.email ? { email: siteConfig.email } : {}),
+};
+const jsonLd = schema
+  ? [organizationSchema, ...(Array.isArray(schema) ? schema : [schema])]
+  : [organizationSchema];
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <SeoHead {title} {description} {path} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    {siteConfig.analytics.gtmId && <script
+      is:inline
+      define:vars={{ gtmId: siteConfig.analytics.gtmId }}
+    >
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', gtmId);
+    </script>}
+    {!siteConfig.analytics.gtmId && siteConfig.analytics.ga4Id && (
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analytics.ga4Id}`}
+      ></script>
+    )}
+    {!siteConfig.analytics.gtmId && siteConfig.analytics.ga4Id && <script
+      is:inline
+      define:vars={{ ga4Id: siteConfig.analytics.ga4Id }}
+    >
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', ga4Id);
+    </script>}
+  </head>
+  <body>
+    <a
+      href="#main-content"
+      class="sr-only z-50 rounded-lg bg-white px-4 py-3 focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+    >
+      Lewati ke konten
+    </a>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+    <MobileStickyCTA {destination} />
+    <script is:inline>
+      document.addEventListener('click', (event) => {
+        const link = event.target.closest('[data-conversion="whatsapp"]');
+        if (!link) return;
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'whatsapp_click',
+          destination: link.dataset.destination,
+          placement: link.dataset.placement,
+        });
+      });
+    </script>
+  </body>
+</html>

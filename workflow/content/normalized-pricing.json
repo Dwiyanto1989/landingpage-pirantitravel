@@ -1,0 +1,272 @@
+{
+  "japan": {
+    "currency": "IDR",
+    "services": [
+      {
+        "service": "Osaka/Tokyo/Kyoto City Tour",
+        "alphard": 7450000,
+        "hiace": 8600000
+      },
+      {
+        "service": "Mt. Fuji One Day Trip",
+        "alphard": 9200000,
+        "hiace": 9800000
+      },
+      {
+        "service": "Narita Airport Transfer",
+        "alphard": 3680000,
+        "hiace": 3800000
+      },
+      {
+        "service": "Haneda Airport Transfer",
+        "alphard": 2650000,
+        "hiace": 2900000
+      },
+      {
+        "service": "Kansai Airport Transfer",
+        "alphard": 3250000,
+        "hiace": 3450000
+      },
+      {
+        "service": "Itami Airport Transfer",
+        "alphard": 2990000,
+        "hiace": 3200000
+      }
+    ],
+    "terms": [
+      "Includes driver, parking, toll, fuel, and driver meal.",
+      "Tour duration: 10 hours.",
+      "Maximum overtime: 2 hours/day.",
+      "Admission tickets are not included.",
+      "Driver language availability is limited.",
+      "Prices may change depending on season."
+    ]
+  },
+  "korea": {
+    "currency": "IDR",
+    "vehicle": "Hyundai Staria",
+    "services": [
+      {
+        "service": "Airport (ICN) Pick-up / Sending",
+        "display": "IDR 2,200,000 / IDR 3,850,000"
+      },
+      {
+        "service": "Airport (ICN) + Seoul Tour (10h)",
+        "price": 6890000
+      },
+      {
+        "service": "Seoul Tour (10h)",
+        "price": 6200000
+      },
+      {
+        "service": "Nami Island (10h)",
+        "price": 6880000
+      },
+      {
+        "service": "Busan Tour (8+1h)",
+        "price": 6599000
+      },
+      {
+        "service": "Jeju Airport + Jeju Tour (8+1h)",
+        "price": 6200000
+      },
+      {
+        "service": "Jeju Tour (8+1h)",
+        "price": 5950000,
+        "note": "Source file also contains stray text '270,000'; verify before publishing."
+      }
+    ]
+  },
+  "bangkok": {
+    "currency": "IDR",
+    "vehicle": "VIP Van",
+    "capacity": "2–13 pax",
+    "services": [
+      {
+        "service": "Transfer In / Out Per Way",
+        "price": 1150000
+      },
+      {
+        "service": "Bangkok Only",
+        "price": 2190000
+      },
+      {
+        "service": "Bangkok - Damnoen",
+        "price": 2350000
+      },
+      {
+        "service": "Bangkok - Ayutthaya",
+        "price": 2350000
+      },
+      {
+        "service": "Bangkok - Pattaya",
+        "price": 2550000
+      },
+      {
+        "service": "Bangkok - Khao Yai",
+        "price": 2850000
+      }
+    ],
+    "inclusions": [
+      "Transport 12 Hour Service",
+      "Professional Driver",
+      "Fuel (Gasoline)"
+    ],
+    "additional": [
+      "Tour Guide (English, Indonesia, Malaysia): IDR 800,000/day",
+      "Guide tipping: IDR 100,000/pax/day, paid on invoice before tour"
+    ],
+    "exclusions": [
+      "Overtime: IDR 250,000/hour",
+      "Toll fees and parking fees",
+      "Guide room & overnight in other city except Bangkok: IDR 800,000/trip"
+    ]
+  },
+  "singapore": {
+    "currency": "IDR",
+    "vehicles": [
+      {
+        "name": "Van Hiace",
+        "capacity": "12-seater combi",
+        "services": [
+          {
+            "service": "Full Day Tour - 10 hours",
+            "price": 6280000
+          },
+          {
+            "service": "Full Day Tour - 8 hours",
+            "price": 4990000
+          },
+          {
+            "service": "Full Day Tour - 6 hours",
+            "price": 4250000
+          },
+          {
+            "service": "Half Day Tour - 4 hours",
+            "price": 3550000
+          },
+          {
+            "service": "One-way transfer / arrival-departure",
+            "price": 1850000
+          },
+          {
+            "service": "Midnight charge 23:00-07:00",
+            "price": 400000
+          },
+          {
+            "service": "Disposal / hourly disposal (min 6h)",
+            "price": 950000
+          }
+        ],
+        "includes": [
+          "Fuel",
+          "Toll",
+          "Parking",
+          "Driver"
+        ],
+        "excludes": [
+          "Driver tipping"
+        ]
+      },
+      {
+        "name": "Coaster",
+        "capacity": "22-seater combi",
+        "services": [
+          {
+            "service": "Full Day Tour - 10 hours",
+            "price": 7950000
+          },
+          {
+            "service": "Full Day Tour - 8 hours",
+            "price": 6215000
+          },
+          {
+            "service": "Full Day Tour - 6 hours",
+            "price": 5650000
+          },
+          {
+            "service": "Half Day Tour - 4 hours",
+            "price": 4950000
+          },
+          {
+            "service": "One-way transfer / arrival-departure",
+            "price": 2750000
+          },
+          {
+            "service": "Midnight charge 23:00-07:00",
+            "price": 399000
+          },
+          {
+            "service": "Disposal (min 6h)",
+            "price": 1080000
+          },
+          {
+            "service": "One-way Woodland/Tuas Checkpoint (Singapore side)",
+            "price": 3180000
+          }
+        ],
+        "includes": [
+          "Fuel",
+          "Toll",
+          "Parking",
+          "Driver"
+        ],
+        "excludes": [
+          "Guide",
+          "Driver tipping",
+          "Guide tipping"
+        ]
+      },
+      {
+        "name": "Bus",
+        "capacity": "48-seater",
+        "services": [
+          {
+            "service": "Full Day Tour - 10 hours",
+            "price": 10150000
+          },
+          {
+            "service": "Full Day Tour - 8 hours",
+            "price": 8150000
+          },
+          {
+            "service": "Full Day Tour - 6 hours",
+            "price": 6700000
+          },
+          {
+            "service": "Half Day Tour - 4 hours",
+            "price": 5280000
+          },
+          {
+            "service": "One-way transfer departure/arrival",
+            "price": 3150000
+          },
+          {
+            "service": "Midnight charge 23:00-07:00",
+            "price": 500000
+          },
+          {
+            "service": "Disposal (min 6h)",
+            "price": 1350000,
+            "unit": "per hour"
+          },
+          {
+            "service": "One-way Woodland/Tuas Checkpoint (Singapore side)",
+            "price": 3800000
+          }
+        ],
+        "includes": [
+          "Fuel",
+          "Toll",
+          "Parking",
+          "Driver"
+        ],
+        "excludes": [
+          "Guide",
+          "Driver tipping",
+          "Guide tipping"
+        ]
+      }
+    ]
+  }
+}
