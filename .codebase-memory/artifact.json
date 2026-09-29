@@ -1,11 +1,11 @@
 {
     "schema_version": 2,
-    "commit": "162a7cfe00aed92ea9391340bd2ee49afd7df1ed",
-    "indexed_at": "2026-09-29T14:34:55Z",
+    "commit": "5fe6b0d3bbf10382cce28aa79d7fc5826fa411f6",
+    "indexed_at": "2026-09-29T14:47:02Z",
     "project": "landingpage-piranti",
     "nodes": 372,
     "edges": 454,
     "original_size": 1900544,
-    "compressed_size": 79132,
+    "compressed_size": 79151,
     "compression_level": 3
 }
