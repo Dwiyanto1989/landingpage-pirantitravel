@@ -19,7 +19,23 @@ const {
 ---
 
 <section class="brand-gradient relative isolate overflow-hidden text-white">
-  <div class="absolute inset-0 -z-10 opacity-70 [background:radial-gradient(circle_at_82%_5%,rgba(255,255,255,.32),transparent_30%),linear-gradient(160deg,rgba(0,74,135,.32),transparent_55%)]"></div>
+  {home ? (
+    <>
+      <img
+        src="/images/home-hero.webp"
+        width="1672"
+        height="941"
+        alt=""
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
+      />
+      <div class="absolute inset-0 -z-10 bg-black/70 sm:bg-[linear-gradient(90deg,rgba(0,0,0,.82)_0%,rgba(0,0,0,.64)_55%,rgba(0,0,0,.48)_100%)]"></div>
+    </>
+  ) : (
+    <div class="absolute inset-0 -z-10 opacity-70 [background:radial-gradient(circle_at_82%_5%,rgba(255,255,255,.32),transparent_30%),linear-gradient(160deg,rgba(0,74,135,.32),transparent_55%)]"></div>
+  )}
   <div class="shell grid items-center gap-10 py-16 sm:py-20 lg:grid-cols-[1.15fr_.85fr] lg:py-28">
     <div>
       <p class="eyebrow text-white">{eyebrow}</p>
