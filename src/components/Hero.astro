@@ -59,12 +59,21 @@ const {
       </div>
     </div>
     <div class="relative mx-auto w-full max-w-lg lg:ml-auto">
-      <div class="card rotate-[1.5deg] p-3 shadow-[0_30px_80px_rgb(0_0_0/.28)]">
-        <div class="rounded-[1.125rem] bg-[linear-gradient(145deg,#f6f1e8,#fff)] p-7 text-ink sm:p-9">
-          <p class="text-xs font-bold uppercase tracking-[.14em] text-brand-700">
-            Rencanakan perjalanan
-          </p>
-          <ul class="mt-5 space-y-4">
+      <div
+        aria-hidden="true"
+        class="absolute -inset-8 -z-10 rounded-full bg-brand-300/25 blur-3xl"
+      ></div>
+      <div class="relative rotate-[1.5deg] rounded-[2rem] bg-white/20 p-2 shadow-[0_32px_90px_rgb(0_29_61/.32)] ring-1 ring-white/35 backdrop-blur-sm">
+        <div class="rounded-[1.5rem] bg-[linear-gradient(145deg,#f7fbff,#fff_55%,#eef8ff)] p-5 text-ink shadow-[inset_0_1px_0_rgb(255_255_255),0_1px_2px_rgb(0_54_112/.08)] sm:p-7">
+          <div class="flex items-center justify-between gap-3">
+            <p class="text-xs font-extrabold uppercase tracking-[.14em] text-brand-700">
+              Rencanakan perjalanan
+            </p>
+            <span class="rounded-full bg-brand-100 px-3 py-1 text-[.6875rem] font-extrabold uppercase tracking-[.08em] text-brand-800">
+              Fleksibel
+            </span>
+          </div>
+          <ul class="mt-5 space-y-2.5">
             {(highlights.length
               ? highlights
               : [
@@ -73,16 +82,23 @@ const {
                   'Private transport · Airport transfer',
                 ]
             ).map((item, index) => (
-              <li class="flex items-center gap-4 text-base font-bold sm:text-lg">
-                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-100 text-sm text-brand-700">
+              <li class="flex items-center gap-3 rounded-2xl bg-white px-3 py-3 text-sm font-extrabold shadow-[0_8px_24px_rgb(0_100_200/.08)] ring-1 ring-brand-900/5 sm:text-base">
+                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[linear-gradient(135deg,#0194f3,#0064c8)] text-sm font-extrabold text-white shadow-[0_6px_14px_rgb(1_148_243/.24)]">
                   {index + 1}
                 </span>
                 {item}
               </li>
             ))}
           </ul>
-          <div class="mt-7 rounded-xl bg-brand-900 px-4 py-3 text-sm font-semibold text-white">
-            Kirim tanggal, rute & jumlah penumpang
+          <div class="mt-5 flex items-center justify-between gap-3 rounded-2xl bg-[linear-gradient(135deg,#064a81,#0064c8)] px-4 py-3.5 text-sm font-bold text-white shadow-[0_10px_24px_rgb(0_74_135/.2)]">
+            <span>Kirim tanggal, rute & jumlah penumpang</span>
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              class="h-5 w-5 shrink-0 fill-none stroke-current stroke-2"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </div>
         </div>
       </div>
