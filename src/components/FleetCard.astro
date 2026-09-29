@@ -1,14 +1,36 @@
 ---
 interface Props {
   name: string;
-  index?: number;
 }
-const { name, index = 0 } = Astro.props;
+const { name } = Astro.props;
+const fleetImages: Record<string, string> = {
+  Alphard: '/images/toyota-alphard.webp',
+  'Toyota Alphard': '/images/toyota-alphard.webp',
+  HiAce: '/images/toyota-hiace.webp',
+  'Toyota HiAce': '/images/toyota-hiace.webp',
+  'Van HiAce': '/images/toyota-hiace.webp',
+  'Hyundai Staria': '/images/hyundai-staria.webp',
+  'VIP Van': '/images/vip-van.webp',
+  Coaster: '/images/toyota-coaster.webp',
+  Bus: '/images/bus.webp',
+};
+const image = fleetImages[name];
 ---
 
-<article class="brand-gradient flex min-h-36 flex-col justify-between rounded-2xl p-6 text-white shadow-soft">
-  <span class="text-xs font-bold tracking-[.14em] text-white/75">
-    KENDARAAN {String(index + 1).padStart(2, '0')}
-  </span>
-  <h3 class="mt-8 text-2xl font-extrabold">{name}</h3>
+<article class="card relative min-h-52 overflow-hidden bg-brand-700 text-white">
+  {image && (
+    <img
+      src={image}
+      width="1536"
+      height="1024"
+      alt=""
+      loading="lazy"
+      decoding="async"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+  )}
+  <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,39,77,.02)_28%,rgba(0,39,77,.88)_100%)]"></div>
+  <h3 class="absolute bottom-0 left-0 p-6 text-2xl font-extrabold [text-shadow:0_2px_12px_rgb(0_0_0/.4)]">
+    {name}
+  </h3>
 </article>
