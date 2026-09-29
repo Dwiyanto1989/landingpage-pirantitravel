@@ -8,15 +8,20 @@ import WhatsAppCTA from './WhatsAppCTA.astro';
     <a
       href="/"
       aria-label="Piranti Travel — halaman utama"
-      class="shrink-0 rounded-md"
+      class="flex min-h-11 shrink-0 items-center gap-2.5 rounded-md"
     >
       <img
-        src="/brand/piranti-travel-logo.png"
-        width="377"
-        height="90"
-        alt="Piranti Travel"
-        class="h-12 w-auto"
+        src="/brand/icon.ico"
+        width="256"
+        height="256"
+        alt=""
+        fetchpriority="low"
+        decoding="async"
+        class="h-12 w-12 object-contain"
       />
+      <span class="text-xl font-extrabold tracking-[-.03em] sm:text-2xl">
+        Piranti Travel
+      </span>
     </a>
     <nav aria-label="Navigasi utama" class="hidden items-center gap-1 lg:flex">
       {navigation.map(({ href, label }) => (
