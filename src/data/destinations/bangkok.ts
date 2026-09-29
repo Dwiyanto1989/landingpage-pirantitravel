@@ -9,6 +9,8 @@ export const bangkok: Destination = {
     'Pilihan transfer dan layanan 12 jam ke Bangkok, Damnoen, Ayutthaya, Pattaya, atau Khao Yai.',
   summary: 'VIP Van 2–13 penumpang untuk transfer dan perjalanan 12 jam.',
   accent: 'gold',
+  heroImage: '/images/hero-bangkok.webp',
+  bookingImage: '/images/section-info.webp',
   highlights: [
     'Kapasitas 2–13 pax',
     'Layanan transport 12 jam',

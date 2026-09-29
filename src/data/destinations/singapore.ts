@@ -10,6 +10,8 @@ export const singapore: Destination = {
   summary:
     'Pilihan 12, 22, dan 48 kursi untuk tur, transfer, serta perjalanan grup.',
   accent: 'coral',
+  heroImage: '/images/hero-singapore.webp',
+  bookingImage: '/images/section-info.webp',
   highlights: [
     'Pilihan 12–48 kursi',
     'Durasi 4, 6, 8 & 10 jam',
