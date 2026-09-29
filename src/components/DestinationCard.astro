@@ -4,26 +4,30 @@ interface Props {
   destination: Destination;
 }
 const { destination } = Astro.props;
-const tones = {
-  sakura: 'from-brand-100 to-white',
-  sky: 'from-sky-100 to-white',
-  gold: 'from-cyan-100 to-white',
-  coral: 'from-blue-100 to-white',
+const destinationImages: Record<string, string> = {
+  japan: '/images/card-japan.webp',
+  korea: '/images/card-korea.webp',
+  bangkok: '/images/card-thailand.webp',
+  singapore: '/images/card-singapore.webp',
 };
+const image = destinationImages[destination.slug];
 ---
 
 <article class="card group flex h-full flex-col overflow-hidden">
-  <div
-    class={`relative h-40 overflow-hidden bg-gradient-to-br ${tones[destination.accent as keyof typeof tones]}`}
-  >
-    <div class="absolute -right-6 -top-10 h-36 w-36 rounded-full bg-white/60"></div>
-    <div class="absolute bottom-5 left-6 text-3xl font-black text-brand-900/85">
+  <div class="relative h-40 overflow-hidden bg-brand-100">
+    <img
+      src={image}
+      width="626"
+      height="417"
+      alt=""
+      loading="lazy"
+      decoding="async"
+      class="h-full w-full object-cover"
+    />
+    <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,39,77,.04)_20%,rgba(0,39,77,.88)_100%)]"></div>
+    <div class="absolute bottom-5 left-6 text-3xl font-black text-white [text-shadow:0_2px_12px_rgb(0_0_0/.35)]">
       {destination.name}
     </div>
-    <span class="absolute bottom-5 right-6 text-sm font-bold text-brand-700">
-      0
-      {['japan', 'korea', 'bangkok', 'singapore'].indexOf(destination.slug) + 1}
-    </span>
   </div>
   <div class="flex flex-1 flex-col p-6">
     <p class="text-sm leading-6 text-slate-600">{destination.summary}</p>
