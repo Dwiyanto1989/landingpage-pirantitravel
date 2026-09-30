@@ -56,7 +56,7 @@ docker compose build --no-cache
 docker compose up -d
 ```
 
-Production canonical URLs use `https://piranti-travel.com`. Do not launch until pricing, legal copy, contact details, DNS/TLS, and analytics values have been approved. Google Ads conversion IDs are configuration placeholders only; no conversion is fired until an approved implementation is configured.
+Production canonical URLs use `https://pirantitravel.web.id`. Do not launch until pricing, legal copy, contact details, DNS/TLS, and analytics values have been approved. Google Ads conversion IDs are configuration placeholders only; no conversion is fired until an approved implementation is configured.
 
 ## Content model
 

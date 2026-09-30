@@ -16,7 +16,7 @@ Validated on 2026-09-29 against `workflow/workflow/14_ACCEPTANCE_CHECKLIST.md`.
 - Active CTAs expose conversion, destination, and placement data attributes and push `whatsapp_click` to `dataLayer`.
 - Each page has a unique title, description, canonical, Open Graph/Twitter metadata, and truthful structured data without ratings.
 - Development output uses `noindex,nofollow` and disallows crawling in `robots.txt`.
-- Production output switches to `piranti-travel.com`, is indexable, and contains no development hostname in canonical metadata.
+- Production output switches to `pirantitravel.web.id`, is indexable, and contains no development hostname in canonical metadata.
 - Static output contains no application JavaScript bundle; only the small analytics/CTA hook is inline.
 - Docker image uses a Node build stage and `nginx:alpine` runtime stage.
 - Container Nginx configuration syntax passes.

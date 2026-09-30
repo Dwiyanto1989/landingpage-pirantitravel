@@ -7,6 +7,8 @@ const routes = [
   'korea',
   'bangkok',
   'singapore',
+  'about',
+  'contact',
   'privacy',
   'terms',
 ];

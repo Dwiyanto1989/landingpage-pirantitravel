@@ -12,8 +12,16 @@ interface Props {
   path: string;
   destination?: string;
   schema?: Record<string, unknown> | Record<string, unknown>[];
+  showMobileStickyCTA?: boolean;
 }
-const { title, description, path, destination = '', schema } = Astro.props;
+const {
+  title,
+  description,
+  path,
+  destination = '',
+  schema,
+  showMobileStickyCTA = true,
+} = Astro.props;
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'TravelAgency',
@@ -79,7 +87,7 @@ const jsonLd = schema
       <slot />
     </main>
     <Footer />
-    <MobileStickyCTA {destination} />
+    {showMobileStickyCTA && <MobileStickyCTA {destination} />}
     <script is:inline>
       document.addEventListener('click', (event) => {
         const link = event.target.closest('[data-conversion="whatsapp"]');

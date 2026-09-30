@@ -5,7 +5,7 @@ export default defineConfig({
   output: 'static',
   site:
     process.env.PUBLIC_SITE_ENV === 'production'
-      ? 'https://piranti-travel.com'
+      ? 'https://pirantitravel.web.id'
       : 'https://piranti.east.local',
   vite: { plugins: [tailwindcss()] },
 });

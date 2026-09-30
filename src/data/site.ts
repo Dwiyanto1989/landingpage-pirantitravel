@@ -10,6 +10,19 @@ export const navigation = [
   { href: '/singapore', label: 'Singapore' },
 ] as const;
 
+export const contacts = [
+  {
+    display: '0838 9783 6369',
+    whatsapp: '6283897836369',
+    telephone: '+6283897836369',
+  },
+  {
+    display: '0838 7335 5999',
+    whatsapp: '6283873355999',
+    telephone: '+6283873355999',
+  },
+] as const;
+
 export const homeFaqs: FAQ[] = [
   {
     question: 'Apakah harga yang tertera sudah final?',

@@ -1,19 +1,6 @@
 ---
 import { siteConfig } from '../config/site';
-import { navigation } from '../data/site';
-
-const contacts = [
-  {
-    display: '0838 9783 6369',
-    whatsapp: '6283897836369',
-    telephone: '+6283897836369',
-  },
-  {
-    display: '0838 7335 5999',
-    whatsapp: '6283873355999',
-    telephone: '+6283873355999',
-  },
-];
+import { contacts, navigation } from '../data/site';
 
 const destinationDescriptions: Record<string, string> = {
   '/japan': 'Private tour, day trip, dan airport transfer',
@@ -125,7 +112,16 @@ const destinationDescriptions: Record<string, string> = {
         © {new Date().getFullYear()}{' '}
         {siteConfig.legalName || siteConfig.brandName}.
       </p>
-      <nav aria-label="Tautan legal" class="flex gap-5">
+      <nav
+        aria-label="Informasi perusahaan dan legal"
+        class="flex flex-wrap gap-x-5 gap-y-2"
+      >
+        <a href="/about" class="hover:text-white">
+          Tentang Kami
+        </a>
+        <a href="/contact" class="hover:text-white">
+          Kontak
+        </a>
         <a href="/privacy" class="hover:text-white">
           Privasi
         </a>
