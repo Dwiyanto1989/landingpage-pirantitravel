@@ -12,16 +12,22 @@ import { destinations } from '../data/destinations';
 import { homeFaqs } from '../data/site';
 import TourCard from '../components/TourCard.astro';
 import { getTourEntries } from '../lib/tour-content';
+import { Icon } from 'astro-icon/components';
 import {
   getFeaturedTours,
   getToursByCategory,
   getUpcomingDepartures,
 } from '../lib/tours';
 
-const title =
-  'Piranti Travel | Private Transport Jepang, Korea, Bangkok & Singapore';
+const title = 'Piranti Travel | Paket Wisata & Sewa Mobil Luar Negeri';
 const description =
-  'Temukan private transport, airport transfer, dan private tour untuk Jepang, Korea, Bangkok, dan Singapore bersama Piranti Travel.';
+  'Temukan paket wisata Indonesia dan Asia, promo liburan, serta sewa mobil dan private transport luar negeri bersama Piranti Travel.';
+const keywords = [
+  'paket wisata Piranti Travel',
+  'paket wisata Asia',
+  'sewa mobil luar negeri',
+  'private transport Asia',
+];
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -50,24 +56,36 @@ const categories = [
     title: 'Paket Wisata Indonesia',
     text: 'Jelajahi keindahan Indonesia lewat pilihan paket wisata domestik ke berbagai destinasi favorit Nusantara.',
     cta: 'Lihat Paket Wisata',
+    image: '/category-images/paket-wisata-indonesia.webp',
+    imageAlt: 'Pemandangan kepulauan tropis Indonesia',
+    icon: 'ph:island-duotone',
   },
   {
     href: '/wisata-asia',
     title: 'Paket Tour Asia',
     text: 'Wujudkan liburan ke luar negeri dengan pilihan paket tour Asia, mulai dari Jepang, Korea, hingga destinasi menarik lainnya.',
     cta: 'Jelajahi Tour Asia',
+    image: '/category-images/paket-tour-asia.webp',
+    imageAlt: 'Gunung Fuji dan pagoda di Jepang saat musim sakura',
+    icon: 'ph:globe-hemisphere-east-duotone',
   },
   {
     href: '/wisata-multi-negara',
     title: 'Tour Multi-Negara',
     text: 'Satu perjalanan, banyak destinasi! Nikmati pengalaman menjelajahi beberapa negara dalam satu paket tour.',
     cta: 'Lihat Tour Multi-Negara',
+    image: '/category-images/tour-multi-negara.webp',
+    imageAlt: 'Kereta melintasi lanskap tropis Asia',
+    icon: 'ph:airplane-tilt-duotone',
   },
   {
     href: '/promo-dan-liburan',
     title: 'Promo Liburan',
     text: 'Temukan penawaran paket liburan, promo wisata, dan pilihan perjalanan berdasarkan musim serta jadwal keberangkatan.',
     cta: 'Lihat Promo Liburan',
+    image: '/category-images/promo-liburan.webp',
+    imageAlt: 'Resor tropis di tepi pantai',
+    icon: 'ph:ticket-duotone',
   },
 ];
 const rentalCopy = {
@@ -108,7 +126,14 @@ const homeBookingSteps = [
 ] as const;
 ---
 
-<BaseLayout {title} {description} path="/" schema={faqSchema}>
+<BaseLayout
+  {title}
+  {description}
+  {keywords}
+  path="/"
+  image="/images/home-hero.webp"
+  schema={faqSchema}
+>
   <Hero
     eyebrow="Paket wisata & private transport"
     title="Satu partner untuk perjalanan Anda"
@@ -137,21 +162,27 @@ const homeBookingSteps = [
           >
             <div class="aspect-[16/10] overflow-hidden bg-brand-100">
               <img
-                src="/images/PLACEHOLDER.webp"
+                src={item.image}
                 width="640"
                 height="400"
-                alt={`Gambar sementara ${item.title}`}
+                alt={item.imageAlt}
                 loading="lazy"
                 class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
               />
             </div>
             <div class="flex flex-1 flex-col p-6">
-              <h3 class="text-xl font-extrabold text-brand-900 group-hover:text-brand-600">
-                {item.title}
-              </h3>
+              <div class="flex items-center gap-3">
+                <span class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                  <Icon name={item.icon} aria-hidden="true" class="size-5" />
+                </span>
+                <h3 class="text-xl font-extrabold text-brand-900 group-hover:text-brand-600">
+                  {item.title}
+                </h3>
+              </div>
               <p class="mt-3 text-sm leading-6 text-slate-600">{item.text}</p>
-              <span class="mt-auto inline-block pt-5 font-extrabold text-brand-700">
-                {item.cta} →
+              <span class="mt-auto inline-flex items-center gap-1.5 pt-5 font-extrabold text-brand-700">
+                {item.cta}{' '}
+                <Icon name="ph:arrow-right" aria-hidden="true" class="size-4" />
               </span>
             </div>
           </a>
@@ -208,9 +239,11 @@ const homeBookingSteps = [
         'Airport transfer & private tour',
       ].map((item) => (
         <p class="flex min-h-16 items-center gap-3 px-3 py-3 text-sm font-bold text-brand-900 sm:px-6">
-          <span aria-hidden="true" class="text-accent-500">
-            ✓
-          </span>
+          <Icon
+            name="ph:check-circle"
+            aria-hidden="true"
+            class="size-5 shrink-0 text-accent-500"
+          />
           {item}
         </p>
       ))}
@@ -261,22 +294,22 @@ const homeBookingSteps = [
         </div>
         <div class="grid gap-4 sm:grid-cols-2">
           <ServiceCard
-            icon="✈"
+            icon="ph:airplane-tilt-duotone"
             title="Airport transfer"
             text="Jemput atau antar bandara dengan kendaraan yang sesuai jumlah penumpang dan bagasi."
           />
           <ServiceCard
-            icon="⌖"
+            icon="ph:map-trifold-duotone"
             title="City tour privat"
             text="Susun kunjungan kota dengan waktu layanan yang jelas dan kendaraan khusus grup Anda."
           />
           <ServiceCard
-            icon="↗"
+            icon="ph:road-horizon-duotone"
             title="Day trip"
             text="Perjalanan satu hari ke Mt. Fuji, Nami Island, Ayutthaya, Pattaya, dan destinasi lainnya."
           />
           <ServiceCard
-            icon="◫"
+            icon="ph:users-three-duotone"
             title="Transport grup"
             text="HiAce, Coaster, dan Bus untuk kebutuhan keluarga besar atau rombongan."
           />

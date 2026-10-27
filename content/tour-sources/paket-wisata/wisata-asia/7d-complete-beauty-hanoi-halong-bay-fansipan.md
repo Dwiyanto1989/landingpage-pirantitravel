@@ -8,10 +8,11 @@ author: Piranti Travel
 tags: [vietnam, hanoi, sapa, fansipan, halong-bay]
 keywords: [paket Vietnam 7 hari Hanoi Halong Fansipan, tour Sapa dan Halong Bay 7 hari, Vietnam Airlines
     7D Complete Beauty]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/7d-complete-beauty-hanoi-halong-bay-fansipan.webp
+ogImage: /paket-wisata/wisata-asia/7d-complete-beauty-hanoi-halong-bay-fansipan.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 7D Complete Beauty Hanoi, Halong Bay & Fansipan
+- src: /paket-wisata/wisata-asia/7d-complete-beauty-hanoi-halong-bay-fansipan.webp
+  alt: Foto perjalanan 7D Complete Beauty Hanoi, Halong Bay & Fansipan
 featured: true
 published: true
 primaryDestination: vietnam
@@ -63,21 +64,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN perlu dikonfirmasi sebelum memesan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
-- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan di sumber)
+- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan pada informasi paket)
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp3.950.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
-- Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Tanggal keberangkatan 25 Oktober 2026 masih mendatang relatif tanggal 22 Oktober 2026, tetapi jadwal
-  perlu konfirmasi operator.
-- Jadwal pulang VN635 tiba CGK pukul 00.40 menurut dokumen, sehingga kedatangan kalender dapat jatuh pada
-  hari berikutnya.
+- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve).
+- Infant usia di bawah 23 bulan bertarif Rp3.950.000.
+- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Jadwal 25 Oktober 2026 perlu dikonfirmasi kembali kepada tim Piranti Travel sebelum memesan.
+- Jadwal pulang VN635 tiba CGK pukul 00.40 menurut paket, sehingga kedatangan kalender dapat jatuh pada hari berikutnya.
 source:
   filename: 7D COMPLETE BEAUTY HANOI HALONG BAY FANSIPAN.docx
   importStatus: needs-business-review
@@ -87,7 +86,7 @@ source:
 
 Paket Vietnam 7 hari mengunjungi Hanoi, Cat Cat Village, Fansipan, Moana Park dan Halong Bay Cruise dengan Vietnam Airlines.
 
-Paket ini mempunyai **2 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Hoan Kiem Lake, Cat Cat Village, Fansipan Mountain, Moana Park. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -133,22 +132,6 @@ HAN (20.15) - CGK (00.40) by VN635 => Vietnam Airlines
 
 Sarapan pagi di hotel, hari ini kita akan Berlayar dengan menaiki kapal tradisional (Junk boat), dengan menyusuri perairan hijau zamrud dan diantara tebing batu kapur yang megah. Kita akan mengunjungi Thien Cung Cave yang terkenal dengan formasi stalaktit dan stalagmitnya yang menakjubkan. Gua ini baru dibuka untuk umum sejak tahun 1998 dan menjadi salah satu gua paling indah di Ha Long. Selanjutnya, kita juga akan menjelajahi Dau Go Grotto (Gua Pasak Kayu)—tempat bersejarah di mana Jenderal Tran Hung Dao menancapkan ratusan pasak kayu sebagai strategi perang melawan pasukan Mongol pada tahun 1288. Setelah itu, kapal akan berlayar melewati berbagai formasi batu yang unik seperti Chicken Rock, Incense Bowl Islet, Sail Islet, dan Turtle Island yang menjadi ikon Teluk Ha Long. makan siang dengan hidangan seafood disajikan di atas kapal sambil menikmati panorama indah sekitar. Setelah makan siang, kita akan check-out dari kapal dan kembali menuju kota Ha Long. Setibanya di Hanoi, Anda akan diantar menuju bandara untuk penerbangan kembali ke tanah air. Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp6.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp3.950.000 untuk usia di bawah 23 bulan menurut sumber.
-- Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
-- Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Tanggal keberangkatan 25 Oktober 2026 masih mendatang relatif tanggal 22 Oktober 2026, tetapi jadwal perlu konfirmasi operator.
-- Jadwal pulang VN635 tiba CGK pukul 00.40 menurut dokumen, sehingga kedatangan kalender dapat jatuh pada hari berikutnya.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `7D COMPLETE BEAUTY HANOI HALONG BAY FANSIPAN.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 import WhatsAppCTA from '../components/WhatsAppCTA.astro';
 
 const title = 'Tentang Piranti Travel | Mitra Perjalanan Sejak 2005';
@@ -7,24 +8,21 @@ const description =
   'Kenali Piranti Travel, perusahaan perjalanan berbasis di Jakarta yang melayani perjalanan inbound dan outbound sejak 2005.';
 ---
 
-<BaseLayout {title} {description} path="/about">
-  <section class="brand-gradient relative isolate overflow-hidden py-16 text-white sm:py-24">
-    <div
-      aria-hidden="true"
-      class="absolute inset-0 -z-10 opacity-70 [background:radial-gradient(circle_at_82%_18%,rgba(255,255,255,.28),transparent_30%),linear-gradient(145deg,rgba(0,45,90,.3),transparent_60%)]"
-    ></div>
-    <div class="shell">
-      <p class="eyebrow text-white">Tentang Piranti Travel</p>
-      <h1 class="mt-4 max-w-4xl text-balance text-[clamp(2.7rem,7vw,5.25rem)] font-extrabold leading-[.98] tracking-[-.05em]">
-        Mitra perjalanan tepercaya untuk menjelajahi Indonesia
-      </h1>
-      <p class="mt-6 max-w-2xl text-pretty text-base leading-7 text-white/75 sm:text-lg">
-        Berbasis di Jakarta dan hadir sejak 2005, Piranti Travel membantu
-        wisatawan merencanakan perjalanan yang tertata, nyaman, dan sesuai
-        kebutuhan.
-      </p>
-    </div>
-  </section>
+<BaseLayout
+  {title}
+  {description}
+  path="/about"
+  keywords={[
+    'tentang Piranti Travel',
+    'travel agent Jakarta',
+    'biro perjalanan Jakarta',
+  ]}
+>
+  <PageHero
+    eyebrow="Tentang Piranti Travel"
+    title="Mitra perjalanan tepercaya untuk menjelajahi Indonesia"
+    description="Berbasis di Jakarta dan hadir sejak 2005, Piranti Travel membantu wisatawan merencanakan perjalanan yang tertata, nyaman, dan sesuai kebutuhan."
+  />
 
   <section class="section bg-white">
     <div class="shell grid items-start gap-10 lg:grid-cols-[.8fr_1.2fr]">

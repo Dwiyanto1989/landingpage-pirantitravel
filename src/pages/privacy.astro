@@ -1,17 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 ---
 
 <BaseLayout
   title="Kebijakan Privasi | Piranti Travel"
   description="Kebijakan Privasi Piranti Travel mengenai pengumpulan, penggunaan, penyimpanan, dan perlindungan data pengguna."
+  keywords={[
+    'kebijakan privasi Piranti Travel',
+    'privasi data pelanggan',
+    'perlindungan data perjalanan',
+  ]}
   path="/privacy"
 >
+  <PageHero
+    eyebrow="Privasi Anda"
+    title="Kebijakan Privasi"
+    description="Pelajari cara Piranti Travel menerima, menggunakan, menyimpan, dan melindungi data ketika Anda menggunakan situs atau menghubungi kami."
+  />
   <article class="section">
     <div class="shell max-w-3xl">
-      <p class="eyebrow">Privasi Anda</p>
-      <h1 class="section-title mt-3">Kebijakan Privasi</h1>
-      <p class="mt-4 text-sm text-slate-500">
+      <p class="text-sm text-slate-500">
         Terakhir diperbarui: 29 September 2026
       </p>
 

@@ -8,10 +8,11 @@ author: Piranti Travel
 tags: [vietnam, danang, hanoi, sapa, halong-bay, saigon, wisata-musim-dingin]
 keywords: [paket wisata Vietnam 9 hari, Vietnam lengkap Danang Hanoi Sapa Saigon, winter complete Vietnam
     tour]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/9d-winter-complete-vietnam.webp
+ogImage: /paket-wisata/wisata-asia/9d-winter-complete-vietnam.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 9D Winter Complete Vietnam — Danang, Hanoi, Sapa, Halong & Saigon
+- src: /paket-wisata/wisata-asia/9d-winter-complete-vietnam.webp
+  alt: Foto perjalanan 9D Winter Complete Vietnam — Danang, Hanoi, Sapa, Halong & Saigon
 featured: false
 published: true
 primaryDestination: vietnam
@@ -55,19 +56,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN perlu dikonfirmasi sebelum memesan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 - label: Funicular to the peak of Fansipan USD 14 /pax
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp7.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp4.800.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
-- Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Hanya ada satu tanggal keberangkatan (7 Januari 2027) di tabel sumber; jangan membuat jadwal tambahan.
-- Biaya funicular Fansipan USD 14/orang tercantum opsional, terpisah dari paket.
+- Minimal 20 peserta dan deposit Rp7.000.000 (first come first serve).
+- Infant usia di bawah 23 bulan bertarif Rp4.800.000.
+- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Hanya ada satu tanggal keberangkatan (7 Januari 2027) di tabel jadwal paket; hubungi tim Piranti Travel apabila membutuhkan pilihan jadwal lain.
+- Funicular menuju puncak Fansipan bersifat opsional dengan biaya USD14 per orang. Konfirmasikan ketersediaannya sebelum memesan.
 source:
   filename: 9D WINTER COMPLETE VIETNAM.docx
   importStatus: needs-business-review
@@ -77,7 +78,7 @@ source:
 
 Paket wisata Vietnam 9 hari melintasi Danang, Hanoi, Sapa, Halong Bay, Saigon dan Mekong Delta.
 
-Paket ini mempunyai **1 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Nikmati perjalanan 9 hari dengan pengalaman pilihan seperti Ba Na Hills, Golden Bridge, Hoi An Ancient Town, Cat Cat Village. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -143,22 +144,6 @@ SGN (10.45) - CGK (13.50) by VN 631
 
 Sarapan pagi di hotel. Kita akan diantar ke bandara untuk penerbangan kembali ke Indonesia. Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp7.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp4.800.000 untuk usia di bawah 23 bulan menurut sumber.
-- Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
-- Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Hanya ada satu tanggal keberangkatan (7 Januari 2027) di tabel sumber; jangan membuat jadwal tambahan.
-- Biaya funicular Fansipan USD 14/orang tercantum opsional, terpisah dari paket.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `9D WINTER COMPLETE VIETNAM.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

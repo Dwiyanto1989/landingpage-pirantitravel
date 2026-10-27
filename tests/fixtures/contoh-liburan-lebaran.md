@@ -7,6 +7,7 @@ author: Piranti Travel
 tags: [lebaran, fixture]
 keywords: [fixture promo lebaran]
 image: /images/PLACEHOLDER.webp
+ogImage: /images/PLACEHOLDER.webp
 images: []
 featured: false
 published: true

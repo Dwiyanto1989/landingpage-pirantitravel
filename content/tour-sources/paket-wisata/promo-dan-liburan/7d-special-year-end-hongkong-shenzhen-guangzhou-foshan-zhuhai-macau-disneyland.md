@@ -16,10 +16,11 @@ keywords:
 - paket Hong Kong Disneyland tahun baru 2026
 - tour Hong Kong Shenzhen Guangzhou Macau 7 hari
 - paket year end Hongkong
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-special-year-end-hong-kong-shenzhen-guangzhou-zhuhai-macau-disneyland.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-special-year-end-hong-kong-shenzhen-guangzhou-zhuhai-macau-disneyland.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Special Year End Hong Kong, Shenzhen, Guangzhou, Zhuhai, Macau + Disneyland
+- src: /paket-wisata/promo-dan-liburan/7d-special-year-end-hong-kong-shenzhen-guangzhou-zhuhai-macau-disneyland.webp
+  alt: Foto paket wisata 7D Special Year End Hong Kong, Shenzhen, Guangzhou, Zhuhai, Macau + Disneyland
 featured: false
 published: true
 primaryDestination: hong-kong
@@ -132,17 +133,16 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 criticalNotices:
-- Minimal keberangkatan 20 peserta dengan 1 tour leader dan deposit Rp6.000.000, pelunasan periode peak season 35 hari
-  sebelum berangkat.
-- Infant usia di bawah 23 bulan Rp3.950.000 sesuai sumber.
-- Paket bersubsidi dan wajib kunjungan shopping stop; terdapat penalti jika dilewatkan tetapi nominalnya tidak diberikan.
-- Group Visa 144 China tercantum di dokumen; ketentuan aktual harus diverifikasi ulang.
-- Hotel area Zhuhai mungkin diganti ke Zhongshan selama libur lokal.
+- Minimal keberangkatan 20 peserta dengan 1 tour leader dan deposit Rp6.000.000, pelunasan periode peak season 35 hari sebelum berangkat.
+- Infant usia di bawah 23 bulan bertarif Rp3.950.000.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Ketentuan Group Visa 144 China mengikuti aturan imigrasi yang berlaku. Konfirmasikan persyaratan visa terbaru sebelum memesan.
+- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan saat periode libur lokal China.
 source:
   filename: 7D SPECIAL YEAR END COMPLETE HOSEZHUMAGU +DISNEYLAND.docx
   archivePath: null
@@ -151,15 +151,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Hong Kong–Shenzhen–Guangzhou–Foshan–Zhuhai–Macau–Hong Kong dengan Disneyland, sesuai program musim liburan akhir 2026. Dokumen sumber memuat **7 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata 7 hari akhir tahun 2026 ke Hong Kong, Shenzhen, Guangzhou, Foshan, Zhuhai, Macau dan Hong Kong Disneyland.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Victoria Peak, Avenue of Stars, Fengjian Water Town, Ruins of St. Paul. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – DEPARTURE (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** CGK (23.50) – HKG (05.45) by GA 860
+- **Penerbangan:** CGK (23.50) – HKG (05.45) by GA 860
 
 Malam hari kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Hongkong dengan Garuda Indonesia.
 
@@ -197,20 +197,10 @@ Sarapan Pagi. Kita akan melakukan perjalanan menuju Hong Kong menggunakan golden
 
 ### Hari 7 — HONGKONG - JAKARTA (MAKAN PAGI/BOX, MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** HKG (09.30) - CGK (13.15) by GA 863
+- **Penerbangan:** HKG (09.30) - CGK (13.15) by GA 863
 
 Hari ini kita akan melakukan perjalanan kembali menuju Hong Kong International Airport untuk penerbangan kembali ke Jakarta. Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Minimal keberangkatan 20 peserta dengan 1 tour leader dan deposit Rp6.000.000, pelunasan periode peak season 35 hari sebelum berangkat.
-- Infant usia di bawah 23 bulan Rp3.950.000 sesuai sumber.
-- Paket bersubsidi dan wajib kunjungan shopping stop; terdapat penalti jika dilewatkan tetapi nominalnya tidak diberikan.
-- Group Visa 144 China tercantum di dokumen; ketentuan aktual harus diverifikasi ulang.
-- Hotel area Zhuhai mungkin diganti ke Zhongshan selama libur lokal.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

@@ -15,10 +15,11 @@ keywords:
 - paket Chongqing Chengdu 7 hari
 - tour China winter sale 2026 2027
 - wisata panda Dujiangyan Chongqing
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-winter-sale-chongqing-dujiangyan-chengdu.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-winter-sale-chongqing-dujiangyan-chengdu.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Winter Sale Chongqing, Dujiangyan & Chengdu
+- src: /paket-wisata/promo-dan-liburan/7d-winter-sale-chongqing-dujiangyan-chengdu.webp
+  alt: Foto paket wisata 7D Winter Sale Chongqing, Dujiangyan & Chengdu
 featured: false
 published: true
 primaryDestination: china
@@ -142,7 +143,7 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable/SIMCard
   amountIdr: null
@@ -159,12 +160,11 @@ optionalFees:
 - label: Motorcycle+Photography 598 RMB/Pax
   amountIdr: null
 criticalNotices:
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 termasuk kategori harga tidak termasuk; syarat visa
-  dan biaya harus dikonfirmasi.
-- Paket bersubsidi dan mencakup shopping stop dengan penalti jika tidak mengikuti; besar penalti tidak disebut.
-- Pengajuan visa yang ditolak dapat terkena biaya pembatalan sesuai sumber; rincian tidak diberikan.
-- Panda Paradise dapat diganti Panda Base, Chengdu jika tutup; beberapa pertunjukan dan cruise bersifat opsional dengan
-  tarif RMB.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
+- Panda Paradise dapat diganti Panda Base, Chengdu jika tutup; beberapa pertunjukan dan cruise bersifat opsional dengan tarif RMB.
 source:
   filename: 7D WINTER SALE CHONGQING CHENGDU.docx
   archivePath: null
@@ -173,15 +173,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Jakarta–Chengdu–Chongqing–Dujiangyan, termasuk kawasan Hongyadong, kereta Liziba dan destinasi panda. Dokumen sumber memuat **10 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata China 7 hari rute Chengdu, Chongqing dan Dujiangyan, dengan Hongyadong, Liziba, Panda Paradise dan Jinli Ancient Street.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Kuixing Building, Liziba, Hongyadong, Panda Paradise. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – CHENGDU (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** CGK (12.15) - KUL (15.20) by MH716 KUL (19.25) - TFU (00.15)+1 by MH 526
+- **Penerbangan:** CGK (12.15) - KUL (15.20) by MH716 KUL (19.25) - TFU (00.15)+1 by MH 526
 
 Hari ini kita berkumpul di Bandara untuk berangkat menuju ke Chengdu dengan maskapai premium Malaysia Airlines. Sesampainya di Chengdu, kita langsung dijemput untuk menuju hotel dan beristirahat.
 
@@ -219,21 +219,12 @@ Sarapan pagi di hotel, perjalanan diawali dengan berbelanja di Silk Shop, kemudi
 
 ### Hari 7 — CHENGDU – DEPARTURE (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** TFU (01.15) - KUL (06.20) by MH 527
+- **Penerbangan:** TFU (01.15) - KUL (06.20) by MH 527
 
-- **Penerbangan (jadwal sumber):** KUL (07.25) - CGK (08.30) by MH 713
+- **Penerbangan:** KUL (07.25) - CGK (08.30) by MH 713
 
 Hari ini penerbangan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 termasuk kategori harga tidak termasuk; syarat visa dan biaya harus dikonfirmasi.
-- Paket bersubsidi dan mencakup shopping stop dengan penalti jika tidak mengikuti; besar penalti tidak disebut.
-- Pengajuan visa yang ditolak dapat terkena biaya pembatalan sesuai sumber; rincian tidak diberikan.
-- Panda Paradise dapat diganti Panda Base, Chengdu jika tutup; beberapa pertunjukan dan cruise bersifat opsional dengan tarif RMB.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

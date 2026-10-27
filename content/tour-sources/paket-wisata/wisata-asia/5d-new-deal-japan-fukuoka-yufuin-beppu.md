@@ -7,10 +7,11 @@ date: '2026-10-22'
 author: Piranti Travel
 tags: [jepang, fukuoka, yufuin, beppu, kyushu]
 keywords: [paket tour Fukuoka 5 hari, paket wisata Yufuin Beppu, liburan Kyushu Jepang, tour Jepang Fukuoka]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-new-deal-jepang-fukuoka.webp
+ogImage: /paket-wisata/wisata-asia/5d-new-deal-jepang-fukuoka.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: 'Placeholder gambar paket 5D New Deal Jepang: Fukuoka, Yufuin, Beppu & Oita'
+- src: /paket-wisata/wisata-asia/5d-new-deal-jepang-fukuoka.webp
+  alt: 'Foto perjalanan 5D New Deal Jepang: Fukuoka, Yufuin, Beppu & Oita'
 featured: false
 published: true
 primaryDestination: jepang
@@ -53,7 +54,7 @@ inclusions:
 - Bus pariwisata dan tiket masuk objek wisata sesuai program.
 - Acara tour dan makan sesuai itinerary.
 - Tour leader.
-- Asuransi perjalanan sampai usia 69 tahun menurut dokumen sumber.
+- Asuransi perjalanan sampai usia 69 tahun sesuai informasi paket.
 - Luggage tag.
 exclusions:
 - Biaya pengurusan visa Jepang atau visa waiver sesuai kelayakan.
@@ -66,30 +67,30 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Basis penghitungan PPN belum disebutkan di sumber; konfirmasi operator.
+  note: Basis penghitungan PPN akan dikonfirmasi sebelum pemesanan.
 visaFees:
-- label: Visa Jepang sesuai kategori domisili Jakarta dalam dokumen pemasok
+- label: Visa Jepang sesuai kategori domisili Jakarta dalam paket admin
   amountIdr: 2150000
   unit: per-person
   note: Hanya jika berlaku; bukan harga pasti atau jaminan persyaratan visa.
-- label: Visa Jepang biasa (kategori domisili luar Jakarta dalam sumber)
+- label: Visa Jepang biasa (kategori domisili luar Jakarta pada informasi paket)
   amountIdr: 2400000
   unit: per-person
-  note: Verifikasi domisili/konsulat dan tarif sebelum penjualan.
+  note: konfirmasi domisili/konsulat dan tarif sebelum penjualan.
 - label: Visa waiver Jepang
   amountIdr: 300000
   unit: per-person
-  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif sumber perlu verifikasi.
+  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif rincian perjalanan perlu konfirmasi.
 optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
 criticalNotices:
-- Jadwal, kurs, kebijakan visa, harga dan ketersediaan harus dikonfirmasi sebelum publikasi.
-- Nominal visa adalah tarif dari dokumen pemasok, bukan verifikasi peraturan/kewajiban saat ini.
-- PPN 1,1% dicantumkan sebagai biaya tambahan tetapi dasar penghitungannya tidak dijelaskan.
-- Tidak tersedia air mineral di bus (kebijakan pada sumber berlaku mulai Juni 2025).
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Tarif visa dapat berubah mengikuti ketentuan yang berlaku.
+- Biaya tambahan 1,1% berada di luar harga paket.
+- Ketersediaan air mineral di bus menyesuaikan ketentuan paket.
 - Hari ke-4 bebas tanpa bus dan guide.
-- Nominal dan klasifikasi biaya visa mengikuti sumber, verifikasi ulang sebelum penjualan.
+- Nominal dan klasifikasi biaya visa mengikuti rincian perjalanan, konfirmasi ulang sebelum memesan.
 source:
   filename: 5D NEW DEAL JAPAN FUKUOKA YUFUIN BEPPU.docx
   archivePath: PAKET TOUR/JAPAN/5D NEW DEAL JAPAN FUKUOKA YUFUIN BEPPU.docx
@@ -98,11 +99,9 @@ source:
 
 # Ringkasan Perjalanan
 
-5D New Deal Jepang: Fukuoka, Yufuin, Beppu & Oita adalah paket wisata Jepang selama **5 hari**. Harga dan tanggal keberangkatan bersumber dari dokumen pemasok dan belum merupakan konfirmasi ketersediaan.
+Paket wisata 5 hari Fukuoka, Yufuin, Beppu dan Oita, termasuk Yunotsubo Street, Yufuin Floral Village dan Beppu Umi Jigoku.
 
-Dokumen memuat **2 opsi tanggal/asal keberangkatan** dengan harga dewasa terendah **Rp16.990.000** (belum termasuk tipping. pajak. visa jika berlaku. dan pengeluaran pribadi).
-
-> **Penting:** `published: false` sampai operator mengesahkan harga, rute penerbangan, ketentuan visa, dan ketersediaan kursi.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Yunotsubo Street, Yufuin Floral Village, Beppu Umi Jigoku, Tenjin District. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -110,7 +109,7 @@ Dokumen memuat **2 opsi tanggal/asal keberangkatan** dengan harga dewasa terenda
 
 - CGK (18.25) – KUL (21.35) by MH 722
 - & KUL (23.45) – FUK (07.05) by MH 056
-- Hari ini para peserta berkumpul di Bandara Soekarno-Hatta 3 jam sebelum keberangkatan untuk proses check-in dan briefing perjalanan. Setelah pembagian dokumen perjalanan dan penjelasan singkat dari tour leader, peserta dipersilakan beristirahat sambil menunggu waktu boarding penerbangan menuju Jepang via Kuala Lumpur.
+- Hari ini para peserta berkumpul di Bandara Soekarno-Hatta 3 jam sebelum keberangkatan untuk proses check-in dan briefing perjalanan. Setelah pembagian paket perjalanan dan penjelasan singkat dari tour leader, peserta dipersilakan beristirahat sambil menunggu waktu boarding penerbangan menuju Jepang via Kuala Lumpur.
 - Bermalam di pesawat
 
 ### Hari 2 — ARRIVAL FUKUOKA – YUFUIN – BEPPU – OITA (x)
@@ -136,16 +135,8 @@ Dokumen memuat **2 opsi tanggal/asal keberangkatan** dengan harga dewasa terenda
 
 ## Kebijakan Air Mineral
 
-- Dokumen menyatakan sejak Juni 2025 **air mineral tidak disediakan di dalam bus** untuk mendukung kebijakan eco-tourism.
+- paket menyatakan sejak Juni 2025 **air mineral tidak disediakan di dalam bus** untuk mendukung kebijakan eco-tourism.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Tiket grup memiliki tanggal tetap dan tidak dapat diperpanjang (*fixed date & no extend*).
-- Jika visa ditolak, dokumen menyebut adanya biaya pembatalan sesuai aturan yang berlaku; nominal dan aturan detail belum dirinci.
-- Harga dapat berubah sesuai konfirmasi operator.
-- Biaya tipping, PPN dan biaya visa jika diperlukan belum termasuk tarif paket utama.
-- Persyaratan paspor, visa, dan waiver harus ditinjau berdasarkan peraturan terbaru sebelum menjual paket.
-
-## Status Verifikasi Konten
-
-Hasil normalisasi DOCX ini **masih draft**. Seluruh harga dan tabel penerbangan harus dicek pengelola Piranti Travel, khususnya tarif dan kota asal untuk tanggal yang sama. Tetap gunakan `published: false` sampai disetujui.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

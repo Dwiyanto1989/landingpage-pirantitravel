@@ -68,6 +68,7 @@ const tours = defineCollection({
       tags: z.array(z.string()),
       keywords: z.array(z.string()),
       image: z.string(),
+      ogImage: z.string(),
       images: z.array(z.object({ src: z.string(), alt: z.string() })),
       featured: z.boolean(),
       published: z.boolean(),

@@ -6,13 +6,15 @@ interface Props {
   description: string;
   path: string;
   image?: string;
+  keywords?: string[];
   noindex?: boolean;
 }
 const {
   title,
   description,
   path,
-  image = '/brand/piranti-travel-logo.png',
+  image = '/images/home-hero.webp',
+  keywords = [],
   noindex = !siteConfig.isProduction,
 } = Astro.props;
 const canonical = new URL(path, siteConfig.origin).toString();
@@ -21,6 +23,7 @@ const imageUrl = new URL(image, siteConfig.origin).toString();
 
 <title>{title}</title>
 <meta name="description" content={description} />
+{keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
 <link rel="canonical" href={canonical} />
 <meta name="robots" content={noindex ? 'noindex,nofollow' : 'index,follow'} />
 <meta property="og:type" content="website" />
@@ -29,9 +32,11 @@ const imageUrl = new URL(image, siteConfig.origin).toString();
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={imageUrl} />
+<meta property="og:image:alt" content={title} />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={title} />
 <meta name="theme-color" content="#007ce8" />
 <link rel="icon" type="image/x-icon" href="/brand/icon.ico" />

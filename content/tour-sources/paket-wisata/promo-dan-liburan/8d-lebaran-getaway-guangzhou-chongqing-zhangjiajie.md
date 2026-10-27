@@ -15,10 +15,11 @@ keywords:
 - paket China Lebaran 2027
 - tour Guangzhou Chongqing Zhangjiajie 8 hari
 - paket wisata Zhangjiajie Lebaran
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/8d-lebaran-getaway-guangzhou-chongqing-zhangjiajie.webp
+ogImage: /paket-wisata/promo-dan-liburan/8d-lebaran-getaway-guangzhou-chongqing-zhangjiajie.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 8D Lebaran Getaway Guangzhou, Chongqing & Zhangjiajie
+- src: /paket-wisata/promo-dan-liburan/8d-lebaran-getaway-guangzhou-chongqing-zhangjiajie.webp
+  alt: Foto paket wisata 8D Lebaran Getaway Guangzhou, Chongqing & Zhangjiajie
 featured: false
 published: true
 primaryDestination: china
@@ -114,18 +115,17 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Simcard/Esim
   amountIdr: null
 criticalNotices:
-- Keberangkatan 3 Maret 2027 menggunakan Malaysia Airlines, sedangkan empat keberangkatan lain menggunakan Garuda Indonesia
-  menurut tabel. Harga dan tipe peserta berbeda.
-- Anak dengan extra bed pada paket ini memiliki harga Rp500.000 lebih rendah dari harga dewasa, berbeda dari sebagian
-  paket lainnya.
+- Keberangkatan 3 Maret 2027 menggunakan Malaysia Airlines, sedangkan empat keberangkatan lain menggunakan Garuda Indonesia menurut tabel. Harga
+  dan tipe peserta berbeda.
+- Anak dengan extra bed pada paket ini memiliki harga Rp500.000 lebih rendah dari harga dewasa, berbeda dari sebagian paket lainnya.
 - Visa Group/Single China serta tipping dan PPN di luar harga paket.
-- 'Paket bersubsidi dan mensyaratkan shopping stop: Foot Massage, Latex, Jewelry, dan Tea atau Silk; penalti tidak dicantumkan.'
-- Penolakan visa dapat menimbulkan biaya pembatalan sesuai syarat pemasok.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 source:
   filename: 8D LEBARAN GETAWAY GUANGZHOU CHONGQING ZHANGJIAJIE.docx
   archivePath: null
@@ -134,15 +134,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **8 hari**: Guangzhou–Chongqing–Qianjiang–Zhangjiajie–Changsha pada musim Lebaran 2027, termasuk wisata alam Tianmen Mountain. Dokumen sumber memuat **5 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata China 8 hari periode Lebaran 2027 menjelajahi Guangzhou, Chongqing, Qianjiang, Zhangjiajie dan Changsha.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 8 hari dengan pengalaman pilihan seperti Guangzhou Tower, Kuixinglou, Hongyadong, Zhuoshui Ancient Town. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – GUANGZHOU (MEALS ON BOARD, MAKAN MALAM)
 
-- **Penerbangan (jadwal sumber):** CGK (08.15) – CAN (14.45) by GA 898
+- **Penerbangan:** CGK (08.15) – CAN (14.45) by GA 898
 
 Pada hari ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju Guangzhou dengan Premium Airlines. Sesampainya di Guangzhou, kita akan dijemput oleh guide lokal yang ramah dan diantar menuju Guangzhou Tower (photo stop), menara ikonik yang menjadi landmark dari kota Guangzhou. Makan malam dan diantar ke hotel untuk check in dan istirahat.
 
@@ -186,20 +186,10 @@ Sarapan pagi di hotel. Kita akan kembali ke Guangzhou dengan bullet train. Sesam
 
 ### Hari 8 — GUANGZHOU - DEPARTURE (MAKAN PAGI, MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** CAN (15.45) – CGK (19.40) by GA 899
+- **Penerbangan:** CAN (15.45) – CGK (19.40) by GA 899
 
 Sarapan pagi di hotel. Pagi hari kita memiliki waktu bebas untuk istirahat maupun explore area sekitar hotel hingga waktunya diantar menuju bandara untuk penerbangan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Keberangkatan 3 Maret 2027 menggunakan Malaysia Airlines, sedangkan empat keberangkatan lain menggunakan Garuda Indonesia menurut tabel. Harga dan tipe peserta berbeda.
-- Anak dengan extra bed pada paket ini memiliki harga Rp500.000 lebih rendah dari harga dewasa, berbeda dari sebagian paket lainnya.
-- Visa Group/Single China serta tipping dan PPN di luar harga paket.
-- Paket bersubsidi dan mensyaratkan shopping stop: Foot Massage, Latex, Jewelry, dan Tea atau Silk; penalti tidak dicantumkan.
-- Penolakan visa dapat menimbulkan biaya pembatalan sesuai syarat pemasok.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

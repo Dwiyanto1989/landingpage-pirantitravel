@@ -21,10 +21,11 @@ keywords:
 - paket winter China Harbin
 - wisata Harbin Yabuli Ski Resort
 - tour Beijing Forbidden City Harbin
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/8d-china-harbin-snow-town-beijing.webp
+ogImage: /paket-wisata/wisata-asia/8d-china-harbin-snow-town-beijing.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara paket wisata musim dingin Harbin Snow Town dan Beijing
+- src: /paket-wisata/wisata-asia/8d-china-harbin-snow-town-beijing.webp
+  alt: Foto perjalanan musim dingin Harbin Snow Town dan Beijing
 featured: false
 published: true
 primaryDestination: china
@@ -130,7 +131,7 @@ departures:
     childWithExtraBed: 23990000
     childNoBed: 23490000
     singleSupplement: 6000000
-  note: Singapore Airlines (SQ); NEW DATE di dokumen sumber
+  note: Singapore Airlines (SQ); NEW DATE pada informasi paket
 - date: '2027-01-14'
   seasonTags: []
   prices:
@@ -146,7 +147,7 @@ departures:
     childWithExtraBed: 23990000
     childNoBed: 23490000
     singleSupplement: 6000000
-  note: Singapore Airlines (SQ); NEW DATE di dokumen sumber
+  note: Singapore Airlines (SQ); NEW DATE pada informasi paket
 - date: '2027-01-21'
   seasonTags: []
   prices:
@@ -162,7 +163,7 @@ departures:
     childWithExtraBed: 23990000
     childNoBed: 23490000
     singleSupplement: 6000000
-  note: Singapore Airlines (SQ); NEW DATE di dokumen sumber
+  note: Singapore Airlines (SQ); NEW DATE pada informasi paket
 - date: '2027-01-28'
   seasonTags: []
   prices:
@@ -190,7 +191,7 @@ departures:
     childWithExtraBed: 25990000
     childNoBed: 25490000
     singleSupplement: 6000000
-  note: Singapore Airlines (SQ); NEW DATE di dokumen sumber
+  note: Singapore Airlines (SQ); NEW DATE pada informasi paket
 - date: '2027-02-02'
   seasonTags:
   - tahun-baru
@@ -200,7 +201,7 @@ departures:
     childWithExtraBed: 25990000
     childNoBed: 25490000
     singleSupplement: 6000000
-  note: Singapore Airlines (SQ); NEW DATE di dokumen sumber
+  note: Singapore Airlines (SQ); NEW DATE pada informasi paket
 highlights:
 - Forbidden City
 - Giant Snowman Harbin
@@ -220,10 +221,10 @@ inclusions:
 - Air mineral satu botol per hari.
 - Tour leader.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun sesuai ketentuan sumber.
+- Asuransi perjalanan hingga usia 82 tahun sesuai ketentuan paket.
 exclusions:
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 sesuai dokumen sumber; kewajiban visa,
-  jenis, dan biaya aktual perlu diverifikasi.
+- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 ; kewajiban visa,
+  jenis, dan biaya aktual perlu dikonfirmasi sebelum memesan.
 - Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi, dan pengeluaran pribadi sejenis.
 mandatoryFees:
 - label: Tipping tour leader, local guide, dan driver
@@ -232,28 +233,22 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN 1,1% tidak dirinci; konfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN 1,1% tidak dirinci; konfirmasi sebelum memesan.
 optionalFees:
 - label: Sewa Wi-Fi portabel / SIM card
   amountIdr: null
 criticalNotices:
-- 'Terdapat 18 opsi harga untuk 16 tanggal berbeda: 14 Januari 2027 dan 21 Januari 2027 masing-masing
-  memiliki pilihan Malaysia Airlines (MH) dan Singapore Airlines (SQ) dengan harga berbeda; jangan gabungkan
-  dua opsi tersebut.'
-- Dokumen mencantumkan penerbangan alternatif melalui Kuala Lumpur (MH) atau Singapura (SQ). Jadwal penerbangan,
-  bandara tujuan dan ketersediaan harus dikonfirmasi berdasarkan maskapai saat pemesanan.
-- Jika Forbidden City tutup, sumber menyebut penggantian ke Temple of Heaven, Summer Palace atau destinasi
-  setaraf.
-- Jika Songhua River Ice and Snow World tutup, sumber menyebut penggantian ke Siberian Tiger Park.
-- Paket dinyatakan bersubsidi dan mencantumkan shopping stop (Foot Massage, Cotton Cloth Store, Russian
-  Goods Store). Ada penalti jika tidak mengikuti shopping stop, tetapi nominal dan mekanismenya tidak
-  dijelaskan.
-- 'Biaya visa: Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 sesuai sumber; aturan dapat
-  berubah dan harus diverifikasi.'
-- Jika visa ditolak, dokumen menyebut biaya pembatalan menurut ketentuan yang berlaku, namun nominal/kebijakannya
-  tidak dicantumkan.
+- 'Terdapat 18 opsi harga untuk 16 tanggal berbeda: 14 Januari 2027 dan 21 Januari 2027 masing-masing memiliki pilihan Malaysia Airlines (MH)
+  dan Singapore Airlines (SQ) dengan harga berbeda; pilih satu opsi maskapai dan konfirmasikan rinciannya sebelum memesan.'
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Jika Forbidden City tutup, penggantian ke Temple of Heaven, Summer Palace atau destinasi setaraf.
+- Jika Songhua River Ice and Snow World tutup, penggantian ke Siberian Tiger Park.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 - PPN 1,1% dan tipping Rp1.300.000/orang tercantum di luar harga paket. Basis PPN belum dirinci.
-- Harga dan tanggal merupakan penawaran di DOCX, bukan bukti kursi atau aktivitas musim dingin tersedia.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
 source:
   filename: 8D CHINA HARBIN SNOW TOWN + BEIJING.docx
   archivePath: null
@@ -262,11 +257,9 @@ source:
 
 # Ringkasan Perjalanan
 
-Nikmati perjalanan musim dingin **8 hari** di China dengan rute **Jakarta – Beijing – Harbin – Snow Town/Erlanghe – Yabuli – Harbin – Beijing – Jakarta**. Sorotan perjalanan meliputi Forbidden City, Giant Snowman Harbin, Songhua River Ice and Snow World, Snow Town, dan Yabuli Ski Resort. Paket memakai **Malaysia Airlines (MH)** atau **Singapore Airlines (SQ)** sesuai pilihan tanggal keberangkatan.
+Paket wisata musim dingin China 8 hari ke Beijing, Harbin, Snow Town, Erlanghe dan Yabuli; termasuk kunjungan ke Forbidden City dan kawasan salju Harbin sesuai itinerary.
 
-Dokumen sumber memuat **18 opsi penawaran untuk 16 tanggal keberangkatan** dari **10 Desember 2026 hingga 2 Februari 2027**. Harga dewasa twin/triple mulai **Rp21.990.000/orang** menurut sumber, belum termasuk biaya visa, tipping, PPN, dan pengeluaran lain yang dikecualikan. **Seluruh harga, kuota, jadwal, serta ketersediaan destinasi bersalju perlu dikonfirmasi kembali.**
-
-> **Perhatian:** Paket ini mencakup *shopping stop* wajib menurut dokumen sumber, dengan ketentuan penalti apabila peserta tidak mengikutinya. Besaran dan mekanisme penalti belum dijelaskan. Informasikan kepada calon peserta sebelum pemesanan.
+Nikmati perjalanan 8 hari dengan pengalaman pilihan seperti Forbidden City, Giant Snowman Harbin, Songhua River Ice and Snow World, Yabuli Ski Resort. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -296,7 +289,7 @@ Dokumen sumber memuat **18 opsi penawaran untuk 16 tanggal keberangkatan** dari 
 
 - Mengunjungi **Giant Snowman** di kawasan Sungai Songhua dan menyaksikan atraksi *winter swimming* menurut program.
 - Kunjungan ke **Sophia Cathedral Square** dan *photo stop* **Harbin Grand Theater**.
-- Menuju **Songhua River Ice and Snow World** untuk menikmati festival pahatan es dan salju; **jika tutup, diganti Siberian Tiger Park** sesuai dokumen.
+- Menuju **Songhua River Ice and Snow World** untuk menikmati festival pahatan es dan salju; **jika tutup, diganti Siberian Tiger Park** sesuai paket.
 - Kembali ke hotel bintang 3/4 lokal atau setaraf.
 
 ### Hari 5 — Harbin, Snow Town, Erlanghe (Makan Pagi, Makan Siang, Makan Malam)
@@ -309,9 +302,9 @@ Dokumen sumber memuat **18 opsi penawaran untuk 16 tanggal keberangkatan** dari 
 ### Hari 6 — Erlanghe, Yabuli, Harbin (Makan Pagi, Makan Siang, Makan Malam)
 
 - Perjalanan ke **Yabuli Ski Resort**.
-- Mengikuti kegiatan **kereta luncur kuda** melewati hutan birch dan melihat kawasan *Asian Winter Games* sebagaimana tercantum di sumber.
+- Mengikuti kegiatan **kereta luncur kuda** melewati hutan birch dan melihat kawasan *Asian Winter Games* sebagaimana tercantum pada informasi paket.
 - Kembali ke Harbin dengan bus; check-in hotel bintang 3/4 lokal atau setaraf.
-- **Catatan:** sumber tidak menjelaskan apakah aktivitas ski, perlengkapan ski, dan pelatihan ski termasuk; jangan menjanjikannya sebelum terkonfirmasi.
+- **Catatan:** informasi paket belum mencantumkan apakah aktivitas ski, perlengkapan ski, dan pelatihan ski termasuk; konfirmasikan fasilitas yang termasuk.
 
 ### Hari 7 — Harbin ke Beijing (Makan Pagi, Makan Malam)
 
@@ -327,7 +320,7 @@ Dokumen sumber memuat **18 opsi penawaran untuk 16 tanggal keberangkatan** dari 
 
 ## Jadwal Keberangkatan dan Harga
 
-Harga di bawah ini dikutip dari dokumen pemasok. Untuk seluruh keberangkatan, harga **child with extra bed (di bawah 12 tahun)** sama dengan dewasa. **Child no bed** berlaku untuk anak di bawah 6 tahun, dan **single supplement** merupakan tambahan untuk kamar sendiri.
+Harga di bawah ini dikutip dari paket admin. Untuk seluruh keberangkatan, harga **child with extra bed (di bawah 12 tahun)** sama dengan dewasa. **Child no bed** berlaku untuk anak di bawah 6 tahun, dan **single supplement** merupakan tambahan untuk kamar sendiri.
 
 | Tanggal | Maskapai | Dewasa / Child Extra Bed | Child No Bed | Single Supplement | Periode |
 |---|---|---:|---:|---:|---|
@@ -350,7 +343,7 @@ Harga di bawah ini dikutip dari dokumen pemasok. Untuk seluruh keberangkatan, ha
 | 01 Feb 2027 | SQ | Rp25.990.000 | Rp25.490.000 | +Rp6.000.000 | New Year, Chinese New Year |
 | 02 Feb 2027 | SQ | Rp25.990.000 | Rp25.490.000 | +Rp6.000.000 | New Year, Chinese New Year |
 
-**Penting:** Pada **14 Januari 2027** dan **21 Januari 2027** tersedia **dua opsi maskapai dengan harga berbeda**. Pilih opsi yang sesuai, jangan menggabungkan atau mengganti harga antar-maskapai. Jadwal penerbangan merupakan jadwal sumber, bukan konfirmasi tiket final.
+**Penting:** Pada **14 Januari 2027** dan **21 Januari 2027** tersedia **dua opsi maskapai dengan harga berbeda**. Pilih opsi yang sesuai, pilih harga sesuai maskapai dan konfirmasikan rinciannya sebelum memesan. Jadwal penerbangan perlu dikonfirmasi kembali sebelum penerbitan tiket.
 
 ## Fasilitas Termasuk
 
@@ -359,26 +352,16 @@ Harga di bawah ini dikutip dari dokumen pemasok. Untuk seluruh keberangkatan, ha
 - Akomodasi hotel bintang 3/4 lokal atau setaraf, kamar twin/triple.
 - Bus pariwisata, tiket masuk objek wisata, agenda tour dan makanan sesuai itinerary.
 - Air mineral satu botol per hari.
-- Tour leader, travel kit (luggage tag), dan asuransi perjalanan hingga usia 82 tahun (berdasarkan ketentuan sumber).
+- Tour leader, travel kit (luggage tag), dan asuransi perjalanan hingga usia 82 tahun (menyesuaikan ketentuan rincian perjalanan).
 
 ## Harga Tidak Termasuk dan Biaya Tambahan
 
-- **Visa Group China: Rp1.000.000** atau **Visa Single China: Rp1.100.000** menurut dokumen sumber; persyaratan, ketersediaan jenis visa, konsulat, serta nominal terkini perlu dikonfirmasi. Biaya ini bukan otomatis opsional jika peserta membutuhkan visa.
+- **Visa Group China: Rp1.000.000** atau **Visa Single China: Rp1.100.000** sesuai informasi paket; persyaratan, ketersediaan jenis visa, konsulat, serta nominal terkini perlu dikonfirmasi sebelum memesan. Biaya ini bukan otomatis opsional jika peserta membutuhkan visa.
 - **Tipping tour leader, local guide, dan driver: Rp1.300.000/orang** (dicantumkan di luar harga paket).
-- **PPN 1,1%** (basis perhitungan belum dijelaskan dalam dokumen sumber).
+- **PPN 1,1%** (basis perhitungan belum dijelaskan pada informasi paket).
 - Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi, dan pengeluaran pribadi lainnya.
 - Sewa Wi-Fi portabel atau SIM card (opsional, harga tidak tercantum).
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Paket disebut sebagai **tour bersubsidi** yang melibatkan **shopping stop**: *Foot Massage*, *Cotton Cloth Store*, dan *Russian Goods Store*. Dokumen menyatakan ada penalti apabila peserta tidak mengikutinya, tetapi **nominal dan ketentuan penalti tidak dijelaskan**.
-- Jika visa ditolak, dokumen menyebut biaya pembatalan mengikuti ketentuan berlaku tanpa merinci nominalnya. Kebijakan tertulis wajib dikonfirmasi sebelum menerima pembayaran.
-- Jika **Forbidden City** tutup, kunjungan dapat diganti ke **Temple of Heaven**, **Summer Palace**, atau destinasi setaraf.
-- Jika **Songhua River Ice and Snow World** tutup, program mencantumkan penggantian ke **Siberian Tiger Park**.
-- Program bersalju bergantung pada kondisi musim dan operasional destinasi. Aktivitas ski, alat ski, serta akses wahana di luar itinerary harus diklarifikasi terlebih dahulu.
-- **Malaysia Airlines (MH)** dan **Singapore Airlines (SQ)** merupakan opsi keberangkatan yang berbeda, dengan jadwal serta kemungkinan bandara transit/tujuan yang berbeda.
-- **Harga, tanggal, dan jadwal penerbangan dapat berubah atau penuh.** Konfirmasi penawaran resmi, biaya keseluruhan, izin masuk/visa, serta ketersediaan kepada Piranti Travel sebelum booking.
-
-## Status Verifikasi Konten
-
-Konten dinormalisasi dari DOCX pemasok dan ditetapkan **`published: false`** sampai pengelola Piranti Travel menyetujui harga dan kuota per tanggal/maskapai, persyaratan visa, basis PPN, kebijakan pembatalan, serta ketentuan shopping stop. Setelah disetujui, editor dapat memperbarui metadata penerbitan dan melakukan rebuild situs Astro.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

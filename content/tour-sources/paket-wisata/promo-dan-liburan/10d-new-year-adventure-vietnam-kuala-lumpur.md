@@ -18,10 +18,11 @@ keywords:
 - paket Vietnam Kuala Lumpur 10 hari
 - tour Vietnam Malaysia akhir tahun 2026
 - wisata Saigon Hanoi Danang Kuala Lumpur
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/10d-new-year-adventure-vietnam-kuala-lumpur.webp
+ogImage: /paket-wisata/promo-dan-liburan/10d-new-year-adventure-vietnam-kuala-lumpur.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara paket wisata 10D New Year Adventure Vietnam + Kuala Lumpur
+- src: /paket-wisata/promo-dan-liburan/10d-new-year-adventure-vietnam-kuala-lumpur.webp
+  alt: Foto paket wisata 10D New Year Adventure Vietnam + Kuala Lumpur
 featured: false
 published: true
 primaryDestination: vietnam
@@ -92,23 +93,22 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 - label: Funicular to the peak of Fansipan USD 14 /pax
   amountIdr: null
 criticalNotices:
-- Dokumen mencantumkan perjalanan 10 hari melalui Vietnam dan Malaysia; pada hari 9 menginap di Kuala Lumpur, hari 10 kembali
-  ke Jakarta. Tidak ada kegiatan city tour Kuala Lumpur yang dijanjikan pada itinerary.
-- Bagian Harga Termasuk menyebut rute penerbangan “Danang–Jakarta”, sedangkan itinerary menjelaskan Danang–Kuala Lumpur, menginap,
-  kemudian Kuala Lumpur–Jakarta. Konfirmasi cakupan penerbangan dan biaya hotel Kuala Lumpur.
-- Minimal 20 peserta dengan tour leader; deposit Rp6.000.000 dan pelunasan pada peak season 35 hari sebelum keberangkatan
-  menurut sumber.
-- Tiket domestik Saigon–Hanoi dan Hanoi–Danang tercantum termasuk harga pada sumber.
-- Tarif infant kurang dari 23 bulan Rp4.500.000 menurut sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Funicular Fansipan opsional USD14/orang. Tipping Rp1.600.000/orang dan PPN 1,1% di luar harga; basis PPN tidak dijelaskan.
+- Perjalanan 10 hari melalui Vietnam dan Malaysia; pada hari 9 menginap di Kuala Lumpur, hari 10 kembali ke Jakarta. Tidak ada kegiatan city tour
+  Kuala Lumpur yang dijanjikan pada itinerary.
+- Bagian Harga Termasuk menyebut rute penerbangan “Danang–Jakarta”, sedangkan itinerary menjelaskan Danang–Kuala Lumpur, menginap, kemudian Kuala
+  Lumpur–Jakarta. Konfirmasi cakupan penerbangan dan biaya hotel Kuala Lumpur.
+- Minimal 20 peserta dengan tour leader; deposit Rp6.000.000 dan pelunasan pada peak season 35 hari sebelum keberangkatan.
+- Tiket domestik Saigon–Hanoi dan Hanoi–Danang tercantum termasuk harga.
+- Infant usia di bawah 23 bulan bertarif Rp4.500.000.
+- Tidak ada pengembalian dana apabila peserta ditolak oleh imigrasi setempat.
+- Funicular menuju puncak Fansipan bersifat opsional dengan biaya USD14 per orang. Konfirmasikan ketersediaannya sebelum memesan.
 source:
   filename: 10D NEW YEAR ADVENTURE COMPLETE VIETNAM + KUALA LUMPUR.docx
   archivePath: null
@@ -117,19 +117,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **10 hari**: Saigon, Mekong Delta, Hanoi, Sapa, Fansipan, Halong Bay, Danang, Hoi An, Ba Na Hills dan satu malam di Kuala Lumpur sebelum kembali ke Jakarta. Dokumen pemasok mencantumkan **2 opsi tanggal keberangkatan**. Harga berdasarkan jenis peserta dan tanggal tercatat dalam frontmatter; ketersediaan serta harga final belum dikonfirmasi.
+Wisata multi-negara 10 hari akhir tahun 2026 ke Vietnam dan Malaysia: Saigon, Mekong Delta, Hanoi, Sapa, Halong, Danang serta menginap di Kuala Lumpur.
 
-> **Klasifikasi:** Perjalanan ini mencakup Vietnam dan Malaysia. Kuala Lumpur adalah lokasi menginap/transit pada hari 9–10, bukan city tour dalam itinerary sumber.
-
-> **Penting:** Informasi jadwal penerbangan dan layanan mengikuti dokumen sumber, dapat berubah dan perlu konfirmasi Piranti Travel sebelum booking.
+Nikmati perjalanan 10 hari dengan pengalaman pilihan seperti Mekong Delta, Cat Cat Village, Fansipan Mountain, Halong Island Tour. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – SAIGON (MEALS ON BOARD, MAKAN MALAM)
 
-- **Jadwal penerbangan menurut dokumen:** CGK (09.40) – KUL (12.55) by MH 712
+- **Jadwal penerbangan menurut paket:** CGK (09.40) – KUL (12.55) by MH 712
 
-- **Jadwal penerbangan menurut dokumen:** KUL (14.40) – SGN (15.40) by MH 758
+- **Jadwal penerbangan menurut paket:** KUL (14.40) – SGN (15.40) by MH 758
 
 Hari ini seluruh peserta berkumpul di Bandara Internasional Soekarno-Hatta, Terminal 3, untuk persiapan penerbangan menuju Saigon, Vietnam menggunakan Maskapai Malaysia Airlines. Sesampainya di Saigon, kita disambut oleh Guide Lokal berbahasa Indonesia yang ramah, kemudian kita akan diantar menuju hotel untuk check-in dan Istirahat.
 
@@ -183,7 +181,7 @@ Sarapan pagi di hotel. Hari ini kita akan mengunjungi Son Tra Peninsula, sebuah 
 
 ### Hari 9 — DANANG – KUALA LUMPUR (MAKAN PAGI, MEALS ON BOARD)
 
-- **Jadwal penerbangan menurut dokumen:** DAD (14.40) - KUL (18.40) by MH 749
+- **Jadwal penerbangan menurut paket:** DAD (14.40) - KUL (18.40) by MH 749
 
 Setelah menikmati sarapan pagi di hotel, kita dapat memiliki waktu bebas untuk istirahat atau explore area sekitar hotel hingga waktunya diantar menuju bandara untuk penerbangan ke Kuala Lumpur, Malaysia. Bermalam di Kuala Lumpur, check in hotel dan istirahat.
 
@@ -191,22 +189,10 @@ Setelah menikmati sarapan pagi di hotel, kita dapat memiliki waktu bebas untuk i
 
 ### Hari 10 — KUALA LUMPUR - JAKARTA (MEALS ON BOARD)
 
-- **Jadwal penerbangan menurut dokumen:** KUL (07.25) - CGK (08.30) by MH 713
+- **Jadwal penerbangan menurut paket:** KUL (07.25) - CGK (08.30) by MH 713
 
 Hari ini kita akan kembali menuju bandara Kuala Lumpur untuk melanjutkan penerbangan ke Jakarta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Dokumen mencantumkan perjalanan 10 hari melalui Vietnam dan Malaysia; pada hari 9 menginap di Kuala Lumpur, hari 10 kembali ke Jakarta. Tidak ada kegiatan city tour Kuala Lumpur yang dijanjikan pada itinerary.
-- Bagian Harga Termasuk menyebut rute penerbangan “Danang–Jakarta”, sedangkan itinerary menjelaskan Danang–Kuala Lumpur, menginap, kemudian Kuala Lumpur–Jakarta. Konfirmasi cakupan penerbangan dan biaya hotel Kuala Lumpur.
-- Minimal 20 peserta dengan tour leader; deposit Rp6.000.000 dan pelunasan pada peak season 35 hari sebelum keberangkatan menurut sumber.
-- Tiket domestik Saigon–Hanoi dan Hanoi–Danang tercantum termasuk harga pada sumber.
-- Tarif infant kurang dari 23 bulan Rp4.500.000 menurut sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Funicular Fansipan opsional USD14/orang. Tipping Rp1.600.000/orang dan PPN 1,1% di luar harga; basis PPN tidak dijelaskan.
-
-Daftar harga menurut keberangkatan, fasilitas termasuk/tidak termasuk, tipping, pajak dan biaya opsional tersedia di YAML frontmatter untuk ditampilkan oleh website.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX dan **bukan konfirmasi final** harga, jadwal, layanan, atau ketersediaan. Persetujuan komersial diperlukan sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

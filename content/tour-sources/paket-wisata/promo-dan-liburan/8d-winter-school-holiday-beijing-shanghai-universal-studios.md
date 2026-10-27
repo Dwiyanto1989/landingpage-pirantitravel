@@ -17,10 +17,11 @@ keywords:
 - liburan sekolah China 2026
 - tour Universal Studios Beijing
 - paket wisata Beijing Suzhou Hangzhou Shanghai
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/8d-winter-school-holiday-beijing-suzhou-hangzhou-shanghai-universal-studios.webp
+ogImage: /paket-wisata/promo-dan-liburan/8d-winter-school-holiday-beijing-suzhou-hangzhou-shanghai-universal-studios.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara paket wisata 8D Winter School Holiday Beijing, Suzhou, Hangzhou & Shanghai + Universal Studios
+- src: /paket-wisata/promo-dan-liburan/8d-winter-school-holiday-beijing-suzhou-hangzhou-shanghai-universal-studios.webp
+  alt: Foto paket wisata 8D Winter School Holiday Beijing, Suzhou, Hangzhou & Shanghai + Universal Studios
 featured: false
 published: true
 primaryDestination: china
@@ -112,23 +113,20 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable / SIM card
   amountIdr: null
 criticalNotices:
-- Berangkat 14–18 Desember 2026. Ketersediaan kursi dan harga harus dikonfirmasi sebelum pemesanan.
-- 'Biaya visa di luar harga: Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000, sesuai sumber. Ketentuan visa
-  dapat berubah dan perlu dikonfirmasi.'
-- Sumber menyatakan tour bersubsidi dengan shopping stop dan penalti apabila peserta tidak mengikutinya; jumlah penalti tidak
-  dicantumkan.
-- Sumber tidak menjabarkan secara khusus apakah tiket masuk Universal Studios Beijing termasuk dalam harga, walaupun mencantumkan
-  tiket masuk objek wisata secara umum. Konfirmasi secara tertulis.
-- Wuzhen East Gate tidak termasuk rowing boat. Jika visa ditolak dapat dikenakan biaya pembatalan sesuai ketentuan yang belum
-  dirinci.
-- Penerbangan internasional tercantum via Kuala Lumpur dengan Malaysia Airlines; jadwal yang tertera pada dokumen tidak otomatis
-  berlaku sebagai konfirmasi tiket.
-- Basis pengenaan PPN 1,1% tidak dijelaskan.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Cakupan tiket menyesuaikan pilihan perjalanan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
+- Penerbangan internasional tercantum via Kuala Lumpur dengan Malaysia Airlines; jadwal yang tertera pada paket tidak otomatis berlaku sebagai
+  konfirmasi tiket.
+- Biaya tambahan 1,1% berada di luar harga paket.
 source:
   filename: 8D WINTER SCHOOL HOLIDAY BEIJING SHANGHAI WITH UNIVERSAL STUDIO.docx
   archivePath: null
@@ -137,17 +135,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **8 hari**: Jelajahi Beijing, Universal Studios Beijing, Great Wall, Suzhou, Hangzhou, Wuzhen, dan Shanghai dengan Malaysia Airlines, berangkat dari Jakarta. Dokumen pemasok mencantumkan **5 opsi tanggal keberangkatan**. Harga berdasarkan jenis peserta dan tanggal tercatat dalam frontmatter; ketersediaan serta harga final belum dikonfirmasi.
+Paket wisata China 8 hari pada Desember 2026, menjelajahi Beijing, Universal Studios Beijing, Tembok Besar China, Suzhou, Hangzhou, Wuzhen dan Shanghai.
 
-> **Penting:** Informasi jadwal penerbangan dan layanan mengikuti dokumen sumber, dapat berubah dan perlu konfirmasi Piranti Travel sebelum booking.
+Nikmati perjalanan 8 hari dengan pengalaman pilihan seperti Temple of Heaven, Tiananmen Square, Juyongguan Great Wall, Jinji Lake. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – DEPARTURE BEIJING (MEALS ON BOARD)
 
-- **Jadwal penerbangan menurut dokumen:** CGK (18.25) – KUL (21.35) by MH 722
+- **Jadwal penerbangan menurut paket:** CGK (18.25) – KUL (21.35) by MH 722
 
-- **Jadwal penerbangan menurut dokumen:** & KUL (00.50) - PKX (07.00) by MH318
+- **Jadwal penerbangan menurut paket:** & KUL (00.50) - PKX (07.00) by MH318
 
 Hari ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Beijing dengan Malaysia Airlines.
 
@@ -189,22 +187,10 @@ Sarapan pagi di hotel. Kemudian kita akan menuju The Bund yang merupakan simbol 
 
 ### Hari 8 — SHANGHAI – DEPARTURE (MEALS ON BOARD)
 
-- **Jadwal penerbangan menurut dokumen:** PVG (02.15) – KUL (08.05) by MH 387 & KUL (10.00) – CGK (11.20) by MH717
+- **Jadwal penerbangan menurut paket:** PVG (02.15) – KUL (08.05) by MH 387 & KUL (10.00) – CGK (11.20) by MH717
 
 Hari ini kita akan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Berangkat 14–18 Desember 2026. Ketersediaan kursi dan harga harus dikonfirmasi sebelum pemesanan.
-- Biaya visa di luar harga: Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000, sesuai sumber. Ketentuan visa dapat berubah dan perlu dikonfirmasi.
-- Sumber menyatakan tour bersubsidi dengan shopping stop dan penalti apabila peserta tidak mengikutinya; jumlah penalti tidak dicantumkan.
-- Sumber tidak menjabarkan secara khusus apakah tiket masuk Universal Studios Beijing termasuk dalam harga, walaupun mencantumkan tiket masuk objek wisata secara umum. Konfirmasi secara tertulis.
-- Wuzhen East Gate tidak termasuk rowing boat. Jika visa ditolak dapat dikenakan biaya pembatalan sesuai ketentuan yang belum dirinci.
-- Penerbangan internasional tercantum via Kuala Lumpur dengan Malaysia Airlines; jadwal yang tertera pada dokumen tidak otomatis berlaku sebagai konfirmasi tiket.
-- Basis pengenaan PPN 1,1% tidak dijelaskan.
-
-Daftar harga menurut keberangkatan, fasilitas termasuk/tidak termasuk, tipping, pajak dan biaya opsional tersedia di YAML frontmatter untuk ditampilkan oleh website.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX dan **bukan konfirmasi final** harga, jadwal, layanan, atau ketersediaan. Persetujuan komersial diperlukan sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

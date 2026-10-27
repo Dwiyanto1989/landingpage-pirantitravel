@@ -8,10 +8,11 @@ author: Piranti Travel
 tags: [jepang, shirakawago, golden-route, gunung-fuji]
 keywords: [tour Jepang Shirakawago 7 hari, paket wisata Golden Route Jepang, paket Osaka Kyoto Tokyo, liburan Jepang
     Shirakawago]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/7d-shocking-sale-jepang-golden-route-shirakawago.webp
+ogImage: /paket-wisata/wisata-asia/7d-shocking-sale-jepang-golden-route-shirakawago.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Placeholder gambar paket 7D Shocking Sale Jepang Golden Route + Shirakawago
+- src: /paket-wisata/wisata-asia/7d-shocking-sale-jepang-golden-route-shirakawago.webp
+  alt: Foto perjalanan 7D Shocking Sale Jepang Golden Route + Shirakawago
 featured: false
 published: true
 primaryDestination: jepang
@@ -252,7 +253,7 @@ inclusions:
 - Bus pariwisata dan tiket masuk objek wisata sesuai program.
 - Acara tour dan makan sesuai itinerary.
 - Tour leader.
-- Asuransi perjalanan sampai usia 82 tahun menurut dokumen sumber.
+- Asuransi perjalanan sampai usia 82 tahun sesuai informasi paket.
 - Luggage tag.
 exclusions:
 - Visa Jepang atau visa waiver sesuai kelayakan.
@@ -265,31 +266,30 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Basis penghitungan PPN belum disebutkan di sumber; konfirmasi operator.
+  note: Basis penghitungan PPN akan dikonfirmasi sebelum pemesanan.
 visaFees:
-- label: Visa Jepang sesuai kategori domisili Jakarta dalam dokumen pemasok
+- label: Visa Jepang sesuai kategori domisili Jakarta dalam paket admin
   amountIdr: 2150000
   unit: per-person
   note: Hanya jika berlaku; bukan harga pasti atau jaminan persyaratan visa.
-- label: Visa Jepang biasa (kategori domisili luar Jakarta dalam sumber)
+- label: Visa Jepang biasa (kategori domisili luar Jakarta pada informasi paket)
   amountIdr: 2400000
   unit: per-person
-  note: Verifikasi domisili/konsulat dan tarif sebelum penjualan.
+  note: konfirmasi domisili/konsulat dan tarif sebelum penjualan.
 - label: Visa waiver Jepang
   amountIdr: 300000
   unit: per-person
-  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif sumber perlu verifikasi.
+  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif rincian perjalanan perlu konfirmasi.
 optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
 criticalNotices:
-- Jadwal, kurs, kebijakan visa, harga dan ketersediaan harus dikonfirmasi sebelum publikasi.
-- Nominal visa adalah tarif dari dokumen pemasok, bukan verifikasi peraturan/kewajiban saat ini.
-- PPN 1,1% dicantumkan sebagai biaya tambahan tetapi dasar penghitungannya tidak dijelaskan.
-- Terdapat jadwal berlabel reverse route untuk 26 Oktober dan 15 November 2026; itinerary arah kebalikan tidak disertakan
-  dan perlu konfirmasi operator.
-- Dokumen menyinggung Philippine Airlines/PR pada hari ke-2, meskipun daftar maskapai/tabel keberangkatan memuat
-  MH/GA (judul juga menyebut ANA); pastikan itinerary tiap maskapai.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Tarif visa dapat berubah mengikuti ketentuan yang berlaku.
+- Biaya tambahan 1,1% berada di luar harga paket.
+- Tanggal tertentu menggunakan susunan perjalanan terbalik.
+- Paket menyinggung Philippine Airlines/PR pada hari ke-2, meskipun daftar maskapai/tabel keberangkatan memuat MH/GA (judul juga menyebut ANA);
+  pastikan itinerary tiap maskapai.
 - Hari ke-6 bebas tanpa bus dan guide.
 - Pendaftaran minimum 20 peserta, deposit Rp6.000.000, pelunasan peak season 25 hari sebelum berangkat.
 source:
@@ -303,11 +303,9 @@ finalPaymentDaysBefore: 25
 
 # Ringkasan Perjalanan
 
-7D Shocking Sale Jepang Golden Route + Shirakawago adalah paket wisata Jepang selama **7 hari**. Harga dan tanggal keberangkatan bersumber dari dokumen pemasok dan belum merupakan konfirmasi ketersediaan.
+Paket wisata 7 hari Osaka, Kyoto, Shirakawago, Takayama, Gunung Fuji dan Tokyo dengan beragam pilihan tanggal dan maskapai.
 
-Dokumen memuat **21 opsi tanggal/asal keberangkatan** dengan harga dewasa terendah **Rp20.290.000** (belum termasuk tipping. pajak. visa jika berlaku. dan pengeluaran pribadi).
-
-> **Penting:** `published: false` sampai operator mengesahkan harga, rute penerbangan, ketentuan visa, dan ketersediaan kursi.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Shirakawago Village, Takayama Old Town, Gunung Fuji, Oshino Hakkai. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -330,7 +328,7 @@ Dokumen memuat **21 opsi tanggal/asal keberangkatan** dengan harga dewasa terend
 
 ### Hari 4 — MATSUMOTO – MT. FUJI (MAKAN PAGI, MAKAN MALAM)
 
-- Setelah santap pagi, perjalanan dilanjutkan menuju area sekitar Gunung Fuji untuk menikmati pemandangan ikon Jepang dari berbagai spot. Dilanjutkan menuju Oshino Hakkai Village di sini anda dapat menikmati suasana desa di jepang yang terkenal akan 8 sumber mata air alaminya. Kemudian, kita akan menuju Lake Kawaguchi di sini kita dapat bersantai sambil berswafoto dengan pemandangan Gunung Fuji yang indah. Check-in hotel istirahat.
+- Setelah santap pagi, perjalanan dilanjutkan menuju area sekitar Gunung Fuji untuk menikmati pemandangan ikon Jepang dari berbagai spot. Dilanjutkan menuju Oshino Hakkai Village di sini anda dapat menikmati suasana desa di jepang yang terkenal akan 8 rincian perjalanan mata air alaminya. Kemudian, kita akan menuju Lake Kawaguchi di sini kita dapat bersantai sambil berswafoto dengan pemandangan Gunung Fuji yang indah. Check-in hotel istirahat.
 - Menginap di Hotel *3/similar
 
 ### Hari 5 — KAWAGUCHI – GOTEMBA - TOKYO (MAKAN PAGI)
@@ -351,20 +349,9 @@ Dokumen memuat **21 opsi tanggal/asal keberangkatan** dengan harga dewasa terend
 
 ## Perbedaan Rute Menurut Maskapai
 
-- Tanggal **26 Oktober 2026** dan **15 November 2026** diberi label *REVERSE ROUTE* oleh pemasok. Rangkaian itinerary spesifik untuk rute terbalik **tidak dilampirkan**.
-- Hari 2 menyebut alternatif Philippine Airlines/PR walaupun harga keberangkatan menunjukkan maskapai lain. Konfirmasikan rute aktual per tanggal dengan operator.
+- Tanggal **26 Oktober 2026** dan **15 November 2026** diberi label *REVERSE ROUTE* oleh admin. Rangkaian itinerary spesifik untuk rute terbalik **tidak dilampirkan**.
+- Hari 2 menyebut alternatif Philippine Airlines/PR walaupun harga keberangkatan menunjukkan maskapai lain. Konfirmasikan rute aktual per tanggal kepada tim Piranti Travel.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Minimal peserta menurut dokumen: **20 orang**.
-- Deposit pendaftaran: **Rp6.000.000** (first come. first served).
-- Pelunasan peak season **25 hari** sebelum keberangkatan menurut sumber.
-- Tiket grup memiliki tanggal tetap dan tidak dapat diperpanjang (*fixed date & no extend*).
-- Jika visa ditolak, dokumen menyebut adanya biaya pembatalan sesuai aturan yang berlaku; nominal dan aturan detail belum dirinci.
-- Harga dapat berubah sesuai konfirmasi operator.
-- Biaya tipping, PPN dan biaya visa jika diperlukan belum termasuk tarif paket utama.
-- Persyaratan paspor, visa, dan waiver harus ditinjau berdasarkan peraturan terbaru sebelum menjual paket.
-
-## Status Verifikasi Konten
-
-Hasil normalisasi DOCX ini **masih draft**. Seluruh harga dan tabel penerbangan harus dicek pengelola Piranti Travel, khususnya tarif dan kota asal untuk tanggal yang sama. Tetap gunakan `published: false` sampai disetujui.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

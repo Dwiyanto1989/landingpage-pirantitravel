@@ -103,6 +103,50 @@ export function getToursByDestination<T extends TourEntryLike>(
   );
 }
 
+export function getRelatedTours<T extends TourEntryLike>(
+  entries: T[],
+  current: T,
+  limit = 3,
+) {
+  const currentDestinations = new Set(current.data.destinations);
+  const currentTags = new Set(
+    Array.isArray(current.data.tags)
+      ? current.data.tags.filter(
+          (tag): tag is string => typeof tag === 'string',
+        )
+      : [],
+  );
+
+  return getPublishedTours(entries)
+    .filter((candidate) => candidate.id !== current.id)
+    .map((candidate) => {
+      const sharedDestinations = candidate.data.destinations.filter(
+        (destination) => currentDestinations.has(destination),
+      ).length;
+      const candidateTags = Array.isArray(candidate.data.tags)
+        ? candidate.data.tags.filter(
+            (tag): tag is string => typeof tag === 'string',
+          )
+        : [];
+      const sharedTags = candidateTags.filter((tag) =>
+        currentTags.has(tag),
+      ).length;
+      const score =
+        (candidate.data.category === current.data.category ? 100 : 0) +
+        sharedDestinations * 15 +
+        sharedTags * 5;
+
+      return { candidate, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort(
+      (a, b) =>
+        b.score - a.score || a.candidate.id.localeCompare(b.candidate.id),
+    )
+    .slice(0, Math.max(0, limit))
+    .map(({ candidate }) => candidate);
+}
+
 function dateInJakarta(date: Date) {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Asia/Jakarta',

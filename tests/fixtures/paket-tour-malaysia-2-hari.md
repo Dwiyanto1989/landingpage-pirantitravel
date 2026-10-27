@@ -7,6 +7,7 @@ author: Piranti Travel
 tags: [malaysia, fixture]
 keywords: [fixture paket malaysia]
 image: /images/PLACEHOLDER.webp
+ogImage: /images/PLACEHOLDER.webp
 images: []
 featured: true
 published: true

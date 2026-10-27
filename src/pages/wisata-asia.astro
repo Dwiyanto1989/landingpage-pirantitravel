@@ -9,7 +9,9 @@ const entries = getToursByCategory(await getTourEntries(), 'wisata-asia');
 
 <TourListingPage
   title={meta.title}
+  seoTitle={meta.seoTitle}
   description={meta.description}
+  keywords={meta.keywords}
   path="/wisata-asia"
   {entries}
 />

@@ -7,10 +7,11 @@ date: '2026-10-22'
 author: Piranti Travel
 tags: [vietnam, hanoi, halong-bay, sapa, fansipan, akhir-tahun, liburan-sekolah]
 keywords: [paket tour Hanoi Halong Fansipan 6 hari, Vietnam Airlines Hanoi 6 hari, wisata Sapa Moana Park]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/6d-best-of-hanoi-halong-bay-fansipan.webp
+ogImage: /paket-wisata/wisata-asia/6d-best-of-hanoi-halong-bay-fansipan.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 6D Best of Hanoi, Halong Bay & Fansipan
+- src: /paket-wisata/wisata-asia/6d-best-of-hanoi-halong-bay-fansipan.webp
+  alt: Foto perjalanan 6D Best of Hanoi, Halong Bay & Fansipan
 featured: false
 published: true
 primaryDestination: vietnam
@@ -106,19 +107,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN perlu dikonfirmasi sebelum memesan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
-- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan di sumber)
+- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan pada informasi paket)
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp3.950.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
-- Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Jadwal pulang VN635 pada Hari 6 tiba CGK pukul 00.40 (hari berikutnya) menurut sumber; durasi katalog
-  tetap enam hari sesuai penamaan produk dan perlu klarifikasi hari kedatangan aktual.
+- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve).
+- Infant usia di bawah 23 bulan bertarif Rp3.950.000.
+- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Jadwal pulang VN635 pada Hari 6 tiba CGK pukul 00.40 (hari berikutnya); durasi katalog tetap enam hari sesuai penamaan produk dan perlu klarifikasi
+  hari kedatangan aktual.
 source:
   filename: 6D BEST OF HANOI HALONG BAY FANSIPAN.docx
   importStatus: needs-business-review
@@ -128,7 +129,7 @@ source:
 
 Paket wisata Vietnam 6 hari dengan Vietnam Airlines mengunjungi Hanoi, Halong Bay, Cat Cat Village, Fansipan, dan Moana Park.
 
-Paket ini mempunyai **8 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Nikmati perjalanan 6 hari dengan pengalaman pilihan seperti Halong Bay Cruise, Cat Cat Village, Fansipan Cable Car, Moana Park. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -168,21 +169,6 @@ HAN (20.15) - CGK (00.40) by VN635 => Vietnam Airlines
 
 Sarapan pagi di hotel, hari ini kita akan menikmati kA3ota Hanoi dengan mengunjungi St.Joseph Cathedral yang merupakan gereja tertua di Hanoi dengan arsitektur yang menawan, kita juga akan mengunjungi tempat berjesarah dan budaya seperti Ho Chi Minh’s House, His Mausoleum, Ba Dinh Square, One-Pillar Pagoda. Selanjutnya mengunjungi Buddhist Tran Quoc Pagoda on Westlake, kita juga berkesempatan menikmati suasana unik di Train Street di mana rel kereta melintasi jalan sempit yang dipenuhi kafe dan rumah penduduk sambil menikmati kopi kelapa atau cokelat panas khas Vietnam, sampai tiba waktunya diantar ke Airport untuk kembali ke Jakarta, Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp6.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp3.950.000 untuk usia di bawah 23 bulan menurut sumber.
-- Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
-- Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Jadwal pulang VN635 pada Hari 6 tiba CGK pukul 00.40 (hari berikutnya) menurut sumber; durasi katalog tetap enam hari sesuai penamaan produk dan perlu klarifikasi hari kedatangan aktual.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `6D BEST OF HANOI HALONG BAY FANSIPAN.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

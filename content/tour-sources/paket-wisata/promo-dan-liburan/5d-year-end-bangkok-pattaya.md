@@ -14,10 +14,11 @@ keywords:
 - paket Bangkok Pattaya akhir tahun 2026
 - tour Thailand 5 hari 2026
 - paket Bangkok Pattaya Natal Tahun Baru
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/5d-year-end-bangkok-pattaya.webp
+ogImage: /paket-wisata/promo-dan-liburan/5d-year-end-bangkok-pattaya.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket 5D Year End Bangkok – Pattaya
+- src: /paket-wisata/promo-dan-liburan/5d-year-end-bangkok-pattaya.webp
+  alt: Foto paket 5D Year End Bangkok – Pattaya
 featured: false
 published: true
 primaryDestination: bangkok
@@ -106,7 +107,7 @@ highlights:
 inclusions:
 - Tiket internasional kelas ekonomi termasuk pajak internasional sesuai penerbangan pada tanggal keberangkatan; klausul
   tiket grup fixed date/no extend.
-- Bagasi sesuai kebijakan maskapai yang digunakan; angka bagasi pada dokumen memerlukan verifikasi untuk penerbangan
+- Bagasi sesuai kebijakan maskapai yang digunakan; angka bagasi pada paket memerlukan konfirmasi untuk penerbangan
   AirAsia.
 - Akomodasi hotel bintang 3 atau setaraf, kamar twin/triple.
 - Transportasi bus pariwisata dan tiket masuk objek wisata sesuai program.
@@ -114,18 +115,18 @@ inclusions:
 - Air mineral satu botol per hari.
 - Tour leader.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun sesuai sumber.
+- Asuransi perjalanan hingga usia 82 tahun .
 exclusions:
 - Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi dan biaya pribadi di luar itinerary.
 mandatoryFees:
 - label: Tipping tour leader, local guide dan driver
   amountIdr: 850000
   unit: null
-  note: Dokumen sumber menyebut nominal Rp850.000 tanpa satuan eksplisit; konfirmasi apakah per peserta.
+  note: informasi paket mencantumkan nominal Rp850.000 tanpa satuan eksplisit; konfirmasi apakah per peserta.
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Sumber tidak menjelaskan dasar pengenaan PPN; konfirmasi sebelum publikasi.
+  note: informasi paket belum mencantumkan dasar pengenaan PPN; konfirmasi sebelum memesan.
 optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
@@ -134,12 +135,11 @@ optionalFees:
 - label: Central Festival Mall (kunjungan opsional)
   amountIdr: null
 criticalNotices:
-- Penerbangan tanggal 20–25 Desember menggunakan Malaysia Airlines (MH), tanggal 29–30 Desember menggunakan AirAsia
-  Malaysia (AK).
-- Bagian inklusi hanya menyebut Malaysia Airlines meski tabel juga memuat AirAsia; keterangan bagasi berbunyi MH=30Kg
-  dan QZ=20Kg (berbeda dari kode AK), wajib diverifikasi.
-- Dokumen mencantumkan biaya pembatalan apabila visa ditolak tanpa menjelaskan besaran/ketentuan penerapannya.
-- Nilai tipping Rp850.000 tidak disertai satuan eksplisit pada dokumen.
+- Penerbangan tanggal 20–25 Desember menggunakan Malaysia Airlines (MH), tanggal 29–30 Desember menggunakan AirAsia Malaysia (AK).
+- Bagian inklusi hanya menyebut Malaysia Airlines meski tabel juga memuat AirAsia; keterangan bagasi berbunyi MH=30Kg dan QZ=20Kg (berbeda dari
+  kode AK), perlu dikonfirmasi sebelum memesan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
+- Nilai tipping Rp850.000 tidak disertai satuan eksplisit pada paket.
 source:
   filename: 5D YEAR END BANGKOK - PATTAYA.docx
   archivePath: Promo & Liburan/5D YEAR END BANGKOK - PATTAYA.docx
@@ -148,9 +148,9 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **5 hari Bangkok – Pattaya** untuk liburan sekolah dan akhir tahun **20–30 Desember 2026** (tujuh pilihan tanggal), termasuk wisata budaya, pertunjukan di Nongnooch Village, kunjungan ke Wat Arun, dan area belanja populer di Bangkok. Maskapai berbeda menurut tanggal: **Malaysia Airlines** untuk keberangkatan **20, 21, 22, 23, dan 25 Desember**, serta **AirAsia Malaysia** untuk **29 dan 30 Desember**, sesuai tabel sumber.
+Paket wisata Bangkok dan Pattaya 5 hari untuk akhir tahun 2026, dengan keberangkatan 20–30 Desember dan maskapai sesuai tanggal.
 
-> **Penting:** Harga serta jadwal penerbangan ditentukan oleh tanggal keberangkatan. Dokumen sumber mencantumkan bagian inklusi yang hanya menyebut Malaysia Airlines, padahal dua keberangkatan menggunakan AirAsia Malaysia. **Konfirmasi hak bagasi dan maskapai sebelum publikasi**; jangan menyamakan semua keberangkatan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Asiatique Night Market, Nongnooch Village, Wat Arun, Platinum Fashion Mall. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -159,11 +159,11 @@ Paket **5 hari Bangkok – Pattaya** untuk liburan sekolah dan akhir tahun **20�
 - Berkumpul di bandara untuk penerbangan menuju Bangkok, sesuai maskapai dan tanggal keberangkatan yang dipilih.
 - Setibanya di Bangkok, menyelesaikan imigrasi dan pengambilan bagasi; mengunjungi **Asiatique Night Market**.
 - Check-in dan bermalam di hotel bintang 3 atau setaraf.
-- Makan: *meals on board* sesuai heading sumber.
+- Makan: *meals on board* sesuai keterangan paket.
 
 ### Hari 2 — Bangkok menuju Pattaya
 
-- Sarapan lalu perjalanan menuju Pattaya (sekitar dua jam menurut dokumen).
+- Sarapan lalu perjalanan menuju Pattaya (sekitar dua jam menurut paket).
 - Mengunjungi **Erawadee Herb Shop** dan **Laser Buddha Hill**.
 - Mengunjungi **Nongnooch Village** untuk pertunjukan budaya Thailand dan *Elephant Show* sesuai program.
 - Singgah ke **Gem's Factory** dan **Pantai Pattaya**.
@@ -192,7 +192,7 @@ Paket **5 hari Bangkok – Pattaya** untuk liburan sekolah dan akhir tahun **20�
 
 ## Jadwal Penerbangan menurut Keberangkatan
 
-Jadwal di bawah disalin dari tabel pemasok; format waktu adalah waktu lokal tiap bandara dan **harus dikonfirmasi kembali**. Kode CGK = Jakarta, KUL = Kuala Lumpur, BKK/DMK = Bangkok.
+Waktu pada jadwal berikut mengikuti waktu lokal setiap bandara dan perlu dikonfirmasi sebelum memesan. Kode CGK = Jakarta, KUL = Kuala Lumpur, BKK/DMK = Bangkok.
 
 | Keberangkatan | Maskapai | Penerbangan pergi | Penerbangan pulang |
 | --- | --- | --- | --- |
@@ -204,16 +204,6 @@ Jadwal di bawah disalin dari tabel pemasok; format waktu adalah waktu lokal tiap
 | 29 Des 2026 | AirAsia Malaysia | AK381 CGK 08.30 → KUL 11.30; AK884 KUL 13.25 → DMK 14.40 | 2 Jan 2027: AK883 DMK 13.25 → KUL 16.50; AK353 KUL 19.25 → CGK 20.45 |
 | 30 Des 2026 | AirAsia Malaysia | AK381 CGK 08.30 → KUL 11.30; AK884 KUL 13.25 → DMK 14.40 | 3 Jan 2027: AK883 DMK 13.25 → KUL 16.50; AK353 KUL 19.25 → CGK 20.45 |
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Tabel harga sumber memuat **7 keberangkatan**. Pada **20 Desember**, dewasa dan anak dengan extra bed **Rp9.499.000**, anak tanpa tempat tidur **Rp9.199.000**. Enam tanggal lain: dewasa dan anak dengan extra bed **Rp9.999.000**, anak tanpa tempat tidur **Rp9.699.000**. Tambahan kamar single **Rp2.250.000** untuk semua tanggal.
-- Batas usia menurut tabel: anak dengan *extra bed* **di bawah 12 tahun** dan anak *no bed* **di bawah 6 tahun**.
-- Maskapai dijelaskan per tanggal dalam tabel. Bagian inklusi umum menyebut **Malaysia Airlines**, tetapi tanggal 29–30 Desember memakai **AirAsia Malaysia**. Catatan sumber untuk bagasi berbunyi **“MH=30Kg; QZ=20Kg”** meskipun penerbangan pada tanggal tersebut menggunakan kode **AK**. Ini merupakan **ketidaksesuaian dokumen yang perlu konfirmasi**, bukan informasi pasti tentang kuota bagasi AirAsia.
-- Dokumen mencantumkan tipping **Rp850.000** sebagai biaya tidak termasuk, **tanpa unit eksplisit** di daftar tersebut; pastikan apakah tarif ini per peserta. **PPN 1,1%** juga di luar harga paket, dengan dasar penghitungan belum disebutkan.
-- Klausul **penolakan visa** dalam sumber menyebut biaya pembatalan sesuai ketentuan berlaku, tanpa tarif atau rincian; penerapannya pada paket Thailand harus diverifikasi.
-- Tiket grup fixed date/no extend. Jadwal dapat berubah sesuai kondisi operasional.
-- Opsi tambahan termasuk sewa Wi-Fi portabel dan **Alcazar Cabaret Show**, tanpa harga tercantum.
-
-## Status Verifikasi Konten
-
-Sebelum mengubah status publikasi, pastikan **maskapai per tanggal, alokasi bagasi AirAsia vs istilah QZ di dokumen, nilai dan satuan tipping, dasar PPN, klausul visa/pembatalan, serta harga dan kursi yang dapat dijual**. Semua jadwal tetap bersifat informasi dari sumber, bukan konfirmasi operasional terbaru.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

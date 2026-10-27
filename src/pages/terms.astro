@@ -1,17 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 ---
 
 <BaseLayout
   title="Syarat & Ketentuan | Piranti Travel"
   description="Syarat dan ketentuan penggunaan situs serta layanan transportasi dan perjalanan Piranti Travel."
+  keywords={[
+    'syarat ketentuan Piranti Travel',
+    'ketentuan pemesanan wisata',
+    'ketentuan layanan perjalanan',
+  ]}
   path="/terms"
 >
+  <PageHero
+    eyebrow="Ketentuan layanan"
+    title="Syarat & Ketentuan"
+    description="Pahami ketentuan penggunaan situs, pemesanan, harga, pembayaran, serta layanan perjalanan Piranti Travel."
+  />
   <article class="section">
     <div class="shell max-w-3xl">
-      <p class="eyebrow">Ketentuan layanan</p>
-      <h1 class="section-title mt-3">Syarat & Ketentuan</h1>
-      <p class="mt-4 text-sm text-slate-500">
+      <p class="text-sm text-slate-500">
         Terakhir diperbarui: 29 September 2026
       </p>
 

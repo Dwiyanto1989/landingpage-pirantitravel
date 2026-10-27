@@ -17,10 +17,11 @@ keywords:
 - paket China Lebaran 2027
 - tour Beijing Shanghai 9 hari
 - wisata Wuzhen Great Wall China Lebaran
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/9d-great-lebaran-journey-china-tianjin-beijing-shanghai-suzhou-hangzhou.webp
+ogImage: /paket-wisata/promo-dan-liburan/9d-great-lebaran-journey-china-tianjin-beijing-shanghai-suzhou-hangzhou.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: 'Gambar sementara paket wisata 9D Great Lebaran Journey China: Tianjin, Beijing, Shanghai, Suzhou & Hangzhou'
+- src: /paket-wisata/promo-dan-liburan/9d-great-lebaran-journey-china-tianjin-beijing-shanghai-suzhou-hangzhou.webp
+  alt: 'Foto paket wisata 9D Great Lebaran Journey China: Tianjin, Beijing, Shanghai, Suzhou & Hangzhou'
 featured: false
 published: true
 primaryDestination: china
@@ -58,7 +59,7 @@ departures:
     childWithExtraBed: 15990000
     childNoBed: 15390000
     singleSupplement: 5000000
-  note: AFTER LEBARAN — tanggal setelah periode Lebaran menurut dokumen sumber
+  note: AFTER LEBARAN — tanggal setelah periode Lebaran sesuai informasi paket
 highlights:
 - Forbidden City
 - Juyongguan Great Wall
@@ -88,20 +89,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable
   amountIdr: null
 criticalNotices:
-- Keberangkatan 3 Maret 2027 bertanda Lebaran, sedangkan 12 Maret 2027 bertanda AFTER LEBARAN pada sumber; keduanya dipertahankan
-  tanpa disamakan.
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 tercantum sebagai biaya di luar harga; periksa aturan aktual.
-- Jika visa ditolak dapat dikenakan biaya pembatalan sesuai ketentuan yang belum dirinci.
-- Dokumen menyebut paket bersubsidi dengan shopping stop; tidak mengikuti shopping stop dapat dikenakan penalti yang tidak
-  dijelaskan nominalnya.
+- Keberangkatan 3 Maret 2027 bertanda Lebaran, sedangkan 12 Maret 2027 bertanda AFTER LEBARAN ; keduanya dipertahankan tanpa disamakan.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
 - Perahu di Wuzhen Water Town belum termasuk dalam program.
-- Tipping Rp1.500.000 per orang serta PPN 1,1% di luar harga paket; basis pajak tidak dijelaskan.
-- Penerbangan via Singapura menggunakan Scoot dan jadwal penerbangan merupakan informasi dokumen sumber.
+- Biaya tambahan Rp1.500.000, 1,1% berada di luar harga paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
 source:
   filename: 9D GREAT LEBARAN JOURNEY CHINA BEIJING SHANGHAI.docx
   archivePath: null
@@ -110,15 +110,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **9 hari**: Jakarta–Singapura–Tianjin–Beijing–Shanghai–Suzhou–Wuzhen–Hangzhou, termasuk Forbidden City, Great Wall, The Bund, dan West Lake. Dokumen pemasok mencantumkan **2 opsi tanggal keberangkatan**. Harga berdasarkan jenis peserta dan tanggal tercatat dalam frontmatter; ketersediaan serta harga final belum dikonfirmasi.
+Paket wisata China 9 hari periode Lebaran Maret 2027 melalui Tianjin, Beijing, Shanghai, Suzhou, Wuzhen, dan Hangzhou bersama Scoot.
 
-> **Penting:** Informasi jadwal penerbangan dan layanan mengikuti dokumen sumber, dapat berubah dan perlu konfirmasi Piranti Travel sebelum booking.
+Nikmati perjalanan 9 hari dengan pengalaman pilihan seperti Forbidden City, Juyongguan Great Wall, The Bund, Nanjing Road. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – SINGAPORE (X)
 
-- **Jadwal penerbangan menurut dokumen:** CGK (20.10) – SIN (23.00) by TR 279
+- **Jadwal penerbangan menurut paket:** CGK (20.10) – SIN (23.00) by TR 279
 
 Pada hari ini, kita akan berkumpul di Soekarno Hatta Terminal 3 untuk penerbangan menuju Tianjin dengan menggunakan maskapai Scoot (transit di Singapore).
 
@@ -126,7 +126,7 @@ Pada hari ini, kita akan berkumpul di Soekarno Hatta Terminal 3 untuk penerbanga
 
 ### Hari 2 — SINGAPORE – TIANJIN – BEIJING (MAKAN SIANG, MAKAN MALAM)
 
-- **Jadwal penerbangan menurut dokumen:** SIN (01.45) – TSN (07.45) by TR 138
+- **Jadwal penerbangan menurut paket:** SIN (01.45) – TSN (07.45) by TR 138
 
 Sesampainya di Tianjin Airport, kita akan diantar menuju Beijing untuk mengunjungi Qianmen Street, pusat perbelanjaan terkenal dengan gaya arsitektur khas akhir dinasti Qing. Kemudian kita akan mengunjungi Shichahai, kawasan bersejarah dengan pemandangan alam 3 danau yang indah di pusat kota Beijing. Setelah itu kita akan mengunjungi Yandaixiejie, jalan tua yang dibangun 800 tahun lalu dan penuh dengan kafe, restoran, dan bar. Kita akan diantar ke hotel untuk check in dan beristirahat.
 
@@ -164,7 +164,7 @@ Sarapan pagi di hotel. Kita akan mengunjungi Latex & Silk Shop sebelum diantar m
 
 ### Hari 8 — HANGZHOU – SINGAPORE (MAKAN PAGI, MAKAN SIANG)
 
-- **Jadwal penerbangan menurut dokumen:** HGH (23.10) – SIN (04.30)+1 by TR 189
+- **Jadwal penerbangan menurut paket:** HGH (23.10) – SIN (04.30)+1 by TR 189
 
 Sarapan pagi di hotel. Kita akan mengunjungi West Lake menggunakan kapal, danau air tawar yang diakui menjadi Situs Warisan Dunia UNESCO. Kemudian kita akan mengunjungi Yue Fei Temple, kompleks kuil yang dibangun untuk mengenang Jenderal Yue Fei, seorang pahlawan nasional. Setelah itu, menuju Tea Plantation dan berbelanja barang branded dengan harga murah di Sandship Outlet. Kita juga akan mengunjungi City Balcony, dimana kita dapat menikmati pemandangan Sungai Qiantang dan Qianjiang New City. Pada malam hari kita akan diantar ke bandara untuk penerbangan kembali ke Jakarta dengan transit di Singapura.
 
@@ -172,22 +172,10 @@ Sarapan pagi di hotel. Kita akan mengunjungi West Lake menggunakan kapal, danau 
 
 ### Hari 9 — SINGAPORE – JAKARTA (X)
 
-- **Jadwal penerbangan menurut dokumen:** SIN (07.55) – CGK (08.50) by TR 274
+- **Jadwal penerbangan menurut paket:** SIN (07.55) – CGK (08.50) by TR 274
 
 Hari ini kita akan melanjutkan penerbangan dari Singapura menuju Jakarta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Keberangkatan 3 Maret 2027 bertanda Lebaran, sedangkan 12 Maret 2027 bertanda AFTER LEBARAN pada sumber; keduanya dipertahankan tanpa disamakan.
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 tercantum sebagai biaya di luar harga; periksa aturan aktual.
-- Jika visa ditolak dapat dikenakan biaya pembatalan sesuai ketentuan yang belum dirinci.
-- Dokumen menyebut paket bersubsidi dengan shopping stop; tidak mengikuti shopping stop dapat dikenakan penalti yang tidak dijelaskan nominalnya.
-- Perahu di Wuzhen Water Town belum termasuk dalam program.
-- Tipping Rp1.500.000 per orang serta PPN 1,1% di luar harga paket; basis pajak tidak dijelaskan.
-- Penerbangan via Singapura menggunakan Scoot dan jadwal penerbangan merupakan informasi dokumen sumber.
-
-Daftar harga menurut keberangkatan, fasilitas termasuk/tidak termasuk, tipping, pajak dan biaya opsional tersedia di YAML frontmatter untuk ditampilkan oleh website.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX dan **bukan konfirmasi final** harga, jadwal, layanan, atau ketersediaan. Persetujuan komersial diperlukan sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

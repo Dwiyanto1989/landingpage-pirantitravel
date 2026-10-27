@@ -8,10 +8,11 @@ author: Piranti Travel
 tags: [jepang, shirakawago, golden-route, multi-kota-keberangkatan]
 keywords: [paket Jepang dari Bali, tour Jepang dari Surabaya, paket Jepang dari Medan, paket Jepang dari Jakarta,
   Shirakawago Golden Route Jepang]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/7d-super-sale-jepang-golden-route-shirakawago.webp
+ogImage: /paket-wisata/wisata-asia/7d-super-sale-jepang-golden-route-shirakawago.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Placeholder gambar paket 7D Super Sale Jepang Golden Route + Shirakawago (Jakarta, Surabaya, Bali, Medan)
+- src: /paket-wisata/wisata-asia/7d-super-sale-jepang-golden-route-shirakawago.webp
+  alt: Foto perjalanan 7D Super Sale Jepang Golden Route + Shirakawago
 featured: false
 published: true
 primaryDestination: jepang
@@ -435,7 +436,7 @@ inclusions:
 - Bus pariwisata dan tiket masuk objek wisata sesuai program.
 - Acara tour dan makan sesuai itinerary.
 - Tour leader sesuai program.
-- Asuransi perjalanan sampai usia 82 tahun menurut dokumen sumber.
+- Asuransi perjalanan sampai usia 82 tahun sesuai informasi paket.
 - Luggage tag.
 exclusions:
 - Visa Jepang atau visa waiver sesuai kelayakan.
@@ -448,32 +449,31 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Basis penghitungan PPN belum disebutkan di sumber; konfirmasi operator.
+  note: Basis penghitungan PPN akan dikonfirmasi sebelum pemesanan.
 visaFees:
-- label: Visa Jepang sesuai kategori domisili Jakarta dalam dokumen pemasok
+- label: Visa Jepang sesuai kategori domisili Jakarta dalam paket admin
   amountIdr: 2150000
   unit: per-person
   note: Hanya jika berlaku; bukan harga pasti atau jaminan persyaratan visa.
-- label: Visa Jepang biasa (kategori domisili luar Jakarta dalam sumber)
+- label: Visa Jepang biasa (kategori domisili luar Jakarta pada informasi paket)
   amountIdr: 2400000
   unit: per-person
-  note: Verifikasi domisili/konsulat dan tarif sebelum penjualan.
+  note: konfirmasi domisili/konsulat dan tarif sebelum penjualan.
 - label: Visa waiver Jepang
   amountIdr: 300000
   unit: per-person
-  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif sumber perlu verifikasi.
+  note: Hanya untuk pemegang paspor yang memenuhi persyaratan; tarif rincian perjalanan perlu konfirmasi.
 optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
 criticalNotices:
-- Jadwal, kurs, kebijakan visa, harga dan ketersediaan harus dikonfirmasi sebelum publikasi.
-- Nominal visa adalah tarif dari dokumen pemasok, bukan verifikasi peraturan/kewajiban saat ini.
-- PPN 1,1% dicantumkan sebagai biaya tambahan tetapi dasar penghitungannya tidak dijelaskan.
-- 'Harga dan opsi keberangkatan terbagi menjadi dua tabel: Jakarta serta gabungan Surabaya/Denpasar/Medan. Jangan
-  menggabungkan tarif yang berbeda pada tanggal sama.'
-- Pada tabel gabungan, beberapa baris tidak menyebut bandara spesifik; kode asal mewarisi judul grup dan wajib diverifikasi
-  bersama agen.
-- Tabel penerbangan pulang KUL–KNO berisi salah ketik waktu ("08.300") serta jadwal lain yang perlu konfirmasi operasional.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Tarif visa dapat berubah mengikuti ketentuan yang berlaku.
+- Biaya tambahan 1,1% berada di luar harga paket.
+- 'Harga dan opsi keberangkatan terbagi menjadi dua tabel: Jakarta serta gabungan Surabaya/Denpasar/Medan. pilih tarif sesuai kota keberangkatan
+  dan konfirmasikan rinciannya sebelum memesan.'
+- Pada tabel gabungan, beberapa baris tidak menyebut bandara spesifik; kode asal mewarisi judul grup dan perlu dikonfirmasi sebelum memesan.
+- Jadwal dan detail penerbangan menyesuaikan tanggal serta maskapai pilihan.
 - Hari ke-5 bebas tanpa bus, guide, dan tour leader.
 source:
   filename: 7D SUPER SALE GOLDEN ROUTE JAPAN + SHIRAKAWAGO STARTING BALI_JAKARTA_MEDAN KUALANAMU_SURABAYA.docx
@@ -483,11 +483,9 @@ source:
 
 # Ringkasan Perjalanan
 
-7D Super Sale Jepang Golden Route + Shirakawago (Jakarta, Surabaya, Bali, Medan) adalah paket wisata Jepang selama **7 hari**. Harga dan tanggal keberangkatan bersumber dari dokumen pemasok dan belum merupakan konfirmasi ketersediaan.
+Paket wisata 7 hari Osaka, Kyoto, Shirakawago, Takayama, Gunung Fuji dan Tokyo dengan harga menurut kota asal: Jakarta, Surabaya, Denpasar atau Medan.
 
-Dokumen memuat **44 opsi tanggal/asal keberangkatan** dengan harga dewasa terendah **Rp19.990.000** (belum termasuk tipping. pajak. visa jika berlaku. dan pengeluaran pribadi).
-
-> **Penting:** `published: false` sampai operator mengesahkan harga, rute penerbangan, ketentuan visa, dan ketersediaan kursi.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Shinsaibashi, Shirakawago Village, Takayama Old Town, Gunung Fuji. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -528,7 +526,7 @@ Dokumen memuat **44 opsi tanggal/asal keberangkatan** dengan harga dewasa terend
 
 ## Rute Penerbangan Menurut Kota Asal
 
-Rincian di bawah berasal dari tabel penerbangan sumber. Jadwal penerbangan dapat berbeda menurut tanggal dan perlu konfirmasi saat booking.
+Rincian di bawah berasal dari tabel penerbangan rincian perjalanan. Jadwal penerbangan dapat berbeda menurut tanggal dan perlu konfirmasi saat booking.
 
 ### Jakarta (CGK)
 
@@ -558,16 +556,8 @@ Rincian di bawah berasal dari tabel penerbangan sumber. Jadwal penerbangan dapat
 - Penerbangan Tokyo–Kuala Lumpur: NRT (22.30) – KUL (04.55 +1) MH 071.
 - Kepulangan dari Kuala Lumpur: KUL (08.30) - KNO (08.300 by MH 860 or KUL (15.50) - KNO (16.00) by MH 864
 
-> **Catatan data:** Jadwal KNO pada dokumen mengandung salah ketik waktu, termasuk `08.300`. Jangan gunakan sebagai jadwal final sebelum diverifikasi.
+> **Informasi jadwal:** Waktu kepulangan KNO tertulis `08.300` dan perlu dikonfirmasi sebelum memesan.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Tiket grup memiliki tanggal tetap dan tidak dapat diperpanjang (*fixed date & no extend*).
-- Jika visa ditolak, dokumen menyebut adanya biaya pembatalan sesuai aturan yang berlaku; nominal dan aturan detail belum dirinci.
-- Harga dapat berubah sesuai konfirmasi operator.
-- Biaya tipping, PPN dan biaya visa jika diperlukan belum termasuk tarif paket utama.
-- Persyaratan paspor, visa, dan waiver harus ditinjau berdasarkan peraturan terbaru sebelum menjual paket.
-
-## Status Verifikasi Konten
-
-Hasil normalisasi DOCX ini **masih draft**. Seluruh harga dan tabel penerbangan harus dicek pengelola Piranti Travel, khususnya tarif dan kota asal untuk tanggal yang sama. Tetap gunakan `published: false` sampai disetujui.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

@@ -16,10 +16,11 @@ keywords:
 - tour Jepang akhir tahun 2026
 - paket Japan 7D DisneySea Universal Studios
 - paket wisata Jepang Fujiten Ski Resort
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-adorable-year-end-golden-route-japan-disneysea-universal-studios-fujiten.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-adorable-year-end-golden-route-japan-disneysea-universal-studios-fujiten.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Adorable Year End Golden Route Japan + DisneySea, Universal Studios & Fujiten
+- src: /paket-wisata/promo-dan-liburan/7d-adorable-year-end-golden-route-japan-disneysea-universal-studios-fujiten.webp
+  alt: Foto paket wisata 7D Adorable Year End Golden Route Japan + DisneySea, Universal Studios & Fujiten
 featured: false
 published: true
 primaryDestination: jepang
@@ -145,18 +146,17 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable / SIMCard
   amountIdr: null
 criticalNotices:
-- Tanggal 31 Desember 2026 pada tabel harga bertanda REVERSE ROUTE; detail itinerary arah terbalik tidak dijelaskan.
-  Konfirmasi sebelum menawarkan tanggal ini.
-- Fujiten Ski Resort hanya kunjungan foto; pakaian dan peralatan ski tidak termasuk. Jika tutup, destinasi diganti ke
-  Oshino Hakkai Village.
+- Tanggal tertentu menggunakan susunan perjalanan terbalik.
+- Fujiten Ski Resort hanya kunjungan foto; pakaian dan peralatan ski tidak termasuk. Jika tutup, destinasi diganti ke Oshino Hakkai Village.
 - Tiket Tokyo DisneySea one-day pass tercantum; dapat diganti Tokyo Disneyland jika diinformasikan saat booking.
-- Visa Jepang tidak termasuk; sumber membedakan biaya berdasarkan wilayah domisili dan visa waiver.
-- Dokumen menyebut biaya pembatalan jika visa ditolak; detail perhitungan harus dikonfirmasi.
+- Visa Jepang belum termasuk dalam harga paket. Biaya dan jenis pengajuan menyesuaikan domisili serta kelayakan visa waiver; konfirmasikan
+  pilihan yang sesuai.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 source:
   filename: 7D ADORABLE YEAR END GOLDEN ROUTE JAPAN WITH TOKYO DISNEY SEA + UNIVERSAL STUDIO + FUJITEN SKI RESORT.docx
   archivePath: null
@@ -165,17 +165,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Jakarta–Osaka–Kyoto–Toyohashi–Kawaguchi–Tokyo, dengan Universal Studios Japan, Fujiten Ski Resort, dan Tokyo DisneySea. Mulai dari keberangkatan Desember 2026. Dokumen sumber memuat **8 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata 7 hari Jepang akhir tahun 2026, mengunjungi Osaka, Kyoto, Kawaguchi, Tokyo DisneySea, Universal Studios, dan Fujiten Ski Resort.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Universal Studios Japan, Shinsaibashi, Danau Kawaguchi, Gotemba Premium Outlet. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – OSAKA (meals on board)
 
-- **Penerbangan (jadwal sumber):** CGK (15.40) – KUL (18.50) by MH-720
+- **Penerbangan:** CGK (15.40) – KUL (18.50) by MH-720
 
-- **Penerbangan (jadwal sumber):** & KUL (22.40) – KIX (05.50)+1 by MH-052
+- **Penerbangan:** & KUL (22.40) – KIX (05.50)+1 by MH-052
 
 Hari ini kita berkumpul di bandara Soekarno-Hatta International Airport Jakarta untuk berangkat menuju Osaka dengan menggunakan pesawat Malaysia Airlines.
 
@@ -213,22 +213,12 @@ Setelah santap pagi, hari ini kita akan mengunjungi Tokyo Disney Sea (termasuk o
 
 ### Hari 7 — TOKYO – DEPARTURE (makan pagi, meals on board)
 
-- **Penerbangan (jadwal sumber):** NRT (10.05) – KUL (17.00) by MH-089
+- **Penerbangan:** NRT (10.05) – KUL (17.00) by MH-089
 
-- **Penerbangan (jadwal sumber):** KUL (22.30) – CGK (23.40) by MH-727
+- **Penerbangan:** KUL (22.30) – CGK (23.40) by MH-727
 
 Pagi hari setelah sarapan di hotel, kita akan diantar menuju bandara untuk penerbangan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Tanggal 31 Desember 2026 pada tabel harga bertanda REVERSE ROUTE; detail itinerary arah terbalik tidak dijelaskan. Konfirmasi sebelum menawarkan tanggal ini.
-- Fujiten Ski Resort hanya kunjungan foto; pakaian dan peralatan ski tidak termasuk. Jika tutup, destinasi diganti ke Oshino Hakkai Village.
-- Tiket Tokyo DisneySea one-day pass tercantum; dapat diganti Tokyo Disneyland jika diinformasikan saat booking.
-- Visa Jepang tidak termasuk; sumber membedakan biaya berdasarkan wilayah domisili dan visa waiver.
-- Dokumen menyebut biaya pembatalan jika visa ditolak; detail perhitungan harus dikonfirmasi.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

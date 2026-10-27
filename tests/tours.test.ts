@@ -6,6 +6,7 @@ import {
   getFeaturedTours,
   getPromoDepartures,
   getPublishedTours,
+  getRelatedTours,
   getStartingPrice,
   getTourIdentity,
   getToursByCategory,
@@ -104,6 +105,55 @@ test('filters published tours by storage category and discoverable destination',
   assert.deepEqual(
     getToursByDestination([scheduledTour, draftTour], 'jepang'),
     [scheduledTour],
+  );
+});
+
+test('related tours prioritize shared destinations and exclude current or draft entries', () => {
+  const current = {
+    ...scheduledTour,
+    id: 'wisata-asia/current-tour',
+    data: {
+      ...scheduledTour.data,
+      category: 'wisata-asia',
+      destinations: ['jepang', 'tokyo'],
+      tags: ['winter', 'family'],
+    },
+  } as any;
+  const sharedDestination = {
+    ...scheduledTour,
+    id: 'wisata-asia/shared-destination',
+    data: {
+      ...current.data,
+      destinations: ['jepang'],
+      tags: ['family'],
+    },
+  } as any;
+  const sharedTag = {
+    ...scheduledTour,
+    id: 'wisata-asia/shared-tag',
+    data: {
+      ...current.data,
+      destinations: ['korea-selatan'],
+      tags: ['winter'],
+    },
+  } as any;
+  const sameCategory = {
+    ...scheduledTour,
+    id: 'wisata-asia/same-category',
+    data: {
+      ...current.data,
+      destinations: ['vietnam'],
+      tags: [],
+    },
+  } as any;
+
+  assert.deepEqual(
+    getRelatedTours(
+      [current, sharedTag, draftTour, sameCategory, sharedDestination],
+      current,
+      3,
+    ).map((entry) => entry.id),
+    [sharedDestination.id, sharedTag.id, sameCategory.id],
   );
 });
 

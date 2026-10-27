@@ -6,10 +6,11 @@ date: '2026-10-22'
 author: Piranti Travel
 tags: [thailand, bangkok, pattaya, khao-yai, wisata-kota]
 keywords: [paket Bangkok Pattaya Khao Yai 5 hari, tour Thailand Khao Yai Hokkaido Flower Park, Nong Nooch Village Wat Arun, paket wisata Thailand Khao Yai]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d4n-special-bangkok-pattaya-khao-yai.webp
+ogImage: /paket-wisata/wisata-asia/5d4n-special-bangkok-pattaya-khao-yai.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara paket wisata 5D4N Special Bangkok – Pattaya + Khao Yai
+- src: /paket-wisata/wisata-asia/5d4n-special-bangkok-pattaya-khao-yai.webp
+  alt: Foto perjalanan 5D4N Special Bangkok – Pattaya + Khao Yai
 featured: false
 published: true
 primaryDestination: bangkok
@@ -129,13 +130,13 @@ highlights:
 inclusions:
 - Tiket penerbangan internasional Malaysia Airlines kelas ekonomi beserta pajak internasional; tiket grup fixed date dan no extend.
 - Bagasi mengikuti ketentuan maskapai.
-- Akomodasi hotel bintang 4 dan bintang 3 atau setaraf (sesuai sumber), kamar twin/triple.
+- Akomodasi hotel bintang 4 dan bintang 3 atau setaraf, kamar twin/triple.
 - Transportasi bus pariwisata dan tiket masuk objek wisata sesuai program (pengecualian khusus tercantum terpisah).
 - Tur dan makan sesuai itinerary.
 - Air mineral satu botol per hari.
 - Tour leader.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun sesuai dokumen sumber.
+- Asuransi perjalanan hingga usia 82 tahun .
 exclusions:
 - Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi, serta pengeluaran pribadi di luar fasilitas tercantum.
 mandatoryFees:
@@ -145,7 +146,7 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Basis perhitungan tidak dijelaskan dalam dokumen sumber; perlu konfirmasi sebelum publikasi.
+  note: Basis perhitungan akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Alcazar Cabaret Show (opsional)
   amountIdr: null
@@ -156,10 +157,11 @@ optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
 criticalNotices:
-- Harga anak tanpa bed tercantum SAMA dengan harga dewasa pada semua tanggal dalam tabel; jangan mengganti angkanya dengan asumsi diskon anak.
-- Tabel jadwal pesawat mencantumkan kode MH78 untuk BKK–KUL pada salah satu alternatif pulang; kode tersebut perlu konfirmasi (tidak dikoreksi tanpa sumber).
-- Label libur seperti Eid Al-Adha, Easter dan Labor Day berasal dari dokumen, bukan verifikasi kalender resmi.
-- Sumber menyebut penolakan visa dapat menyebabkan biaya pembatalan sesuai ketentuan, tanpa rincian mekanisme.
+- Harga anak tanpa bed tercantum SAMA dengan harga dewasa pada semua tanggal dalam tabel; konfirmasikan ketentuan harga anak.
+- Tabel jadwal pesawat mencantumkan kode MH78 untuk BKK–KUL pada salah satu alternatif pulang; kode tersebut perlu konfirmasi (tidak dikoreksi
+  tanpa rincian perjalanan).
+- Label musim liburan mengikuti pilihan jadwal paket. Konfirmasikan tanggal yang tersedia sebelum memesan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 - Jadwal dapat berubah sewaktu-waktu sesuai operasional.
 source:
   filename: 5D4N SPECIAL BANGKOK PATTAYA+KHAO YAI.docx
@@ -169,17 +171,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **5 hari 4 malam Bangkok–Pattaya–Khao Yai** dengan Malaysia Airlines transit Kuala Lumpur. Rangkaian wisata mencakup Asiatique, Nong Nooch Village, Laser Buddha Hill, Wat Arun, dan perjalanan sehari ke Khao Yai (Hokkaido Flower Park, Toscana, serta kawasan pasar malam).
+Paket wisata Thailand 5 hari 4 malam Bangkok, Pattaya, dan Khao Yai, termasuk Nong Nooch Village, Wat Arun, Hokkaido Flower Park, dan Toscana.
 
-Dokumen sumber memuat **12 jadwal keberangkatan** dengan harga dewasa mulai **Rp8.590.000** per orang (berdasarkan tabel, belum termasuk biaya tambahan). Harga dan ketersediaan akhir wajib dikonfirmasi kepada Piranti Travel.
-
-> **Informasi penting:** Tipping **Rp750.000 per orang** dan **PPN 1,1%** tidak termasuk harga paket; basis pengenaan PPN belum disebutkan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Hokkaido Flower Park, Toscana, Nong Nooch Village, Laser Buddha Hill. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — Jakarta – Bangkok
 
-- Berkumpul di Bandara Soekarno-Hatta sekitar tiga jam sebelum berangkat, lalu penerbangan Malaysia Airlines melalui Kuala Lumpur ke Bangkok (alternatif jadwal tercantum dalam sumber).
+- Berkumpul di Bandara Soekarno-Hatta sekitar tiga jam sebelum berangkat, lalu penerbangan Malaysia Airlines melalui Kuala Lumpur ke Bangkok (alternatif jadwal tercantum pada informasi paket).
 - Setibanya di Bangkok, mengunjungi **Asiatique Night Market**, kemudian check-in dan bermalam di hotel bintang 3/setaraf.
 - Makan: *meals on board*.
 
@@ -206,26 +206,14 @@ Dokumen sumber memuat **12 jadwal keberangkatan** dengan harga dewasa mulai **Rp
 ### Hari 5 — Bangkok – Jakarta
 
 - Sarapan, kemudian transfer ke Bandara Suvarnabhumi untuk penerbangan kembali ke Jakarta.
-- Alternatif penerbangan pulang: **MH 785** BKK **11.05** → KUL **14.15**, **MH 723** KUL **16.10** → CGK **17.35**; sumber juga mencantumkan **MH78** BKK **17.15** → KUL **20.30**, diikuti **MH 727** KUL **21.50** → CGK **23.05**. Kode MH78 perlu verifikasi.
+- Alternatif penerbangan pulang: **MH 785** BKK **11.05** → KUL **14.15**, **MH 723** KUL **16.10** → CGK **17.35**; rincian perjalanan juga mencantumkan **MH78** BKK **17.15** → KUL **20.30**, diikuti **MH 727** KUL **21.50** → CGK **23.05**. Kode MH78 perlu konfirmasi.
 - Makan: pagi; layanan makan di pesawat mengikuti ketentuan maskapai.
 
-## Alternatif Penerbangan (Sesuai Dokumen)
+## Alternatif Penerbangan (Sesuai paket)
 
 - **Keberangkatan:** opsi **MH 710** CGK **11.10** → KUL **14.20**, dilanjutkan **MH 774** KUL **16.00** → BKK **17.20**; atau **MH 712** CGK **09.10** → KUL **12.25**, dilanjutkan **MH 774** KUL **15.05** → BKK **16.20**.
-- **Kepulangan:** lihat alternatif penerbangan dalam itinerary Hari 5. Kode **MH78** untuk BKK–KUL memerlukan verifikasi.
+- **Kepulangan:** lihat alternatif penerbangan dalam itinerary Hari 5. Kode **MH78** untuk BKK–KUL memerlukan konfirmasi.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Seluruh harga dewasa, anak dengan extra bed, anak tanpa bed, dan single supplement disimpan per tanggal dalam metadata `departures`—bukan dirata-rata.
-- Pada tabel sumber, harga anak tanpa bed sama dengan harga dewasa dan anak dengan extra bed.
-- Hotel dicantumkan bintang 4 dan bintang 3 atau setaraf, tetapi alokasi hotel per malam tidak dijelaskan.
-- Dokumen menyebut biaya pembatalan terkait penolakan visa; ketentuan lengkap tidak tersedia.
-- Harga anak tanpa bed tercantum SAMA dengan harga dewasa pada semua tanggal dalam tabel; jangan mengganti angkanya dengan asumsi diskon anak.
-- Tabel jadwal pesawat mencantumkan kode MH78 untuk BKK–KUL pada salah satu alternatif pulang; kode tersebut perlu konfirmasi (tidak dikoreksi tanpa sumber).
-- Label libur seperti Eid Al-Adha, Easter dan Labor Day berasal dari dokumen, bukan verifikasi kalender resmi.
-- Sumber menyebut penolakan visa dapat menyebabkan biaya pembatalan sesuai ketentuan, tanpa rincian mekanisme.
-- Jadwal dapat berubah sewaktu-waktu sesuai operasional.
-
-## Status Verifikasi Konten
-
-Hasil normalisasi dari **5D4N SPECIAL BANGKOK PATTAYA+KHAO YAI.docx**. Dokumen masih berstatus **draft** (`published: false`) hingga pengelola Piranti Travel memastikan harga/ketersediaan tanggal berangkat, penerbangan, perhitungan pajak, biaya tambahan, serta ketentuan yang ditandai di `criticalNotices`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

@@ -1,17 +1,18 @@
 ---
 title: 5D Wonderful Vietnam Hanoi, Sapa, Fansipan + Halong Bay Cruise
 description: Paket wisata 5 hari Vietnam ke Hanoi, Sapa, Fansipan, dan Halong Bay Cruise dengan pilihan
-  penerbangan menurut dokumen.
+  penerbangan menurut paket.
 category: wisata-asia
 date: '2026-10-22'
 author: Piranti Travel
-tags: [vietnam, hanoi, sapa, fansipan, halong-bay, cruise, akhir-tahun, libur-nasional-sumber, liburan-sekolah,
+tags: [vietnam, hanoi, sapa, fansipan, halong-bay, cruise, akhir-tahun, libur-nasional-rincian perjalanan, liburan-sekolah,
   long-weekend, sesudah-lebaran]
 keywords: [paket wisata Vietnam 5 hari, tour Hanoi Sapa Fansipan, Halong Bay Cruise Vietnam]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-wonderful-vietnam-hanoi-sapa-fansipan-halong-bay-cruise.webp
+ogImage: /paket-wisata/wisata-asia/5d-wonderful-vietnam-hanoi-sapa-fansipan-halong-bay-cruise.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 5D Wonderful Vietnam Hanoi, Sapa, Fansipan + Halong Bay Cruise
+- src: /paket-wisata/wisata-asia/5d-wonderful-vietnam-hanoi-sapa-fansipan-halong-bay-cruise.webp
+  alt: Foto perjalanan 5D Wonderful Vietnam Hanoi, Sapa, Fansipan + Halong Bay Cruise
 featured: false
 published: true
 primaryDestination: vietnam
@@ -269,7 +270,7 @@ departures:
     singleSupplement: 2000000
   airline: Malaysia Airlines
 - date: '2027-04-29'
-  seasonTags: [libur-nasional-sumber]
+  seasonTags: [libur-nasional-rincian perjalanan]
   prices:
     adultTwinTriple: 10990000
     childWithExtraBed: 10990000
@@ -278,7 +279,7 @@ departures:
   note: LABOR DAY
   airline: Malaysia Airlines
 - date: '2027-05-01'
-  seasonTags: [libur-nasional-sumber]
+  seasonTags: [libur-nasional-rincian perjalanan]
   prices:
     adultTwinTriple: 10990000
     childWithExtraBed: 10990000
@@ -295,7 +296,7 @@ departures:
     singleSupplement: 2000000
   airline: Malaysia Airlines
 - date: '2027-05-20'
-  seasonTags: [libur-nasional-sumber]
+  seasonTags: [libur-nasional-rincian perjalanan]
   prices:
     adultTwinTriple: 10990000
     childWithExtraBed: 10990000
@@ -333,23 +334,20 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN perlu dikonfirmasi sebelum memesan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
-- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan di sumber)
+- label: Funicular menuju puncak Fansipan (opsional; nominal tidak dicantumkan pada informasi paket)
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp3.950.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
-- Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Dokumen mencantumkan tiga alternatif maskapai (VietJet Air, Vietnam Airlines, Malaysia Airlines), tetapi
-  seluruh baris harga yang diberi label maskapai menyebut Malaysia Airlines; jangan menyimpulkan harga
-  berlaku sama bagi maskapai lain.
-- Dua opsi jadwal penerbangan berbeda waktu tiba/pulang; pilih sesuai tanggal dan tiket resmi saat reservasi.
-- Ada departure Oktober 2026 yang sudah lewat pada tanggal dokumen diproses; jangan tawarkan tanpa memeriksa
-  tanggal.
+- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve).
+- Infant usia di bawah 23 bulan bertarif Rp3.950.000.
+- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Jadwal dan detail penerbangan menyesuaikan tanggal serta maskapai pilihan.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Hanya jadwal keberangkatan mendatang yang ditampilkan sebagai pilihan aktif. Konfirmasikan ketersediaan kursi.
 source:
   filename: 5D WONDERFUL VIETNAM HANOI SAPA FANSIPAN  WITH HALONG BAY CRUISE.docx
   importStatus: needs-business-review
@@ -357,9 +355,9 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata 5 hari Vietnam ke Hanoi, Sapa, Fansipan, dan Halong Bay Cruise dengan pilihan penerbangan menurut dokumen.
+Paket wisata 5 hari Vietnam ke Hanoi, Sapa, Fansipan, dan Halong Bay Cruise dengan pilihan penerbangan menurut paket.
 
-Paket ini mempunyai **34 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Hanoi Old Quarter, Cat Cat Village, Fansipan Mountain, Halong Bay Cruise. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -403,23 +401,6 @@ HAN (07.00) – SGN (09.10) by VN207 & SGN (10.50) - CGK (13.50) by VN631=> Viet
 
 Sarapan Pagi. Waktu bebas sampai tiba waktunya diantar ke Airport untuk kembali ke Jakarta, Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp6.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp3.950.000 untuk usia di bawah 23 bulan menurut sumber.
-- Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
-- Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Dokumen mencantumkan tiga alternatif maskapai (VietJet Air, Vietnam Airlines, Malaysia Airlines), tetapi seluruh baris harga yang diberi label maskapai menyebut Malaysia Airlines; jangan menyimpulkan harga berlaku sama bagi maskapai lain.
-- Dua opsi jadwal penerbangan berbeda waktu tiba/pulang; pilih sesuai tanggal dan tiket resmi saat reservasi.
-- Ada departure Oktober 2026 yang sudah lewat pada tanggal dokumen diproses; jangan tawarkan tanpa memeriksa tanggal.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `5D WONDERFUL VIETNAM HANOI SAPA FANSIPAN  WITH HALONG BAY CRUISE.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

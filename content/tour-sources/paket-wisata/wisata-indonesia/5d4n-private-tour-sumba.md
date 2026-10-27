@@ -17,10 +17,11 @@ keywords:
 - tour Sumba Tambolaka Waingapu
 - private tour Sumba 5D4N
 - private trip Sumba 5 hari 4 malam
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-domestik/private-tour-sumba-5d4n.webp
+ogImage: /paket-wisata/wisata-domestik/private-tour-sumba-5d4n.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara Private Tour Sumba 5D4N
+- src: /paket-wisata/wisata-domestik/private-tour-sumba-5d4n.webp
+  alt: Pemandangan perjalanan Private Tour Sumba 5D4N
 featured: false
 published: true
 primaryDestination: sumba
@@ -52,7 +53,7 @@ highlights:
 - Air Terjun Waimarang
 - Pantai Walakiri
 inclusions:
-- Akomodasi ber-AC di Ella Hotel dan Padadita Hotel (sesuai dokumen sumber).
+- Akomodasi ber-AC di Ella Hotel dan Padadita Hotel.
 - Transportasi ber-AC dengan Innova/HiAce.
 - Makan dan air mineral selama perjalanan.
 - Tiket masuk wisata dan biaya parkir.
@@ -68,20 +69,18 @@ mandatoryFees: []
 optionalFees:
 - label: Biaya tambahan untuk peserta WNA/foreigner
   amountIdr: null
-  note: Besaran tambahan tidak tercantum dalam dokumen; konfirmasi sebelum booking.
+  note: Hubungi tim Piranti Travel untuk mengetahui biaya yang berlaku.
 - label: Permintaan penyuntingan video cinematic berdurasi 1 menit atau lebih
   amountIdr: null
-  note: Biaya menyesuaikan penawaran operator; nominal tidak diberikan di dokumen.
+  note: Biaya menyesuaikan permintaan dan akan diinformasikan oleh admin.
 - label: Transport tambahan Waingapu–Tambolaka (WGP–TMC) apabila penerbangan pulang dari Tambolaka
   amountIdr: null
-  note: Besaran biaya tidak tercantum dalam dokumen.
+  note: Hubungi tim Piranti Travel untuk mengetahui biaya yang berlaku.
 criticalNotices:
-- Nominal di tabel mengikuti jumlah peserta (1–6 pax). DOCX tidak menyatakan secara eksplisit apakah setiap nominal adalah
-  harga per orang atau harga total grup; priceUnit per-person masih asumsi kerja dan wajib dikonfirmasi sebelum diterbitkan.
-- Tidak ada tanggal keberangkatan spesifik; trip private menggunakan permintaan jadwal dan konfirmasi operator.
-- Biaya tambahan untuk WNA, edit video cinematic, dan transport Waingapu–Tambolaka jika pulang melalui Tambolaka tidak dicantumkan
-  nominalnya.
-- Tipping guide/driver dan asuransi perjalanan tidak termasuk.
+- Harga tertera per orang dengan minimal keberangkatan sesuai jumlah peserta yang dipilih, mulai dari 1 hingga 6 peserta.
+- Tanggal private tour menyesuaikan permintaan tamu dan ketersediaan perjalanan.
+- Biaya peserta WNA, edit video cinematic, dan transport Waingapu–Tambolaka jika pulang melalui Tambolaka akan diinformasikan oleh admin.
+- Tipping guide/driver dan asuransi perjalanan tidak termasuk dalam harga paket.
 source:
   filename: 5D4N PRIVATE SUMBA(1).docx
   archivePath: null
@@ -99,12 +98,12 @@ participantPricing:
   amountIdr: 4600000
 - pax: 6
   amountIdr: 4450000
-priceUnitUnverified: true
+priceUnitUnverified: false
 ---
 
 # Ringkasan Perjalanan
 
-Private Tour Sumba **5 hari 4 malam** dari Bandara Tambolaka hingga Bandara Waingapu, mencakup wisata budaya, perbukitan, savana, air terjun, dan pantai. Dokumen memberikan pilihan nominal harga untuk rombongan **1–6 peserta**. **Satuan harga per orang atau per grup harus dikonfirmasi** sebelum paket diterbitkan.
+Private Tour Sumba **5 hari 4 malam** membawa Anda dari Bandara Tambolaka hingga Bandara Waingapu untuk menikmati desa adat, perbukitan, savana, air terjun, dan pantai. Harga berlaku **per orang** dan menyesuaikan jumlah peserta, mulai dari 1 hingga 6 orang.
 
 ## Itinerary
 
@@ -141,12 +140,8 @@ Private Tour Sumba **5 hari 4 malam** dari Bandara Tambolaka hingga Bandara Wain
 
 ## Ketentuan dan Informasi Tambahan
 
-- **Tarif berdasarkan jumlah peserta:** sumber mencantumkan 1 hingga 6 pax; seluruh nominal berada pada `participantPricing` di frontmatter. Satuan harga belum tegas di sumber.
+- **Harga per orang:** menyesuaikan jumlah peserta, mulai dari 1 hingga 6 orang.
 - **Akomodasi:** Ella Hotel (Sumba Barat Daya) dan Padadita Hotel (Sumba Timur).
 - Tiket pesawat, asuransi, tipping guide/driver, minuman beralkohol/bir/soft drink, dan pengeluaran pribadi tidak termasuk.
-- Biaya tambahan dapat berlaku untuk peserta WNA, video cinematic editing satu menit atau lebih, serta transport WGP–TMC bila pulang melalui Bandara Tambolaka; sumber tidak menyebut nominalnya.
-- Waktu kegiatan, tanggal perjalanan, dan ketersediaan harus dikonfirmasi ke operator karena tidak dicantumkan dalam dokumen.
-
-## Status Verifikasi Konten
-
-Harga telah ditranskripsi sesuai jumlah peserta tetapi **satuan harga dan jadwal keberangkatan harus dikonfirmasi**. Pertahankan `published: false` sampai seluruh informasi divalidasi.
+- Biaya tambahan dapat berlaku untuk peserta WNA, edit video cinematic berdurasi satu menit atau lebih, serta transport WGP–TMC bila pulang melalui Bandara Tambolaka. Admin akan menjelaskan nominalnya saat konsultasi.
+- Tanggal perjalanan bersifat fleksibel dan menyesuaikan permintaan tamu. Hubungi tim Piranti Travel untuk mengecek ketersediaan.

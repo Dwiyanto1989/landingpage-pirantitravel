@@ -7,10 +7,11 @@ date: '2026-10-22'
 author: Piranti Travel
 tags: [vietnam, phu-quoc, vinwonders, island-hopping, akhir-tahun]
 keywords: [paket wisata Phu Quoc 5 hari, VinWonders Aquatopia Phu Quoc, tour pulau Phu Quoc Vietnam Airlines]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-exotic-phu-quoc.webp
+ogImage: /paket-wisata/wisata-asia/5d-exotic-phu-quoc.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 5D Exotic Phu Quoc — VinWonders, Aquatopia & Island Hopping
+- src: /paket-wisata/wisata-asia/5d-exotic-phu-quoc.webp
+  alt: Foto perjalanan 5D Exotic Phu Quoc — VinWonders, Aquatopia & Island Hopping
 featured: false
 published: true
 primaryDestination: vietnam
@@ -83,21 +84,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Dasar pengenaan PPN perlu dikonfirmasi sebelum memesan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
-- label: Seawalker atau snorkeling jika berbayar di lokasi; rincian konfirmasi operator
+- label: Seawalker atau snorkeling jika berbayar di lokasi; rincian konfirmasi admin
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp3.950.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
-- Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Aktivitas snorkeling atau Seawalker bersifat opsional menurut teks itinerary; biaya dan inklusi pasti
-  perlu konfirmasi sebelum ditawarkan.
-- Kunjungan menggunakan cable car Hon Thom tertulis di program, sementara rincian jenis tiket mengikuti
-  fasilitas tur secara umum.
+- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve).
+- Infant usia di bawah 23 bulan bertarif Rp3.950.000.
+- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan paket.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Aktivitas snorkeling atau Seawalker bersifat opsional menurut teks itinerary; biaya dan inklusi pasti perlu konfirmasi sebelum ditawarkan.
+- Kunjungan menggunakan cable car Hon Thom tertulis di program, sementara rincian jenis tiket mengikuti fasilitas tur secara umum.
 source:
   filename: 5D EXOTIC PHU QUOC.docx
   importStatus: needs-business-review
@@ -107,7 +106,7 @@ source:
 
 Paket wisata Vietnam 5 hari ke Phu Quoc dengan VinWonders, Grand World, Aquatopia Water Park dan island hopping.
 
-Paket ini mempunyai **5 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti VinWonders Theme Park, Grand World Phu Quoc, Aquatopia Water Park, Kiss Bridge. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -147,22 +146,6 @@ SGN (10.30) – CGK (13.50) VN 631
 
 Sarapan Pagi. Waktu bebas sampai tiba waktunya diantar ke Airport untuk kembali ke Jakarta, Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp6.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp3.950.000 untuk usia di bawah 23 bulan menurut sumber.
-- Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
-- Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Aktivitas snorkeling atau Seawalker bersifat opsional menurut teks itinerary; biaya dan inklusi pasti perlu konfirmasi sebelum ditawarkan.
-- Kunjungan menggunakan cable car Hon Thom tertulis di program, sementara rincian jenis tiket mengikuti fasilitas tur secara umum.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `5D EXOTIC PHU QUOC.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

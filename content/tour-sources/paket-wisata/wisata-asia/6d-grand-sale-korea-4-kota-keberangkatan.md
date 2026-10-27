@@ -1,6 +1,6 @@
 ---
 title: 6D Grand Sale Korea — Jakarta, Surabaya, Denpasar & Medan
-description: Paket wisata Korea Selatan 6 hari ke Nami Island dan Seoul, dengan harga berdasarkan kota asal Jakarta, Surabaya, Denpasar, atau Medan.
+description: Paket wisata Korea Selatan 6 hari ke Nami Island dan Seoul, dengan harga menyesuaikan kota asal Jakarta, Surabaya, Denpasar, atau Medan.
 category: wisata-asia
 date: '2026-10-22'
 author: Piranti Travel
@@ -15,10 +15,11 @@ keywords:
 - paket Korea dari Bali
 - paket Korea dari Medan
 - grand sale Korea 6 hari
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/6d-grand-sale-korea.webp
+ogImage: /paket-wisata/wisata-asia/6d-grand-sale-korea.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar placeholder paket 6D Grand Sale Korea — Jakarta, Surabaya, Denpasar & Medan
+- src: /paket-wisata/wisata-asia/6d-grand-sale-korea.webp
+  alt: Foto perjalanan 6D Grand Sale Korea
 featured: true
 published: true
 primaryDestination: korea-selatan
@@ -612,7 +613,7 @@ mandatoryFees:
 - label: Administrasi Visa Group Korea
   amountIdr: 300000
   unit: per-person
-  note: Jika tidak memenuhi syarat group visa, sumber menyebut Visa Individual Rp1.100.000.
+  note: Jika tidak memenuhi syarat group visa, informasi paket mencantumkan Visa Individual Rp1.100.000.
 - label: Tipping Tour Leader, Local Guide dan Driver
   amountIdr: 900000
   unit: per-person
@@ -624,15 +625,16 @@ optionalFees:
 - label: Rental Wi-Fi portable
   amountIdr: null
 criticalNotices:
-- Tanggal 9 December 2206 (Surabaya/Denpasar/Medan) salah tahun pada dokumen; dinormalisasi sementara menjadi 2026-12-09 tetapi flag dateNeedsVerification=true dan sourceYearAsPrinted=2206. Konfirmasi sebelum publikasi.
-- Jadwal penerbangan Jakarta pada hari 1 tertulis CGK–ICN dengan kode MH 722 dan jam yang menyerupai CGK–KUL. Jangan menyunting data maskapai tanpa konfirmasi.
-- Tabel penerbangan kepulangan untuk Medan memuat KUL 08.30 – KNO 08.30 tanpa perubahan waktu; wajib cek kembali.
-- Dokumen mencantumkan air mineral 1 botol/hari pada inclusions, tetapi remark menyatakan sejak Juni 2025 air mineral di bus tidak disediakan.
-- Dokumen mencantumkan tour leader termasuk, namun kebijakan keberangkatan kurang minimum memungkinkan tanpa tour leader atau tour leader bertemu di Kuala Lumpur/Incheon, tanpa refund.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Jadwal dan detail penerbangan menyesuaikan tanggal serta maskapai pilihan.
+- Ketersediaan air mineral di bus menyesuaikan ketentuan paket.
+- Tour leader termasuk, namun kebijakan keberangkatan kurang minimum memungkinkan tanpa tour leader atau tour leader bertemu di Kuala Lumpur/Incheon,
+  tanpa refund.
 - Jika peserta dari satu kota asal kurang dari 10 orang, check-in dapat dilakukan sendiri di bandara asal.
-- Jadwal penerbangan dapat diganti dalam hari yang sama menurut ketentuan wholesaler.
-- Harga/visa dapat berubah, penolakan visa memicu biaya pembatalan.
-- Tour bersubsidi dengan shopping stop dan penalti yang tidak disebutkan besarannya; syarat harus dikonfirmasi.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
 source:
   filename: 6D GRAND SALE KOREA STARTING 4 CITIES (CGK-SUB-KNO-DPS).docx
   archivePath: null
@@ -641,25 +643,25 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **6 hari** dari **Jakarta, Surabaya, Denpasar, atau Medan** menuju **Incheon, Nami Island, dan Seoul**, menggunakan Malaysia Airlines. Tarif dalam metadata `departures` berbeda menurut kota asal dan tanggal. Total **46 entri harga/kota asal** mengikuti dua tabel sumber; satu entri bertahun 2206 perlu dikonfirmasi.
+Paket wisata Korea Selatan 6 hari ke Nami Island dan Seoul, dengan harga menyesuaikan kota asal Jakarta, Surabaya, Denpasar, atau Medan.
 
-> **Sebelum publikasi:** Seluruh harga, slot, kebijakan visa, tipping, PPN dan shopping stop perlu diverifikasi pihak Piranti Travel. Dokumen ditandai `published: false`.
+Nikmati perjalanan 6 hari dengan pengalaman pilihan seperti Songdo Central Park, Nami Island, COEX Mall dan Starfield Library, Gyeongbokgung Palace dan National Folklore Museum. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
-### Informasi penerbangan berdasarkan kota keberangkatan
+### Informasi penerbangan menyesuaikan kota keberangkatan
 
-Pilihan penerbangan ke Kuala Lumpur (jadwal menurut dokumen):
-- **Jakarta (CGK):** MH 720, CGK 15.40–KUL 18.50; atau MH 722, teks sumber tertulis CGK 18.25–ICN 21.35 (**mohon verifikasi bandara tujuan di sumber**).
+Pilihan penerbangan ke Kuala Lumpur (jadwal menurut paket):
+- **Jakarta (CGK):** MH 720, CGK 15.40–KUL 18.50; atau MH 722, informasi paket tertulis CGK 18.25–ICN 21.35 (**konfirmasikan bandara tujuan sebelum memesan**).
 - **Surabaya (SUB):** MH 870, SUB 10.00–KUL 13.40; atau MH 872, SUB 15.50–KUL 19.30.
 - **Denpasar (DPS):** MH 714, DPS 13.10–KUL 16.05; atau MH 852, DPS 19.15–KUL 22.15.
 - **Medan/Kualanamu (KNO):** MH 861, KNO 09.20–KUL 11.20; atau MH 865, KNO 16.50–KUL 19.00.
 - **Menuju Incheon:** MH 066, KUL 23.30–ICN 07.10 (+1 hari).
-- **Kepulangan:** MH 039, ICN 00.10–KUL 05.45; dilanjutkan ke kota asal. Alternatif penerbangan KUL–CGK, KUL–SUB, KUL–DPS, dan KUL–KNO tertera di dokumen sumber. Salah satu entri KUL–KNO ditulis 08.30–08.30 dan perlu diverifikasi.
+- **Kepulangan:** MH 039, ICN 00.10–KUL 05.45; dilanjutkan ke kota asal. Alternatif penerbangan KUL–CGK, KUL–SUB, KUL–DPS, dan KUL–KNO tertera pada informasi paket. Salah satu entri KUL–KNO ditulis 08.30–08.30 dan perlu dikonfirmasi sebelum memesan.
 
 ### Hari 1 — DEPARTURE – INCHEON (MEALS ON BOARD)
 
-- **Jadwal penerbangan dari sumber:** & KUL (23.30) - ICN (07.10)+1 by MH 066
+- **jadwal penerbangan:** & KUL (23.30) - ICN (07.10)+1 by MH 066
 
 Malam ini kita berkumpul dari kota keberangkatan masing-masing untuk berangkat menuju ke Incheon dengan Maskapai Premium Service.
 
@@ -693,49 +695,10 @@ Hari ini kita akan berangkat dari hotel, untuk menuju Hongdae Street, dimana kit
 
 ### Hari 6 — SEOUL - DEPARTURE (MEALS ON BOARD)
 
-- **Jadwal penerbangan dari sumber:** ICN (00.10) - KUL (05.45) by MH 039
+- **jadwal penerbangan:** ICN (00.10) - KUL (05.45) by MH 039
 
 Hari ini kita akan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Harga, Keberangkatan dan Biaya Tambahan
+## Siap Memilih Jadwal?
 
-Daftar lengkap tanggal keberangkatan, maskapai/kota asal (jika berlaku), kategori harga dewasa, anak dengan tempat tidur, anak tanpa tempat tidur, dan tambahan kamar sendiri disimpan di YAML `departures`. Harga tercantum **per orang** menurut konfigurasi peserta. Harga akhir, keberangkatan dan kuota perlu dikonfirmasi.
-
-### Biaya di luar harga paket
-
-- Administrasi Visa Group Korea: **Rp300.000**/orang. Jika tidak memenuhi syarat group visa, sumber menyebut Visa Individual Rp1.100.000.
-- Tipping Tour Leader, Local Guide dan Driver: **Rp900.000**/orang.
-- PPN: **1.1%**. Dasar pengenaan PPN tidak disebutkan.
-
-### Harga termasuk
-
-- Tiket internasional Malaysia Airlines kelas ekonomi termasuk taxes internasional, sesuai kota asal dan pilihan penerbangan.
-- Bagasi sesuai ketentuan maskapai dan kondisi booking.
-- Hotel bintang 3/setaraf (twin/triple).
-- Bus pariwisata dan tiket masuk objek wisata sesuai program.
-- Tour dan makan menurut program.
-- Air mineral 1 botol per hari (tercantum di inclusions, tetapi bertentangan dengan catatan penghapusan air mineral di bus).
-- Tour leader tercantum sebagai fasilitas, dengan pengecualian grup kecil pada ketentuan.
-- Travel kit (luggage tag).
-- Asuransi sampai usia 82 tahun.
-
-### Harga tidak termasuk dan opsi tambahan
-
-- Tips porter, minibar, laundry, telepon, kelebihan bagasi dan pengeluaran pribadi.
-- Rental Wi-Fi portable.
-
-## Ketentuan dan Hal yang Wajib Diverifikasi
-
-- Tanggal 9 December 2206 (Surabaya/Denpasar/Medan) salah tahun pada dokumen; dinormalisasi sementara menjadi 2026-12-09 tetapi flag dateNeedsVerification=true dan sourceYearAsPrinted=2206. Konfirmasi sebelum publikasi.
-- Jadwal penerbangan Jakarta pada hari 1 tertulis CGK–ICN dengan kode MH 722 dan jam yang menyerupai CGK–KUL. Jangan menyunting data maskapai tanpa konfirmasi.
-- Tabel penerbangan kepulangan untuk Medan memuat KUL 08.30 – KNO 08.30 tanpa perubahan waktu; wajib cek kembali.
-- Dokumen mencantumkan air mineral 1 botol/hari pada inclusions, tetapi remark menyatakan sejak Juni 2025 air mineral di bus tidak disediakan.
-- Dokumen mencantumkan tour leader termasuk, namun kebijakan keberangkatan kurang minimum memungkinkan tanpa tour leader atau tour leader bertemu di Kuala Lumpur/Incheon, tanpa refund.
-- Jika peserta dari satu kota asal kurang dari 10 orang, check-in dapat dilakukan sendiri di bandara asal.
-- Jadwal penerbangan dapat diganti dalam hari yang sama menurut ketentuan wholesaler.
-- Harga/visa dapat berubah, penolakan visa memicu biaya pembatalan.
-- Tour bersubsidi dengan shopping stop dan penalti yang tidak disebutkan besarannya; syarat harus dikonfirmasi.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX untuk katalog. **Belum boleh dipublikasikan** sebelum pemeriksaan bisnis (jadwal penerbangan, syarat visa, biaya dan kebijakan wholesaler), persetujuan harga dan kesiapan sistem menampilkan variasi keberangkatan.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

@@ -1,0 +1,38 @@
+---
+interface Props {
+  eyebrow: string;
+  title: string;
+  description: string;
+}
+
+const { eyebrow, title, description } = Astro.props;
+---
+
+<section
+  class="relative isolate overflow-hidden bg-brand-800 py-16 text-white sm:py-24"
+  data-page-hero
+>
+  <img
+    src="/images/home-hero.webp"
+    width="1672"
+    height="941"
+    alt=""
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+    class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
+  />
+  <div
+    aria-hidden="true"
+    class="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(0,83,165,.45)_0%,rgba(0,112,210,.72)_62%,rgba(1,148,243,.94)_100%),linear-gradient(90deg,rgba(0,45,90,.9)_0%,rgba(0,82,160,.65)_55%,rgba(1,148,243,.24)_100%)]"
+  ></div>
+  <div class="shell relative z-10">
+    <p class="eyebrow text-white/90">{eyebrow}</p>
+    <h1 class="mt-4 max-w-4xl text-balance text-[clamp(2.7rem,7vw,5.25rem)] font-extrabold leading-[.98] tracking-[-.05em] drop-shadow-[0_3px_18px_rgb(0_31_69/.28)]">
+      {title}
+    </h1>
+    <p class="mt-6 max-w-2xl text-pretty text-base leading-7 text-white/85 drop-shadow-[0_2px_10px_rgb(0_31_69/.28)] sm:text-lg">
+      {description}
+    </p>
+  </div>
+</section>

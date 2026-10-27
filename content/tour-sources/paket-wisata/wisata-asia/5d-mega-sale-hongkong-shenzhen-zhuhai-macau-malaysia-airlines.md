@@ -17,10 +17,11 @@ keywords:
 - Mega Sale Hong Kong Shenzhen Zhuhai Macau 2027
 - tour Hong Kong Malaysia Airlines
 - paket Macau Zhuhai Shenzhen
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-mega-sale-hong-kong-shenzhen-zhuhai-macau.webp
+ogImage: /paket-wisata/wisata-asia/5d-mega-sale-hong-kong-shenzhen-zhuhai-macau.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Placeholder galeri 5D Mega Sale Hong Kong, Shenzhen, Zhuhai & Macau — Malaysia Airlines
+- src: /paket-wisata/wisata-asia/5d-mega-sale-hong-kong-shenzhen-zhuhai-macau.webp
+  alt: Foto perjalanan 5D Mega Sale Hong Kong, Shenzhen, Zhuhai & Macau — Malaysia Airlines
 featured: false
 published: true
 primaryDestination: hong-kong
@@ -170,11 +171,11 @@ inclusions:
 - Transportasi bus pariwisata dan tiket masuk objek wisata sesuai program.
 - Kegiatan tour dan makan sesuai itinerary.
 - Air mineral satu botol per hari.
-- Tour leader sesuai ketentuan jumlah peserta dalam dokumen.
-- Group Visa 144 China sesuai keterangan sumber, dengan klausul dapat diganti aplikasi visa jika skema dihapus/ditangguhkan;
-  wajib verifikasi sebelum penjualan.
+- Tour leader sesuai ketentuan jumlah peserta dalam paket.
+- Group Visa 144 China sesuai keterangan paket, dengan klausul dapat diganti aplikasi visa jika skema dihapus/ditangguhkan;
+  wajib konfirmasi sebelum penjualan.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun, sesuai keterangan sumber.
+- Asuransi perjalanan hingga usia 82 tahun, sesuai keterangan paket.
 exclusions:
 - Tips porter hotel, minibar, laundry, telepon dan kelebihan bagasi.
 mandatoryFees:
@@ -184,25 +185,20 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Sewa Wi-Fi / SIM card portabel
   amountIdr: null
 criticalNotices:
-- Tour merupakan tour bersubsidi yang mengharuskan kunjungan shopping stop; sumber menyebut penalti jika tidak mengikutinya,
-  tetapi nilai dan mekanisme penalti tidak dijelaskan.
-- Ketentuan Group Visa 144 China dari sumber harus diverifikasi ulang; tidak boleh dianggap sebagai jaminan izin
-  masuk/visa yang masih berlaku.
-- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan pada periode libur lokal China (ejaan berbeda pada satu dokumen
-  sumber).
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Ketentuan Group Visa 144 China mengikuti aturan imigrasi yang berlaku. Konfirmasikan persyaratan visa terbaru sebelum memesan.
+- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan saat periode libur lokal China.
 - Urutan itinerary/kota bisa berubah karena kebutuhan operasional penyelenggara.
-- Harga final dan ketersediaan per keberangkatan harus dikonfirmasi; tidak ada indikasi kursi real-time dari sumber.
-- Nama file sumber mengandung BY MH 2026, sedangkan seluruh tanggal keberangkatan pada tabel adalah 2027. Gunakan
-  jadwal tabel sebagai data dan minta konfirmasi vendor.
-- Tanggal 23 Maret 2027 diberi label GOOD FRIDAY oleh dokumen, tetapi label tanggal tersebut perlu diverifikasi
-  dan tidak boleh dijadikan klaim hari libur resmi.
-- Hari 4 dilanjutkan menuju bandara dan hari 5 penerbangan pukul 02.45 dari Shenzhen; detail check-out/akomodasi
-  pada malam terakhir perlu dipastikan.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
+- Nama file rincian perjalanan mengandung BY MH 2026, sedangkan seluruh tanggal keberangkatan pada tabel adalah 2027. Gunakan jadwal tabel sebagai
+  data dan minta konfirmasi penyelenggara.
+- Label musim liburan mengikuti pilihan jadwal paket. Konfirmasikan tanggal yang tersedia sebelum memesan.
+- Jadwal dan detail penerbangan menyesuaikan tanggal serta maskapai pilihan.
 - Tour leader bersyarat jika total grup mencapai kuota minimum 20 peserta.
 source:
   filename: 5D MEGA SALE HONGKONG SHENZHEN ZHUHAI MACAU BY MH 2026 (1).docx
@@ -213,18 +209,14 @@ source:
 
 Paket tour 5 hari Hong Kong, Zhuhai, Macau dan Shenzhen dengan Malaysia Airlines; termasuk Avenue of Stars, Venetian Resort, OH Bay dan Dongmen Walking Street.
 
-Perjalanan **5 hari** dengan tujuan hong kong, zhuhai, macau, shenzhen. Malaysia Airlines; Jakarta–Kuala Lumpur–Hong Kong dan Shenzhen–Kuala Lumpur–Jakarta.
-
-Terdapat **14 opsi tanggal keberangkatan** dalam dokumen penyedia. Harga, kursi, visa, dan jadwal penerbangan harus dikonfirmasi sebelum menerima pemesanan.
-
-> **Penting:** Tour bersubsidi meliputi kunjungan *shopping stop* dengan kemungkinan penalti jika tidak mengikuti kunjungan. Nominal penalti tidak disebutkan dalam sumber; wajib dijelaskan secara tertulis sebelum pemesanan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Avenue of Stars, 1881 Heritage, Venetian Resort, OH Bay. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – HONGKONG - ZHUHAI (MEALS ON BOARD, MAKAN MALAM)
 
-- **Jadwal penerbangan (sesuai sumber):** CGK (04.15) – KUL (07.25) by MH726
-- **Jadwal penerbangan (sesuai sumber):** & KUL (09.10) – HKG (13.10) by MH 72
+- **Jadwal penerbangan:** CGK (04.15) – KUL (07.25) by MH726
+- **Jadwal penerbangan:** & KUL (09.10) – HKG (13.10) by MH 72
 - Berkumpul di bandara 3 jam sebelum keberangkatan untuk memulai perjalanan menuju Hong Kong. Setibanya, Anda akan diajak city orientation dengan mengunjungi Avenue of Stars, 1881 Heritage, dan Clock Tower yang menjadi ikon kota Hong Kong. Kita juga berkesempatan berbelanja di souvenir shop. Setelah itu perjalanan dilanjutkan menuju Zhuhai melalui Hong Kong–Zhuhai–Macau Bridge (HZMB) menggunakan public golden bus – salah satu jembatan laut terpanjang di dunia. Tiba di Zhuhai, makan malam dan check-in hotel.
 - **Akomodasi:** Menginap di hotel *4 lokal atau *3/similar
 
@@ -244,32 +236,10 @@ Terdapat **14 opsi tanggal keberangkatan** dalam dokumen penyedia. Harga, kursi,
 
 ### Hari 5 — SHENZHEN DEPARTURE - JAKARTA (MEALS ON BOARD)
 
-- **Jadwal penerbangan (sesuai sumber):** SZX (02.45) – KUL (06.50) by MH523
-- **Jadwal penerbangan (sesuai sumber):** & KUL (09.10) – CGK (10.20) by MH711 or KUL (10.10) – CGK (11.20) by MH717
+- **Jadwal penerbangan:** SZX (02.45) – KUL (06.50) by MH523
+- **Jadwal penerbangan:** & KUL (09.10) – CGK (10.20) by MH711 or KUL (10.10) – CGK (11.20) by MH717
 - Penerbangan kembali ke Jakarta transit di Kuala Lumpur. Terima kasih telah bergabung dalam perjalanan ini, semoga membawa kesan yang menyenangkan.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Minimal keberangkatan **20 peserta**; tour leader mengikuti ketentuan kuota peserta pada dokumen.
-- Deposit pendaftaran **Rp4.000.000** sesuai dokumen; satuan deposit tidak dijelaskan eksplisit dan perlu dikonfirmasi.
-- Sistem pendaftaran **first come, first served**, sebagaimana tercantum di dokumen.
-- Untuk periode peak season, pelunasan disebut **25 hari sebelum keberangkatan**.
-- Terdapat harga khusus **infant Rp3.950.000** pada dokumen sumber; berlaku untuk usia di bawah 23 bulan.
-- Pilihan harga dewasa kamar twin/triple, anak dengan extra bed, anak tanpa bed, dan single supplement ada di `departures` dalam frontmatter Markdown. Tarif antar tanggal dapat berbeda.
-- **Tipping wajib dan PPN 1,1%** tidak termasuk harga dasar. Basis penghitungan PPN belum diterangkan dalam sumber.
-- Tiket penerbangan grup berlaku untuk tanggal tetap (*fixed date/no extend*); penerbangan dan jam di atas sesuai brosur dan dapat berubah.
-- Ketentuan Group Visa 144 China sebagaimana sumber perlu verifikasi karena aturan visa dapat berubah.
-- Hotel di Zhuhai dapat diganti ke area Zhongshan (dalam satu dokumen tertulis Zhongsan) saat musim libur lokal.
-- Penyedia dapat mengubah urutan kunjungan/kota sesuai kondisi dan kebutuhan operasional.
-- Brosur menyatakan adanya penalti apabila tidak mengikuti shopping stop, tetapi tidak menyebutkan besaran dan mekanismenya.
-
-## Status Verifikasi Konten
-
-Dokumen ini merupakan hasil normalisasi DOCX menjadi Markdown. **Belum disetujui untuk publikasi** (`published: false`). Verifikasi harga dan ketersediaan, penerbangan, visa, pajak, penalti shopping stop, jadwal, dan ketentuan vendor sebelum mengubah status publikasi.
-
-### Catatan khusus untuk pemeriksa
-
-- Nama file sumber mengandung BY MH 2026, sedangkan seluruh tanggal keberangkatan pada tabel adalah 2027. Gunakan jadwal tabel sebagai data dan minta konfirmasi vendor.
-- Tanggal 23 Maret 2027 diberi label GOOD FRIDAY oleh dokumen, tetapi label tanggal tersebut perlu diverifikasi dan tidak boleh dijadikan klaim hari libur resmi.
-- Hari 4 dilanjutkan menuju bandara dan hari 5 penerbangan pukul 02.45 dari Shenzhen; detail check-out/akomodasi pada malam terakhir perlu dipastikan.
-- Tour leader bersyarat jika total grup mencapai kuota minimum 20 peserta.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

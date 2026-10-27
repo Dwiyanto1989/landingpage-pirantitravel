@@ -10,6 +10,8 @@ interface Props {
   title: string;
   description: string;
   path: string;
+  image?: string;
+  keywords?: string[];
   destination?: string;
   schema?: Record<string, unknown> | Record<string, unknown>[];
   showMobileStickyCTA?: boolean;
@@ -18,6 +20,8 @@ const {
   title,
   description,
   path,
+  image = '/images/home-hero.webp',
+  keywords = [],
   destination = '',
   schema,
   showMobileStickyCTA = true,
@@ -40,7 +44,7 @@ const jsonLd = schema
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <SeoHead {title} {description} {path} />
+    <SeoHead {title} {description} {path} {image} {keywords} />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     {siteConfig.analytics.gtmId && <script
       is:inline

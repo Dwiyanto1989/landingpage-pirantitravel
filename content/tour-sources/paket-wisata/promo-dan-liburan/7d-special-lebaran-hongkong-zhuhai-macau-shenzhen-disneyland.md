@@ -6,10 +6,11 @@ date: "2026-10-22"
 author: "Piranti Travel"
 tags: [lebaran, hong-kong, macau, shenzhen, disneyland]
 keywords: [paket wisata Hong Kong Lebaran 2027, tour Hong Kong Disneyland, Zhuhai Macau Shenzhen, paket Hong Kong 7 hari]
-image: "/images/PLACEHOLDER.webp"
+image: "/paket-wisata/promo-dan-liburan/7d-special-lebaran-hong-kong-zhuhai-macau-shenzhen-disneyland.webp"
+ogImage: "/paket-wisata/promo-dan-liburan/7d-special-lebaran-hong-kong-zhuhai-macau-shenzhen-disneyland.webp"
 images:
-  - src: "/images/PLACEHOLDER.webp"
-    alt: "Gambar sementara paket wisata Hong Kong, Zhuhai, Macau, Shenzhen dan Disneyland"
+  - src: "/paket-wisata/promo-dan-liburan/7d-special-lebaran-hong-kong-zhuhai-macau-shenzhen-disneyland.webp"
+    alt: "Foto paket wisata Hong Kong, Zhuhai, Macau, Shenzhen dan Disneyland"
 featured: false
 published: true
 primaryDestination: hong-kong
@@ -73,9 +74,9 @@ inclusions:
   - "Acara tour dan makan sesuai itinerary."
   - "Air mineral satu botol per hari."
   - "Tour leader."
-  - "Group Visa 144 China sesuai ketentuan di dokumen sumber (perlu verifikasi keberlakuan)."
+  - "Group Visa 144 China sesuai ketentuan pada informasi paket (perlu konfirmasi keberlakuan)."
   - "Travel kit berupa luggage tag."
-  - "Asuransi perjalanan hingga usia 82 tahun sesuai sumber."
+  - "Asuransi perjalanan hingga usia 82 tahun ."
 exclusions:
   - "Tips porter hotel, minibar, laundry, telepon dan kelebihan bagasi."
 mandatoryFees:
@@ -85,14 +86,14 @@ mandatoryFees:
   - label: "PPN"
     percentage: 1.1
     calculationBasis: null
-    note: "Basis penghitungan PPN belum dijelaskan dalam sumber; konfirmasi sebelum publikasi."
+    note: "Basis penghitungan PPN belum dijelaskan pada informasi paket; konfirmasi sebelum memesan."
 optionalFees:
   - label: "Sewa Wi-Fi atau SIM card portabel"
     amountIdr: null
 criticalNotices:
-  - "Tour bersubsidi dan mencakup shopping stop; terdapat penalti apabila peserta tidak mengikuti shopping stop. Besaran dan mekanisme penalti tidak dijelaskan di sumber."
-  - "Group Visa 144 China tercantum dengan klausul penggantian apabila skema visa dihapus/ditangguhkan; harus diverifikasi ulang sebelum penjualan."
-  - "Hotel di Zhuhai dapat diganti ke area Zhongshan saat libur lokal China."
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Ketentuan Group Visa 144 China mengikuti aturan imigrasi yang berlaku. Konfirmasikan persyaratan visa terbaru sebelum memesan.
+- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan saat periode libur lokal China.
 source:
   filename: "7D SPECIAL LEBARAN COMPLETE HOSEZHUMA + DISNEYLAND.docx"
   archivePath: "Promo & Liburan/7D SPECIAL LEBARAN COMPLETE HOSEZHUMA + DISNEYLAND.docx"
@@ -101,17 +102,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **7 hari** dengan rute **Hong Kong – Zhuhai – Macau – Shenzhen – Hong Kong**, menggunakan penerbangan Garuda Indonesia dari Jakarta. Dokumen sumber mencantumkan keberangkatan tanggal **5, 6, 7, 8, dan 9 Maret 2027**, masing-masing dengan pilihan harga berdasarkan konfigurasi peserta. Harga final dan ketersediaan harus dikonfirmasi dengan Piranti Travel.
+Paket wisata 7 hari periode Lebaran 2027 menjelajahi Hong Kong, Zhuhai, Macau, Shenzhen, dan Hong Kong Disneyland.
 
-> **Informasi penting:** Paket bersubsidi dengan kunjungan *shopping stop*. Dokumen menyatakan penalti berlaku jika peserta tidak mengikuti shopping stop, tetapi **besar penalti tidak dijelaskan**. Sampaikan dan konfirmasikan syarat ini sebelum pemesanan.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Victoria Peak, Avenue of Stars, Ruins of St. Paul's, Coco Park. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — Jakarta ke Hong Kong
 
-- Berkumpul di Bandara Soekarno-Hatta untuk keberangkatan malam dengan Garuda Indonesia, penerbangan **GA 860**, jadwal sumber **23.50–05.45 (+1 hari)**.
+- Berkumpul di Bandara Soekarno-Hatta untuk keberangkatan malam dengan Garuda Indonesia, penerbangan **GA 860**, jadwal yang tercantum **23.50–05.45 (+1 hari)**.
 - Bermalam di pesawat.
-- Makan: *meals on board* sesuai program sumber.
+- Makan: *meals on board* sesuai program paket.
 
 ### Hari 2 — Hong Kong ke Zhuhai
 
@@ -152,17 +153,9 @@ Paket wisata **7 hari** dengan rute **Hong Kong – Zhuhai – Macau – Shenzhe
 ### Hari 7 — Hong Kong ke Jakarta
 
 - Transfer ke Bandara Internasional Hong Kong.
-- Garuda Indonesia **GA 863**, jadwal sumber **09.40–13.25** menuju Jakarta.
-- Makan: pagi dan *meals on board* sesuai program sumber.
+- Garuda Indonesia **GA 863**, jadwal yang tercantum **09.40–13.25** menuju Jakarta.
+- Makan: pagi dan *meals on board* sesuai program paket.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Program/kota kunjungan dapat berubah menyesuaikan kondisi lapangan dari penyelenggara.
-- Hotel di Zhuhai dapat diganti ke area Zhongshan pada periode libur lokal China.
-- Dokumen menyebut Group Visa 144 China, dengan catatan bila skema tersebut dihapus atau ditangguhkan maka diperlukan aplikasi visa China. **Peraturan aktual wajib dicek oleh operator sebelum menjual paket.**
-- Tiket grup penerbangan mengikuti tanggal tetap dan tidak dapat diperpanjang (*fixed date & no extend*).
-- Harga dasar, tambahan kamar single, tipping wajib, pajak, serta biaya opsional ditampilkan terpisah dari metadata di atas; jangan menggabungkannya tanpa dasar yang terverifikasi.
-
-## Status Verifikasi Konten
-
-Dokumen ini merupakan **contoh normalisasi dari sumber DOCX**. Masih diperlukan konfirmasi dari pengelola Piranti Travel mengenai harga dan kursi, basis PPN, penalti shopping stop, serta ketentuan visa sebelum mengganti `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

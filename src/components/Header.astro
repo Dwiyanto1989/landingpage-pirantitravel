@@ -1,23 +1,57 @@
 ---
 import WhatsAppCTA from './WhatsAppCTA.astro';
+import { Icon } from 'astro-icon/components';
 const packageLinks = [
-  ['/wisata-indonesia', 'Wisata Indonesia'],
-  ['/wisata-asia', 'Wisata Asia'],
-  ['/wisata-multi-negara', 'Multi-Negara'],
-  ['/promo-dan-liburan', 'Promo & Liburan'],
+  {
+    href: '/wisata-indonesia',
+    label: 'Wisata Indonesia',
+    icon: 'ph:island-duotone',
+  },
+  {
+    href: '/wisata-asia',
+    label: 'Wisata Asia',
+    icon: 'ph:globe-hemisphere-east-duotone',
+  },
+  {
+    href: '/wisata-multi-negara',
+    label: 'Multi-Negara',
+    icon: 'ph:airplane-tilt-duotone',
+  },
+  {
+    href: '/promo-dan-liburan',
+    label: 'Promo & Liburan',
+    icon: 'ph:ticket-duotone',
+  },
 ];
 const rentalLinks = [
-  ['/sewa-mobil', 'Semua Sewa Mobil'],
-  ['/japan', 'Jepang'],
-  ['/korea', 'Korea'],
-  ['/bangkok', 'Bangkok'],
-  ['/singapore', 'Singapore'],
+  { href: '/japan', label: 'Jepang', icon: 'ph:flower-lotus' },
+  { href: '/korea', label: 'Korea', icon: 'ph:city' },
+  { href: '/bangkok', label: 'Bangkok', icon: 'ph:map-pin' },
+  { href: '/singapore', label: 'Singapore', icon: 'ph:buildings' },
 ];
 const promoLinks = [
-  ['/promo-dan-liburan/tema/lebaran', 'Libur Lebaran'],
-  ['/promo-dan-liburan/tema/akhir-tahun', 'Akhir Tahun'],
-  ['/promo-dan-liburan/tema/liburan-sekolah', 'Liburan Sekolah'],
+  {
+    href: '/promo-dan-liburan/tema/lebaran',
+    label: 'Libur Lebaran',
+    icon: 'ph:moon-stars',
+  },
+  {
+    href: '/promo-dan-liburan/tema/akhir-tahun',
+    label: 'Akhir Tahun',
+    icon: 'ph:confetti',
+  },
+  {
+    href: '/promo-dan-liburan/tema/liburan-sekolah',
+    label: 'Liburan Sekolah',
+    icon: 'ph:backpack',
+  },
 ];
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) =>
+  currentPath === href || (href !== '/' && currentPath.startsWith(`${href}/`));
+const packageActive = packageLinks.some(({ href }) => isCurrent(href));
+const rentalActive = rentalLinks.some(({ href }) => isCurrent(href));
+const promoActive = promoLinks.some(({ href }) => isCurrent(href));
 ---
 
 <header class="brand-gradient sticky top-0 z-50 border-b border-white/20 text-white shadow-[0_10px_30px_rgb(0_54_112/.18)]">
@@ -39,49 +73,142 @@ const promoLinks = [
       </span>
     </a>
     <nav aria-label="Navigasi utama" class="hidden items-center gap-1 lg:flex">
-      <a href="/" class="nav-link">
+      <a
+        href="/"
+        class="nav-link"
+        aria-current={isCurrent('/') ? 'page' : undefined}
+      >
+        <Icon
+          name="ph:house"
+          aria-hidden="true"
+          class="size-[1.125rem] shrink-0"
+        />{' '}
         Beranda
       </a>
       <details class="nav-menu relative">
-        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-          Paket Wisata <span aria-hidden="true">⌄</span>
+        <summary
+          class:list={[
+            'nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden',
+            packageActive && 'nav-link-active',
+          ]}
+        >
+          <Icon
+            name="ph:suitcase-rolling"
+            aria-hidden="true"
+            class="size-[1.125rem] shrink-0"
+          />
+          Paket Wisata{' '}
+          <Icon
+            name="ph:caret-down"
+            aria-hidden="true"
+            class="menu-caret size-3.5 shrink-0"
+          />
         </summary>
         <div class="absolute left-0 top-14 w-72 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
-          {packageLinks.map(([href, label]) => (
-            <a href={href} class="menu-link">
+          {packageLinks.map(({ href, label, icon }) => (
+            <a
+              href={href}
+              class="menu-link gap-3"
+              aria-current={isCurrent(href) ? 'page' : undefined}
+            >
+              <span class="flex size-9 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                <Icon name={icon} aria-hidden="true" class="size-5" />
+              </span>
               {label}
             </a>
           ))}
         </div>
       </details>
       <details class="nav-menu relative">
-        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-          Sewa Mobil <span aria-hidden="true">⌄</span>
+        <summary
+          class:list={[
+            'nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden',
+            rentalActive && 'nav-link-active',
+          ]}
+        >
+          <Icon
+            name="ph:car-profile"
+            aria-hidden="true"
+            class="size-[1.125rem] shrink-0"
+          />
+          Sewa Mobil{' '}
+          <Icon
+            name="ph:caret-down"
+            aria-hidden="true"
+            class="menu-caret size-3.5 shrink-0"
+          />
         </summary>
         <div class="absolute left-0 top-14 w-64 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
-          {rentalLinks.map(([href, label]) => (
-            <a href={href} class="menu-link">
+          {rentalLinks.map(({ href, label, icon }) => (
+            <a
+              href={href}
+              class="menu-link gap-3"
+              aria-current={isCurrent(href) ? 'page' : undefined}
+            >
+              <span class="flex size-9 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                <Icon name={icon} aria-hidden="true" class="size-5" />
+              </span>
               {label}
             </a>
           ))}
         </div>
       </details>
       <details class="nav-menu relative">
-        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-          Promo <span aria-hidden="true">⌄</span>
+        <summary
+          class:list={[
+            'nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden',
+            promoActive && 'nav-link-active',
+          ]}
+        >
+          <Icon
+            name="ph:ticket"
+            aria-hidden="true"
+            class="size-[1.125rem] shrink-0"
+          />
+          Promo{' '}
+          <Icon
+            name="ph:caret-down"
+            aria-hidden="true"
+            class="menu-caret size-3.5 shrink-0"
+          />
         </summary>
         <div class="absolute left-0 top-14 w-64 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
-          {promoLinks.map(([href, label]) => (
-            <a href={href} class="menu-link">
+          {promoLinks.map(({ href, label, icon }) => (
+            <a
+              href={href}
+              class="menu-link gap-3"
+              aria-current={isCurrent(href) ? 'page' : undefined}
+            >
+              <span class="flex size-9 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                <Icon name={icon} aria-hidden="true" class="size-5" />
+              </span>
               {label}
             </a>
           ))}
         </div>
       </details>
-      <a href="/about" class="nav-link">
+      <a
+        href="/about"
+        class="nav-link"
+        aria-current={isCurrent('/about') ? 'page' : undefined}
+      >
+        <Icon
+          name="ph:buildings"
+          aria-hidden="true"
+          class="size-[1.125rem] shrink-0"
+        />{' '}
         Tentang
       </a>
-      <a href="/contact" class="nav-link">
+      <a
+        href="/contact"
+        class="nav-link"
+        aria-current={isCurrent('/contact') ? 'page' : undefined}
+      >
+        <Icon
+          name="ph:chat-circle-text"
+          aria-hidden="true"
+          class="size-[1.125rem] shrink-0"
+        />{' '}
         Hubungi
       </a>
     </nav>
@@ -91,58 +218,142 @@ const promoLinks = [
     <details class="mobile-menu group relative lg:hidden">
       <summary class="flex min-h-11 min-w-11 cursor-pointer list-none items-center justify-center rounded-xl bg-white/10 [&::-webkit-details-marker]:hidden">
         <span class="sr-only">Buka menu</span>
-        <svg
-          aria-hidden="true"
-          viewBox="0 0 24 24"
-          class="h-6 w-6 fill-none stroke-current stroke-2"
-        >
-          <path d="M4 7h16M4 12h16M4 17h16" />
-        </svg>
+        <Icon name="ph:list" aria-hidden="true" class="size-6" />
       </summary>
       <div class="absolute right-0 top-14 max-h-[calc(100vh-6rem)] w-[min(21rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl bg-white p-3 text-ink shadow-soft">
-        <a href="/" class="menu-link">
+        <a
+          href="/"
+          class="menu-link gap-3"
+          aria-current={isCurrent('/') ? 'page' : undefined}
+        >
+          <Icon
+            name="ph:house"
+            aria-hidden="true"
+            class="size-5 text-brand-700"
+          />{' '}
           Beranda
         </a>
         <details>
-          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
-            Paket Wisata ＋
+          <summary class="menu-link cursor-pointer list-none justify-between font-extrabold [&::-webkit-details-marker]:hidden">
+            <span class="flex items-center gap-3">
+              <Icon
+                name="ph:suitcase-rolling"
+                aria-hidden="true"
+                class="size-5 text-brand-700"
+              />
+              Paket Wisata
+            </span>
+            <Icon
+              name="ph:caret-down"
+              aria-hidden="true"
+              class="menu-caret size-4"
+            />
           </summary>
           <div class="ml-3 border-l border-brand-200 pl-2">
-            {packageLinks.map(([href, label]) => (
-              <a href={href} class="menu-link">
+            {packageLinks.map(({ href, label, icon }) => (
+              <a
+                href={href}
+                class="menu-link gap-3"
+                aria-current={isCurrent(href) ? 'page' : undefined}
+              >
+                <Icon
+                  name={icon}
+                  aria-hidden="true"
+                  class="size-5 text-brand-700"
+                />
                 {label}
               </a>
             ))}
           </div>
         </details>
         <details>
-          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
-            Sewa Mobil ＋
+          <summary class="menu-link cursor-pointer list-none justify-between font-extrabold [&::-webkit-details-marker]:hidden">
+            <span class="flex items-center gap-3">
+              <Icon
+                name="ph:car-profile"
+                aria-hidden="true"
+                class="size-5 text-brand-700"
+              />
+              Sewa Mobil
+            </span>
+            <Icon
+              name="ph:caret-down"
+              aria-hidden="true"
+              class="menu-caret size-4"
+            />
           </summary>
           <div class="ml-3 border-l border-brand-200 pl-2">
-            {rentalLinks.map(([href, label]) => (
-              <a href={href} class="menu-link">
+            {rentalLinks.map(({ href, label, icon }) => (
+              <a
+                href={href}
+                class="menu-link gap-3"
+                aria-current={isCurrent(href) ? 'page' : undefined}
+              >
+                <Icon
+                  name={icon}
+                  aria-hidden="true"
+                  class="size-5 text-brand-700"
+                />
                 {label}
               </a>
             ))}
           </div>
         </details>
         <details>
-          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
-            Promo ＋
+          <summary class="menu-link cursor-pointer list-none justify-between font-extrabold [&::-webkit-details-marker]:hidden">
+            <span class="flex items-center gap-3">
+              <Icon
+                name="ph:ticket"
+                aria-hidden="true"
+                class="size-5 text-brand-700"
+              />
+              Promo
+            </span>
+            <Icon
+              name="ph:caret-down"
+              aria-hidden="true"
+              class="menu-caret size-4"
+            />
           </summary>
           <div class="ml-3 border-l border-brand-200 pl-2">
-            {promoLinks.map(([href, label]) => (
-              <a href={href} class="menu-link">
+            {promoLinks.map(({ href, label, icon }) => (
+              <a
+                href={href}
+                class="menu-link gap-3"
+                aria-current={isCurrent(href) ? 'page' : undefined}
+              >
+                <Icon
+                  name={icon}
+                  aria-hidden="true"
+                  class="size-5 text-brand-700"
+                />
                 {label}
               </a>
             ))}
           </div>
         </details>
-        <a href="/about" class="menu-link">
+        <a
+          href="/about"
+          class="menu-link gap-3"
+          aria-current={isCurrent('/about') ? 'page' : undefined}
+        >
+          <Icon
+            name="ph:buildings"
+            aria-hidden="true"
+            class="size-5 text-brand-700"
+          />{' '}
           Tentang Kami
         </a>
-        <a href="/contact" class="menu-link">
+        <a
+          href="/contact"
+          class="menu-link gap-3"
+          aria-current={isCurrent('/contact') ? 'page' : undefined}
+        >
+          <Icon
+            name="ph:chat-circle-text"
+            aria-hidden="true"
+            class="size-5 text-brand-700"
+          />{' '}
           Hubungi Kami
         </a>
       </div>

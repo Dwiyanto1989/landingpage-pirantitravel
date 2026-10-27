@@ -15,10 +15,11 @@ keywords:
 - paket liburan sekolah Jepang Shirakawago
 - tour Jepang 7 hari Tokyo Disneyland Desember 2026
 - paket Kyoto Shirakawago Tokyo
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-winter-school-holiday-japan-shirakawago-tokyo-disneyland.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-winter-school-holiday-japan-shirakawago-tokyo-disneyland.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Winter School Holiday Japan + Shirakawago & Tokyo Disneyland
+- src: /paket-wisata/promo-dan-liburan/7d-winter-school-holiday-japan-shirakawago-tokyo-disneyland.webp
+  alt: Foto paket wisata 7D Winter School Holiday Japan + Shirakawago & Tokyo Disneyland
 featured: false
 published: true
 primaryDestination: jepang
@@ -100,15 +101,15 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable / SIMCard
   amountIdr: null
 criticalNotices:
-- Visa Jepang tidak termasuk; biaya berdasarkan domisili atau visa waiver sebagaimana tabel sumber, butuh konfirmasi.
-- Paket mencantumkan risiko biaya pembatalan jika visa Jepang ditolak.
+- Visa Jepang belum termasuk dalam harga paket. Biaya dan jenis pengajuan menyesuaikan domisili serta kelayakan visa waiver; konfirmasikan
+  pilihan yang sesuai.
 - Tokyo Disneyland dapat diganti Tokyo DisneySea jika diminta pada saat pemesanan.
-- Air minum tercantum dalam harga tidak termasuk, bukan fasilitas termasuk.
+- Ketersediaan air mineral di bus menyesuaikan ketentuan paket.
 source:
   filename: 7D WINTER SCHOOL HOLIDAY JAPAN + SHIRAKAWAGO WITH DISNEY LAND.docx
   archivePath: null
@@ -117,17 +118,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Jelajahi Osaka, Kyoto, Shirakawago, Takayama, Danau Kawaguchi dan Tokyo Disneyland selama 7 hari. Dokumen sumber memuat **3 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata Jepang 7 hari periode liburan sekolah Desember 2026 ke Osaka, Kyoto, Shirakawago, Takayama, Kawaguchi dan Tokyo Disneyland.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Shirakawago, Takayama Old Town, Lake Kawaguchi, Gotemba Premium Outlet. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – OSAKA (meals on board)
 
-- **Penerbangan (jadwal sumber):** CGK (15.40) – KUL (18.50) by MH-720
+- **Penerbangan:** CGK (15.40) – KUL (18.50) by MH-720
 
-- **Penerbangan (jadwal sumber):** & KUL (22.40) – KIX (05.50)+1 by MH-052
+- **Penerbangan:** & KUL (22.40) – KIX (05.50)+1 by MH-052
 
 Hari ini kita berkumpul di bandara Soekarno-Hatta International Airport Jakarta untuk berangkat menuju Osaka dengan menggunakan pesawat Malaysia Airlines.
 
@@ -147,7 +148,7 @@ Setelah santap pagi, kita akan mengunjungi Shirakawago Village disini kita dapat
 
 ### Hari 4 — MATSUMOTO – LAKE KAWAGUCHI – GOTEMBA (makan pagi, makan malam)
 
-Setelah santap pagi. Kita akan mengunjungi Lake Kawaguchi, di sini kita dapat bersantai sambil berswafoto dengan pemandangan Gunung Fuji yang indah. Kemudian, kita akan mengunjungi Oshino Hakkai Village, sebuah desa yang terletak di kaki gunung Fuji, dan memiliki sumber mata air langsung dari Gunung Fuji. Setelah itu kita akan berkesempatan berbelanja di Gotemba Premium Outlet, premium outlet terbesar di Jepang. Check-in hotel istirahat.
+Setelah santap pagi. Kita akan mengunjungi Lake Kawaguchi, di sini kita dapat bersantai sambil berswafoto dengan pemandangan Gunung Fuji yang indah. Kemudian, kita akan mengunjungi Oshino Hakkai Village, sebuah desa yang terletak di kaki gunung Fuji, dan memiliki rincian perjalanan mata air langsung dari Gunung Fuji. Setelah itu kita akan berkesempatan berbelanja di Gotemba Premium Outlet, premium outlet terbesar di Jepang. Check-in hotel istirahat.
 
 > Bermalam di Hotel bintang 3 / similar.
 
@@ -165,21 +166,12 @@ Setelah santap pagi, hari ini kita akan mengunjungi Tokyo Disneyland (termasuk o
 
 ### Hari 7 — TOKYO – DEPARTURE (makan pagi, meals on board)
 
-- **Penerbangan (jadwal sumber):** NRT (10.05) – KUL (17.00) by MH-089
+- **Penerbangan:** NRT (10.05) – KUL (17.00) by MH-089
 
-- **Penerbangan (jadwal sumber):** KUL (22.30) – CGK (23.40) by MH-727
+- **Penerbangan:** KUL (22.30) – CGK (23.40) by MH-727
 
 Pagi hari setelah sarapan di hotel, kita akan diantar menuju bandara untuk penerbangan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Visa Jepang tidak termasuk; biaya berdasarkan domisili atau visa waiver sebagaimana tabel sumber, butuh konfirmasi.
-- Paket mencantumkan risiko biaya pembatalan jika visa Jepang ditolak.
-- Tokyo Disneyland dapat diganti Tokyo DisneySea jika diminta pada saat pemesanan.
-- Air minum tercantum dalam harga tidak termasuk, bukan fasilitas termasuk.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

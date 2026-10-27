@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 import DestinationCard from '../components/DestinationCard.astro';
 import WhatsAppCTA from '../components/WhatsAppCTA.astro';
 import { destinations } from '../data/destinations';
@@ -7,21 +8,19 @@ import { destinations } from '../data/destinations';
 
 <BaseLayout
   title="Sewa Mobil dan Private Transport | Piranti Travel"
-  description="Pilihan private transport, airport transfer, dan kendaraan rombongan di Jepang, Korea, Bangkok, dan Singapore."
+  description="Temukan sewa mobil, private transport, airport transfer, dan kendaraan rombongan di Jepang, Korea, Bangkok, serta Singapore."
+  keywords={[
+    'sewa mobil luar negeri',
+    'private transport Asia',
+    'airport transfer Asia',
+  ]}
   path="/sewa-mobil"
 >
-  <section class="brand-gradient py-16 text-white sm:py-20">
-    <div class="shell">
-      <p class="eyebrow text-white/85">Sewa mobil</p>
-      <h1 class="mt-3 max-w-4xl text-4xl font-extrabold sm:text-6xl">
-        Private transport untuk perjalanan yang lebih fleksibel
-      </h1>
-      <p class="mt-5 max-w-2xl text-lg leading-8 text-white/80">
-        Pilih destinasi untuk melihat kendaraan, rute, durasi, dan referensi
-        harga layanan.
-      </p>
-    </div>
-  </section>
+  <PageHero
+    eyebrow="Sewa mobil"
+    title="Private transport untuk perjalanan yang lebih fleksibel"
+    description="Pilih destinasi untuk melihat kendaraan, rute, durasi, dan referensi harga layanan."
+  />
   <section class="section">
     <div class="shell">
       <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

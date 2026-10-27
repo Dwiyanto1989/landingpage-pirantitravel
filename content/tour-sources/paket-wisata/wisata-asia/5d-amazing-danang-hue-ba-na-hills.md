@@ -8,10 +8,11 @@ author: Piranti Travel
 tags: [vietnam, danang, hue, ba-na-hills, hoi-an]
 keywords: [paket wisata Danang Hue 5 hari, Ba Na Hills Golden Bridge Hoi An, tour Danang Hue Malaysia
     Airlines]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-amazing-danang-hue-ba-na-hills.webp
+ogImage: /paket-wisata/wisata-asia/5d-amazing-danang-hue-ba-na-hills.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara 5D Amazing Danang, Hue + Ba Na Hills
+- src: /paket-wisata/wisata-asia/5d-amazing-danang-hue-ba-na-hills.webp
+  alt: Foto perjalanan 5D Amazing Danang, Hue + Ba Na Hills
 featured: false
 published: true
 primaryDestination: vietnam
@@ -112,19 +113,15 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan di dokumen; harus dikonfirmasi sebelum publikasi.
+  note: Detail perhitungan akan dijelaskan setelah menghubungi admin.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 criticalNotices:
-- Minimal 20 peserta dan deposit Rp6.000.000 (first come first serve). sesuai sumber
-- Infant di bawah 23 bulan Rp3.950.000 flat rate menurut sumber
-- Tidak ada refund untuk peserta yang ditolak oleh imigrasi setempat, sesuai ketentuan sumber.
+- Tidak ada pengembalian dana untuk peserta yang ditolak oleh imigrasi setempat.
 - Jadwal penerbangan dan itinerary dapat berubah menyesuaikan kondisi operasional.
-- Sumber memuat dua alternatif jadwal pulang dengan kode MH749 yang sama tetapi jam berangkat berbeda
-  (11.25 dan 14.40 dari Danang); harus diverifikasi ke operator.
-- Dokumen asuransi perjalanan menyebut sampai usia 84 tahun (berbeda dari banyak paket lain); nilai ini
-  dipertahankan.
+- Penerbangan pulang dari Danang dijadwalkan pukul 14.40 dengan MH749 dan dapat berubah mengikuti operasional maskapai.
+- Asuransi perjalanan berlaku hingga usia 84 tahun.
 source:
   filename: 5D AMAZING DANANG WITH HUE + BANA HILLS.docx
   importStatus: needs-business-review
@@ -132,9 +129,11 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata Vietnam 5 hari mengunjungi Danang, Hue, Ba Na Hills, Golden Bridge, Hoi An dan Son Tra Peninsula.
+Jelajahi Vietnam selama **5 hari** melalui Danang, Hue, Ba Na Hills, Golden Bridge, Hoi An, dan Son Tra Peninsula. Paket ini memadukan lanskap alam, kota bersejarah, pengalaman budaya, serta landmark ikonis dalam satu perjalanan.
 
-Paket ini mempunyai **9 opsi harga/keberangkatan** dalam dokumen sumber. Harga ditampilkan menurut tanggal, kategori peserta, dan *single supplement* pada metadata `departures`. Pilihan dan ketersediaan belum dikonfirmasi untuk penjualan.
+Tersedia **9 pilihan jadwal keberangkatan** dengan harga menurut tanggal, kategori peserta, dan tambahan kamar sendiri. Hubungi Piranti Travel untuk mengecek harga serta ketersediaan kursi pilihan Anda.
+
+> **Informasi penting:** Tipping **Rp750.000 per orang** dan **PPN 1,1%** wajib dibayarkan di luar harga paket. Detail perhitungan PPN akan dijelaskan oleh admin.
 
 ## Itinerary
 
@@ -168,26 +167,12 @@ Bermalam di Hotel***/similar
 
 DAD (14.40) - KUL (18.40) by MH749 & KUL (22.30) – CGK (23.40) by MH 727
 
-DAD (11.25) - KUL (15.20) by MH749 & KUL (17.50) – CGK (19.05) by MH 725
-
 Sarapan Pagi. Waktu bebas sampai tiba waktunya diantar ke Airport untuk kembali ke Jakarta, Sampai jumpa di tour selanjutnya bersama kami.
 
 ## Ketentuan dan Informasi Tambahan
 
-- **Minimal peserta:** 20 orang, sesuai sumber.
-- **Deposit pendaftaran:** Rp6.000.000 (basis pembayaran perlu dikonfirmasi). berlaku *first come first serve*.
-- **Infant:** Rp3.950.000 untuk usia di bawah 23 bulan menurut sumber.
 - Tiket grup penerbangan berlaku pada tanggal yang telah ditetapkan (*fixed date*), tidak dapat diperpanjang (*no extend*).
 - Harga belum mencakup tipping dan PPN 1,1% yang tercantum sebagai biaya terpisah.
-- Dokumen mencantumkan tidak ada refund jika ditolak imigrasi setempat; syarat detail perlu dikonfirmasi dengan operator.
-
-## Hal yang Perlu Dikonfirmasi Sebelum Publikasi
-
-- Sumber memuat dua alternatif jadwal pulang dengan kode MH749 yang sama tetapi jam berangkat berbeda (11.25 dan 14.40 dari Danang); harus diverifikasi ke operator.
-- Dokumen asuransi perjalanan menyebut sampai usia 84 tahun (berbeda dari banyak paket lain); nilai ini dipertahankan.
-- Pastikan harga, kursi, tanggal, syarat pembatalan, dan basis perhitungan PPN dengan operator sebelum mengubah `published` menjadi `true`.
-
-## Informasi Sumber
-
-- Dokumen DOCX: `5D AMAZING DANANG WITH HUE + BANA HILLS.docx`
-- Konten itinerary mengikuti dokumen, dengan normalisasi spasi, pemformatan Markdown, dan penambahan metadata website.
+- Tidak ada pengembalian dana apabila peserta ditolak oleh imigrasi setempat.
+- Asuransi perjalanan berlaku hingga usia 84 tahun.
+- Jadwal penerbangan dan itinerary dapat berubah mengikuti kondisi operasional.

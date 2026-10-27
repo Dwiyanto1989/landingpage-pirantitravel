@@ -16,10 +16,11 @@ keywords:
 - paket Beijing Shanghai 8 hari
 - tour China Great Wall Suzhou Hangzhou Shanghai
 - paket wisata Beijing Shanghai mulai Jakarta Bali Surabaya Medan
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/8d-new-super-sale-china-beijing-suzhou-hangzhou-shanghai.webp
+ogImage: /paket-wisata/promo-dan-liburan/8d-new-super-sale-china-beijing-suzhou-hangzhou-shanghai.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: 'Gambar sementara untuk paket wisata 8D New Super Sale China: Beijing, Suzhou, Hangzhou & Shanghai'
+- src: /paket-wisata/promo-dan-liburan/8d-new-super-sale-china-beijing-suzhou-hangzhou-shanghai.webp
+  alt: 'Foto paket wisata 8D New Super Sale China: Beijing, Suzhou, Hangzhou & Shanghai'
 featured: false
 published: true
 primaryDestination: china
@@ -212,7 +213,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-10-16'
   seasonTags: []
   prices:
@@ -220,7 +221,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-10-22'
   seasonTags: []
   prices:
@@ -228,7 +229,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-11-27'
   seasonTags: []
   prices:
@@ -236,7 +237,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-12-01'
   seasonTags: []
   prices:
@@ -244,7 +245,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-12-02'
   seasonTags: []
   prices:
@@ -252,7 +253,7 @@ departures:
     childWithExtraBed: 16990000
     childNoBed: 16590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-12-12'
   seasonTags: []
   prices:
@@ -260,7 +261,7 @@ departures:
     childWithExtraBed: 17990000
     childNoBed: 17590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-12-13'
   seasonTags: []
   prices:
@@ -268,7 +269,7 @@ departures:
     childWithExtraBed: 17990000
     childNoBed: 17590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2026-12-14'
   seasonTags: []
   prices:
@@ -276,7 +277,7 @@ departures:
     childWithExtraBed: 17990000
     childNoBed: 17590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2027-01-13'
   seasonTags: []
   prices:
@@ -284,7 +285,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2027-01-21'
   seasonTags: []
   prices:
@@ -292,7 +293,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2027-02-01'
   seasonTags:
   - akhir-tahun
@@ -302,7 +303,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber). CHINESE NEW YEAR
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket). CHINESE NEW YEAR
 - date: '2027-02-27'
   seasonTags: []
   prices:
@@ -310,7 +311,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2027-03-18'
   seasonTags: []
   prices:
@@ -318,7 +319,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber).
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket).
 - date: '2027-03-21'
   seasonTags: []
   prices:
@@ -326,7 +327,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber). LONG WEEKEND EASTER
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket). LONG WEEKEND EASTER
 - date: '2027-03-25'
   seasonTags: []
   prices:
@@ -334,7 +335,7 @@ departures:
     childWithExtraBed: 17290000
     childNoBed: 16890000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber). LONG WEEKEND EASTER
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket). LONG WEEKEND EASTER
 - date: '2027-06-23'
   seasonTags:
   - liburan-sekolah
@@ -343,7 +344,7 @@ departures:
     childWithExtraBed: 17990000
     childNoBed: 17590000
     singleSupplement: 3750000
-  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal dalam sumber). SCHOOL HOLIDAY
+  note: Berangkat dari Bali/Surabaya/Medan (harga satu grup asal pada informasi paket). SCHOOL HOLIDAY
 highlights:
 - Temple of Heaven
 - Tiananmen Square
@@ -374,19 +375,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable
   amountIdr: null
 criticalNotices:
-- 'Dokumen memuat tabel harga terpisah: 20 keberangkatan dari Jakarta dan 17 keberangkatan dari Bali/Surabaya/Medan.
-  Beberapa tanggal sama tetapi harga berbeda; lihat note pada tiap departure dan jangan hilangkan asal keberangkatan.'
-- Untuk tanggal Jakarta tertentu Januari 2027 tersedia pilihan Singapore Airlines (SQ), sedangkan rute lain memuat Malaysia
-  Airlines (MH); rincian jam berbeda perlu verifikasi sebelum booking.
-- Paket bersubsidi dengan shopping stop dan penalti bila dilewati; nominal penalti tidak disebutkan.
-- Sumber menyebut Visa Group China Rp1.000.000 atau Visa Single Rp1.100.000 di luar harga dan PPN 1,1% tanpa dasar pengenaan.
-- Sejumlah keberangkatan Oktober 2026 telah lewat atau berada pada tanggal editorial konten; jangan sajikan sebagai ketersediaan
-  saat ini tanpa filter tanggal.
+- 'Tabel harga terpisah: 20 keberangkatan dari Jakarta dan 17 keberangkatan dari Bali/Surabaya/Medan. Beberapa tanggal sama tetapi harga berbeda;
+  lihat note pada tiap departure dan pilih kota keberangkatan saat memilih jadwal.'
+- Untuk tanggal Jakarta tertentu Januari 2027 tersedia pilihan Singapore Airlines (SQ), sedangkan rute lain memuat Malaysia Airlines (MH); rincian
+  jam berbeda perlu konfirmasi sebelum booking.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Hanya jadwal keberangkatan mendatang yang ditampilkan sebagai pilihan aktif. Konfirmasikan ketersediaan kursi.
 source:
   filename: 8D NEW SUPERSALE CHINA BEIJING - SHANGHAI Start Jakarta.docx
   archivePath: null
@@ -395,15 +396,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **8 hari**: Beijing–Suzhou–Hangzhou–Wuzhen–Shanghai termasuk Tembok Besar China, jalur bullet train dan The Bund, dengan pilihan kota asal. Dokumen sumber memuat **37 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata China 8 hari dari Jakarta atau Bali, Surabaya, Medan, meliputi Beijing, Suzhou, Hangzhou dan Shanghai dengan jadwal berbeda.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 8 hari dengan pengalaman pilihan seperti Temple of Heaven, Tiananmen Square, Juyongguan Great Wall, Jinji Lake. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – DEPARTURE BEIJING (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** & KUL (00.40) - PKX (07.00) by MH318
+- **Penerbangan:** & KUL (00.40) - PKX (07.00) by MH318
 
 Hari ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Beijing dengan Malaysia Airlines. Berangkat pukul 12.15 peserta dapat mengunjungi Mitsui Premium Outlet (Jika waktu mencukupi dengan shuttle bandara).
 
@@ -445,7 +446,7 @@ Sarapan pagi di hotel. kita akan menuju The thousand Tree Mall (Photostop), dila
 
 ### Hari 8 — SHANGHAI – DEPARTURE (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** PVG (02.25) – KUL (08.00) by MH 387
+- **Penerbangan:** PVG (02.25) – KUL (08.00) by MH 387
 
 Hari ini kita akan kembali ke tanah air tercinta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
@@ -453,13 +454,13 @@ START JAKARTA
 
 START BALI/SURABAYA/MEDAN
 
-## Variasi Penerbangan Berdasarkan Kota Asal (Menurut DOCX)
+## Variasi Penerbangan menyesuaikan Kota Asal (Menurut DOCX)
 
-Rangkaian penerbangan di bawah adalah contoh rute dari tabel sumber, bukan jadwal final untuk seluruh keberangkatan.
+Rangkaian penerbangan di bawah adalah contoh rute dari tabel jadwal paket, bukan jadwal final untuk seluruh keberangkatan.
 
 ### Penerbangan menuju Kuala Lumpur
 
-| Kota asal | Pilihan penerbangan menurut pemasok |
+| Kota asal | Pilihan penerbangan menurut admin |
 |---|---|
 | START JAKARTA | CGK (12.15) – KUL (15.25) by MH 716 or CGK (19.55) - KUL (23.00) by MH 724 |
 | START SURABAYA | SUB (10.00) - KUL (13.40) by MH 870 or SUB (15.50) - KUL (19.30) by MH 872 |
@@ -468,25 +469,15 @@ Rangkaian penerbangan di bawah adalah contoh rute dari tabel sumber, bukan jadwa
 
 ### Penerbangan kembali dari Kuala Lumpur
 
-| Kota asal | Pilihan penerbangan menurut pemasok |
+| Kota asal | Pilihan penerbangan menurut admin |
 |---|---|
 | START JAKARTA | KUL (10.00) – CGK (11.20) by MH717 or KUL (13.30) - CGK (14.40) by MH 721 |
 | START SURABAYA | KUL (13.10) - SUB (14.50) by MH 873 |
 | START DENPASAR (BALI) | KUL (09.00) - DPS (12.05) by MH 715 or KUL (12.20) - DPS (15.25) by MH 851 or KUL (15.20) - DPS (18.25) by MH 853 |
 | START MEDAN (KUALANAMU) | KUL (15.50) - KNO (16.00) by MH 864 |
 
-Penerbangan lanjutan menuju Beijing atau kembali dari Shanghai, serta keberangkatan khusus maskapai Singapore Airlines, mengikuti rincian DOCX pemasok dan harus dikonfirmasi per tanggal.
+Penerbangan lanjutan menuju Beijing atau kembali dari Shanghai, termasuk pilihan Singapore Airlines, menyesuaikan tanggal keberangkatan dan perlu dikonfirmasi sebelum memesan.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Dokumen memuat tabel harga terpisah: 20 keberangkatan dari Jakarta dan 17 keberangkatan dari Bali/Surabaya/Medan. Beberapa tanggal sama tetapi harga berbeda; lihat note pada tiap departure dan jangan hilangkan asal keberangkatan.
-- Untuk tanggal Jakarta tertentu Januari 2027 tersedia pilihan Singapore Airlines (SQ), sedangkan rute lain memuat Malaysia Airlines (MH); rincian jam berbeda perlu verifikasi sebelum booking.
-- Paket bersubsidi dengan shopping stop dan penalti bila dilewati; nominal penalti tidak disebutkan.
-- Sumber menyebut Visa Group China Rp1.000.000 atau Visa Single Rp1.100.000 di luar harga dan PPN 1,1% tanpa dasar pengenaan.
-- Sejumlah keberangkatan Oktober 2026 telah lewat atau berada pada tanggal editorial konten; jangan sajikan sebagai ketersediaan saat ini tanpa filter tanggal.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

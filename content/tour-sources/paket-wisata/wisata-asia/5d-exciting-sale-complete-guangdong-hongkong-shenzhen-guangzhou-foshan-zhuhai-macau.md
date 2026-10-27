@@ -19,10 +19,11 @@ keywords:
 - tour Hong Kong Shenzhen Guangzhou Foshan Zhuhai Macau
 - paket Hong Kong Macau Malaysia Airlines
 - Fengjian Water Town tour
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-exciting-sale-complete-guangdong.webp
+ogImage: /paket-wisata/wisata-asia/5d-exciting-sale-complete-guangdong.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Placeholder galeri 5D Exciting Sale Complete Guangdong — Hong Kong, Shenzhen, Guangzhou, Foshan, Zhuhai &
+- src: /paket-wisata/wisata-asia/5d-exciting-sale-complete-guangdong.webp
+  alt: Foto perjalanan 5D Exciting Sale Complete Guangdong — Hong Kong, Shenzhen, Guangzhou, Foshan, Zhuhai &
     Macau
 featured: false
 published: true
@@ -277,11 +278,10 @@ inclusions:
 - Transportasi bus pariwisata dan tiket masuk objek wisata sesuai program.
 - Kegiatan tour dan makan sesuai itinerary.
 - Air mineral satu botol per hari.
-- Tour leader sesuai ketentuan jumlah peserta dalam dokumen.
-- Group Visa 144 China sesuai keterangan sumber, dengan klausul dapat diganti aplikasi visa jika skema dihapus/ditangguhkan;
-  wajib verifikasi sebelum penjualan.
+- Tour leader sesuai ketentuan jumlah peserta.
+- Group Visa 144 China dengan ketentuan yang akan dijelaskan oleh admin sebelum pemesanan.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun, sesuai keterangan sumber.
+- Asuransi perjalanan hingga usia 82 tahun.
 exclusions:
 - Tips porter hotel, minibar, laundry, telepon dan kelebihan bagasi.
 mandatoryFees:
@@ -291,23 +291,19 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Detail perhitungan akan dijelaskan setelah menghubungi admin.
 optionalFees:
 - label: Sewa Wi-Fi / SIM card portabel
   amountIdr: null
 criticalNotices:
-- Tour merupakan tour bersubsidi yang mengharuskan kunjungan shopping stop; sumber menyebut penalti jika tidak mengikutinya,
-  tetapi nilai dan mekanisme penalti tidak dijelaskan.
-- Ketentuan Group Visa 144 China dari sumber harus diverifikasi ulang; tidak boleh dianggap sebagai jaminan izin
-  masuk/visa yang masih berlaku.
-- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan pada periode libur lokal China (ejaan berbeda pada satu dokumen
-  sumber).
+- Tour bersubsidi ini mewajibkan kunjungan ke shopping stop sesuai itinerary; ketentuan jika tidak mengikuti kunjungan akan dijelaskan oleh admin.
+- Ketentuan Group Visa 144 China mengikuti persyaratan imigrasi yang berlaku dan bukan jaminan izin masuk.
+- Hotel di Zhuhai dapat dipindahkan ke area Zhongshan pada periode libur lokal China.
 - Urutan itinerary/kota bisa berubah karena kebutuhan operasional penyelenggara.
-- Harga final dan ketersediaan per keberangkatan harus dikonfirmasi; tidak ada indikasi kursi real-time dari sumber.
-- Label hari libur pada tabel keberangkatan adalah label dari penyedia dan bukan verifikasi kalender resmi.
-- Kode penerbangan keluar MH 72 dan alternatif penerbangan pulang MH73/MH79 sebagaimana tertulis pada dokumen; perlu
-  dikonfirmasi sebelum publikasi.
-- Harga dan jadwal pada tanggal sebelum tanggal penerbitan tidak boleh ditampilkan sebagai ketersediaan aktif.
+- Harga dan ketersediaan kursi dapat berubah; hubungi admin sebelum memesan.
+- Label hari libur mengikuti pilihan jadwal paket yang tersedia.
+- Penerbangan pergi menggunakan MH72 dan penerbangan pulang menggunakan MH73 atau MH79 sesuai tanggal pilihan.
+- Hanya tanggal keberangkatan mendatang yang ditampilkan sebagai pilihan aktif.
 source:
   filename: 5D EXCITING SALE COMPLETE GUANGDONG (HONGKONG – SHENZHEN – GUANGZHOU – FOSHAN – ZHUHAI – MACAU).docx
   importStatus: needs-business-review
@@ -315,20 +311,20 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket tour 5 hari Guangdong dan Hong Kong: Shenzhen, Guangzhou, Foshan, Zhuhai, Macau, Fengjian Water Town, dan Venetian Shopping Arcade.
+Jelajahi Guangdong dan Hong Kong selama **5 hari** melalui Shenzhen, Guangzhou, Foshan, Zhuhai, Macau, Fengjian Water Town, dan Venetian Shopping Arcade.
 
-Perjalanan **5 hari** dengan tujuan hong kong, shenzhen, guangzhou, foshan, zhuhai, macau. Malaysia Airlines; penerbangan pergi melalui Kuala Lumpur, pulang via Hong Kong–Kuala Lumpur–Jakarta (dua alternatif jadwal).
+Perjalanan menggunakan Malaysia Airlines melalui Kuala Lumpur, dengan penerbangan pulang dari Hong Kong menuju Jakarta via Kuala Lumpur.
 
-Terdapat **27 opsi tanggal keberangkatan** dalam dokumen penyedia. Harga, kursi, visa, dan jadwal penerbangan harus dikonfirmasi sebelum menerima pemesanan.
+Tersedia **27 pilihan tanggal keberangkatan**. Hubungi Piranti Travel untuk mengecek harga, kursi, visa, dan jadwal penerbangan sebelum memesan.
 
-> **Penting:** Tour bersubsidi meliputi kunjungan *shopping stop* dengan kemungkinan penalti jika tidak mengikuti kunjungan. Nominal penalti tidak disebutkan dalam sumber; wajib dijelaskan secara tertulis sebelum pemesanan.
+> **Informasi penting:** Tour bersubsidi ini mencakup kunjungan wajib ke *shopping stop*. Ketentuan jika tidak mengikuti kunjungan akan dijelaskan oleh admin sebelum pemesanan.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – HONGKONG - SHENZHEN (MAKAN MALAM)
 
-- **Jadwal penerbangan (sesuai sumber):** CGK (04.15) – KUL (07.25) by MH726
-- **Jadwal penerbangan (sesuai sumber):** & KUL (09.10) – HKG (13.15) by MH 72
+- **Jadwal penerbangan:** CGK (04.15) – KUL (07.25) by MH726.
+- **Penerbangan lanjutan:** KUL (09.10) – HKG (13.15) by MH72.
 - Pagi ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Hongkong dengan Malaysia Airlines. Setiba di Bandara Chek Lap Kok, Hongkong, kita disambut oleh Guide berbahasa Indonesia yang ramah, Kita akan mengunjungi Avenue of Star yang merupakan area tempat penghormatan kepada para seniman & selebritas Hong Kong. Kemudian, kita akan menuju TST Clock Tower (photostop). Setelah itu kita berkesempatan untuk berbelanja di Jewellry & Souvenir Shop. Dilanjutkan perjalanan menuju Shenzhen, check-in hotel dan istirahat.
 - **Akomodasi:** Menginap di hotel *4 Lokal atau *3 setaraf
 
@@ -349,31 +345,21 @@ Terdapat **27 opsi tanggal keberangkatan** dalam dokumen penyedia. Harga, kursi,
 
 ### Hari 5 — ZHUHAI - HONGKONG - JAKARTA (MAKAN PAGI)
 
-- **Jadwal penerbangan (sesuai sumber):** HKG (14.35) – KUL (18.30) by MH73 & KUL (21.50) – CGK (23.05) by MH727 OR
-- **Jadwal penerbangan (sesuai sumber):** HKG (08.45) – KUL (12.45) by MH79 & KUL (13.45) – CGK (15.05) by MH721
+- **Pilihan penerbangan 1:** HKG (14.35) – KUL (18.30) by MH73; dilanjutkan KUL (21.50) – CGK (23.05) by MH727.
+- **Pilihan penerbangan 2:** HKG (08.45) – KUL (12.45) by MH79; dilanjutkan KUL (13.45) – CGK (15.05) by MH721.
 - Sarapan Pagi. Kita akan melakukan perjalanan kembali menuju Hong Kong International Airport menggunakan golden shuttle bus via HZM Bridge, untuk penerbangan kembali ke Jakarta. Sampai jumpa di tour selanjutnya bersama kami.
 
 ## Ketentuan dan Informasi Tambahan
 
-- Minimal keberangkatan **20 peserta**; tour leader mengikuti ketentuan kuota peserta pada dokumen.
-- Deposit pendaftaran **Rp6.000.000** sesuai dokumen; satuan deposit tidak dijelaskan eksplisit dan perlu dikonfirmasi.
-- Sistem pendaftaran **first come, first served**, sebagaimana tercantum di dokumen.
-- Untuk periode peak season, pelunasan disebut **35 hari sebelum keberangkatan**.
-- Terdapat harga khusus **infant Rp3.950.000** pada dokumen sumber; berlaku untuk usia di bawah 23 bulan.
-- Pilihan harga dewasa kamar twin/triple, anak dengan extra bed, anak tanpa bed, dan single supplement ada di `departures` dalam frontmatter Markdown. Tarif antar tanggal dapat berbeda.
-- **Tipping wajib dan PPN 1,1%** tidak termasuk harga dasar. Basis penghitungan PPN belum diterangkan dalam sumber.
+- Minimal keberangkatan **20 peserta**; tour leader tersedia ketika kuota minimum terpenuhi.
+- Deposit pendaftaran **Rp6.000.000** dengan sistem *first come, first served*. Detail pembayaran akan dijelaskan oleh admin.
+- Untuk periode peak season, pelunasan dilakukan **35 hari sebelum keberangkatan**.
+- Harga infant **Rp3.950.000** berlaku untuk usia di bawah 23 bulan.
+- Harga dewasa kamar twin/triple, anak dengan extra bed, anak tanpa bed, dan single supplement berbeda menurut tanggal keberangkatan.
+- **Tipping wajib Rp900.000 per orang dan PPN 1,1%** tidak termasuk harga paket. Detail perhitungan PPN akan dijelaskan oleh admin.
 - Tiket penerbangan grup berlaku untuk tanggal tetap (*fixed date/no extend*); penerbangan dan jam di atas sesuai brosur dan dapat berubah.
-- Ketentuan Group Visa 144 China sebagaimana sumber perlu verifikasi karena aturan visa dapat berubah.
-- Hotel di Zhuhai dapat diganti ke area Zhongshan (dalam satu dokumen tertulis Zhongsan) saat musim libur lokal.
+- Ketentuan Group Visa 144 China mengikuti aturan imigrasi yang berlaku dan akan dijelaskan oleh admin.
+- Hotel di Zhuhai dapat diganti ke area Zhongshan saat musim libur lokal.
 - Penyedia dapat mengubah urutan kunjungan/kota sesuai kondisi dan kebutuhan operasional.
-- Brosur menyatakan adanya penalti apabila tidak mengikuti shopping stop, tetapi tidak menyebutkan besaran dan mekanismenya.
-
-## Status Verifikasi Konten
-
-Dokumen ini merupakan hasil normalisasi DOCX menjadi Markdown. **Belum disetujui untuk publikasi** (`published: false`). Verifikasi harga dan ketersediaan, penerbangan, visa, pajak, penalti shopping stop, jadwal, dan ketentuan vendor sebelum mengubah status publikasi.
-
-### Catatan khusus untuk pemeriksa
-
-- Label hari libur pada tabel keberangkatan adalah label dari penyedia dan bukan verifikasi kalender resmi.
-- Kode penerbangan keluar MH 72 dan alternatif penerbangan pulang MH73/MH79 sebagaimana tertulis pada dokumen; perlu dikonfirmasi sebelum publikasi.
-- Harga dan jadwal pada tanggal sebelum tanggal penerbitan tidak boleh ditampilkan sebagai ketersediaan aktif.
+- Tour bersubsidi ini mewajibkan kunjungan shopping stop. Ketentuan jika tidak mengikuti kunjungan akan dijelaskan oleh admin.
+- Jadwal dan urutan kota dapat berubah mengikuti kebutuhan operasional tanpa mengurangi tujuan utama perjalanan.

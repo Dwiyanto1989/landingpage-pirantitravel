@@ -17,10 +17,11 @@ keywords:
 - paket Vietnam 9 hari akhir tahun 2026
 - tour Hanoi Sapa Halong Danang Saigon
 - wisata lengkap Vietnam tahun baru
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/9d-complete-vietnam-year-end-journey.webp
+ogImage: /paket-wisata/promo-dan-liburan/9d-complete-vietnam-year-end-journey.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: 'Gambar sementara paket wisata 9D Complete Vietnam Year End Journey: Hanoi, Sapa, Halong, Danang & Saigon'
+- src: /paket-wisata/promo-dan-liburan/9d-complete-vietnam-year-end-journey.webp
+  alt: 'Foto paket wisata 9D Complete Vietnam Year End Journey: Hanoi, Sapa, Halong, Danang & Saigon'
 featured: false
 published: true
 primaryDestination: vietnam
@@ -116,22 +117,20 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 - label: Funicular to the peak of Fansipan USD 14 /pax
   amountIdr: null
 criticalNotices:
-- Minimal keberangkatan 20 peserta, didampingi tour leader; deposit Rp7.000.000 dan pelunasan peak season 35 hari sebelum
-  keberangkatan menurut sumber.
-- Tiket domestik Hanoi–Danang dan Danang–Saigon disebut termasuk harga; jadwal penerbangan domestik tidak dicantumkan dan
-  perlu konfirmasi.
-- Infant kurang dari 23 bulan bertarif Rp4.700.000 menurut dokumen sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Tiket permainan Mega Grand World tidak termasuk; funicular Fansipan merupakan opsi USD14/peserta menurut sumber.
-- Tipping Rp1.400.000/orang dan PPN 1,1% belum termasuk; dasar pengenaan pajak tidak dijelaskan.
-- Jadwal perjalanan dan harga dapat berubah sesuai operasional.
+- Minimal keberangkatan 20 peserta, didampingi tour leader; deposit Rp7.000.000 dan pelunasan peak season 35 hari sebelum keberangkatan.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
+- Infant usia di bawah 23 bulan bertarif Rp4.700.000.
+- Tidak ada pengembalian dana apabila peserta ditolak oleh imigrasi setempat.
+- Funicular menuju puncak Fansipan bersifat opsional dengan biaya USD14 per orang. Konfirmasikan ketersediaannya sebelum memesan.
+- Biaya tambahan Rp1.400.000, 1,1% berada di luar harga paket.
+- Harga, jadwal keberangkatan, dan ketersediaan kursi dapat berubah.
 source:
   filename: 9D COMPLETE VIETNAM YEAR END JOURNEY.docx
   archivePath: null
@@ -140,17 +139,17 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **9 hari**: Melintasi Vietnam utara hingga selatan: Hanoi, Sapa, Fansipan, Teluk Ha Long, Danang, Hoi An, Ba Na Hills, dan Saigon. Dokumen pemasok mencantumkan **5 opsi tanggal keberangkatan**. Harga berdasarkan jenis peserta dan tanggal tercatat dalam frontmatter; ketersediaan serta harga final belum dikonfirmasi.
+Paket akhir tahun Vietnam 9 hari, dari Hanoi, Sapa, Fansipan, Halong hingga Danang, Hoi An, Ba Na Hills dan Saigon.
 
-> **Penting:** Informasi jadwal penerbangan dan layanan mengikuti dokumen sumber, dapat berubah dan perlu konfirmasi Piranti Travel sebelum booking.
+Nikmati perjalanan 9 hari dengan pengalaman pilihan seperti Mega Grand World, Cat Cat Village, Fansipan Mountain, Halong Island Tour. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – HANOI (MEALS ON BOARD, MAKAN MALAM)
 
-- **Jadwal penerbangan menurut dokumen:** CGK (04.25) – KUL (07.30) by MH 726
+- **Jadwal penerbangan menurut paket:** CGK (04.25) – KUL (07.30) by MH 726
 
-- **Jadwal penerbangan menurut dokumen:** KUL (09.30) – HAN (12.00) by MH 752
+- **Jadwal penerbangan menurut paket:** KUL (09.30) – HAN (12.00) by MH 752
 
 Hari ini seluruh peserta berkumpul di Bandara Internasional Soekarno-Hatta, Terminal 3, untuk persiapan penerbangan menuju Hanoi, Vietnam menggunakan Maskapai Malaysia Airlines. Sesampainya di Hanoi, kita disambut oleh Guide Lokal berbahasa Indonesia yang ramah, kemudian kita akan langsung menuju Mega Grand World, kawasan wisata modern yang menggabungkan nuansa romantis Venesia dengan kanal air, serta jalanan tematik bergaya Korea yang ramai dan penuh warna (tidak termasuk tiket permainan). Peserta bebas berfoto dan menikmati suasana. Check-in Hotel dan Istirahat.
 
@@ -204,24 +203,12 @@ Sarapan pagi di hotel. Hari ini kita akan diantar menuju bandara untuk penerbang
 
 ### Hari 9 — SAIGON - DEPARTURE (MAKAN PAGI, MEALS ON BOARD)
 
-- **Jadwal penerbangan menurut dokumen:** SGN (11.00) - KUL (14.10) by MH 751
+- **Jadwal penerbangan menurut paket:** SGN (11.00) - KUL (14.10) by MH 751
 
-- **Jadwal penerbangan menurut dokumen:** KUL (16.20) - CGK (17.30) by MH 723
+- **Jadwal penerbangan menurut paket:** KUL (16.20) - CGK (17.30) by MH 723
 
 Setelah menikmati sarapan pagi di hotel, Anda akan diantar menuju bandara untuk penerbangan kembali ke tanah air. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Minimal keberangkatan 20 peserta, didampingi tour leader; deposit Rp7.000.000 dan pelunasan peak season 35 hari sebelum keberangkatan menurut sumber.
-- Tiket domestik Hanoi–Danang dan Danang–Saigon disebut termasuk harga; jadwal penerbangan domestik tidak dicantumkan dan perlu konfirmasi.
-- Infant kurang dari 23 bulan bertarif Rp4.700.000 menurut dokumen sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Tiket permainan Mega Grand World tidak termasuk; funicular Fansipan merupakan opsi USD14/peserta menurut sumber.
-- Tipping Rp1.400.000/orang dan PPN 1,1% belum termasuk; dasar pengenaan pajak tidak dijelaskan.
-- Jadwal perjalanan dan harga dapat berubah sesuai operasional.
-
-Daftar harga menurut keberangkatan, fasilitas termasuk/tidak termasuk, tipping, pajak dan biaya opsional tersedia di YAML frontmatter untuk ditampilkan oleh website.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX dan **bukan konfirmasi final** harga, jadwal, layanan, atau ketersediaan. Persetujuan komersial diperlukan sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

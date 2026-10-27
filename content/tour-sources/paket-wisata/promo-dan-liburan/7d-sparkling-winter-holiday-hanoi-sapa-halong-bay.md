@@ -16,10 +16,11 @@ keywords:
 - tour Vietnam 7 hari winter holiday
 - paket Hanoi Sapa Halong Bay Fansipan 2026
 - wisata Vietnam liburan sekolah
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-sparkling-winter-holiday-hanoi-sapa-halong-bay.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-sparkling-winter-holiday-hanoi-sapa-halong-bay.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Sparkling Winter Holiday Hanoi, Sapa & Halong Bay
+- src: /paket-wisata/promo-dan-liburan/7d-sparkling-winter-holiday-hanoi-sapa-halong-bay.webp
+  alt: Foto paket wisata 7D Sparkling Winter Holiday Hanoi, Sapa & Halong Bay
 featured: false
 published: true
 primaryDestination: vietnam
@@ -84,19 +85,17 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi/SIM CARD Portable
   amountIdr: null
 - label: Funicular to the peak of Fansipan USD 14 /pax
   amountIdr: null
 criticalNotices:
-- Minimal keberangkatan 20 peserta dengan 1 tour leader, deposit Rp6.000.000; periode peak season pelunasan 35 hari sebelum
-  keberangkatan.
-- Infant di bawah 23 bulan memiliki flat rate Rp4.200.000 sesuai sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Funicular ke puncak Fansipan bersifat opsional, berbiaya USD14 per orang sesuai sumber; nilai dan ketersediaan perlu
-  dikonfirmasi.
+- Minimal keberangkatan 20 peserta dengan 1 tour leader, deposit Rp6.000.000; periode peak season pelunasan 35 hari sebelum keberangkatan.
+- Infant usia di bawah 23 bulan bertarif Rp4.200.000.
+- Tidak ada pengembalian dana apabila peserta ditolak oleh imigrasi setempat.
+- Funicular menuju puncak Fansipan bersifat opsional dengan biaya USD14 per orang. Konfirmasikan ketersediaannya sebelum memesan.
 source:
   filename: 7D SPARKLING WINTER HOLIDAY HANOI SAPA HALONG BAY.docx
   archivePath: null
@@ -105,9 +104,9 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Jakarta–Hanoi–Sapa–Fansipan–Halong Bay, termasuk wisata desa Cat Cat, cable car Fansipan, dan pelayaran Teluk Ha Long. Dokumen sumber memuat **2 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata Vietnam 7 hari liburan sekolah akhir 2026 menjelajahi Hanoi, Sapa, Fansipan dan Halong Bay bersama Vietnam Airlines.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Hoan Kiem Lake, Hanoi Old Quarter, St. Joseph Cathedral, Cat Cat Village. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
@@ -119,7 +118,7 @@ Pada hari ini kita akan berkumpul di Soekarno Hatta Terminal 3 Ultimate untuk pe
 
 ### Hari 2 — DEPARTURE – HANOI (MEALS ON BOARD, MAKAN SIANG)
 
-- **Penerbangan (jadwal sumber):** CGK (01.30) - HAN (06.15) by VN 634
+- **Penerbangan:** CGK (01.30) - HAN (06.15) by VN 634
 
 Setibanya di Bandara Noi Bai – Hanoi, kita disambut oleh Guide Lokal berbahasa Indonesia yang ramah, kemudian kita akan langsung menuju Hoan Kiem Lake danau legendaris yang menjadi simbol kota Hanoi, dikelilingi taman rindang dan jembatan merah menuju Kuil Ngoc Son yang terkenal. Di sekitar area ini, peserta dapat berjalan santai dan menikmati suasana lokal sebelum melanjutkan ke kawasan Hanoi Old Quarter, pusat kehidupan kota tua dengan jalan-jalan sempit penuh toko, bangunan kolonial Prancis, serta deretan kuliner khas Vietnam. Selanjutnya kita akan mengunjungi Street Train, dimana rel kereta melintasi jalan sempit yang dipenuhi kafe dan rumah penduduk sambil menikmati kopi khas Vietnam. Check-in hotel dan beristirahat.
 
@@ -151,19 +150,10 @@ Sarapan pagi di hotel, hari ini kita akan mengunjungi St. Joseph Cathedral Merup
 
 ### Hari 7 — HALONG – HANOI – DEPARTURE (MAKAN PAGI, MAKAN SIANG, MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** HAN (19.50) – CGK (00.40+1) by VN 635
+- **Penerbangan:** HAN (19.50) – CGK (00.40+1) by VN 635
 
 Sarapan pagi di hotel, hari ini kita akan berlayar dengan menaiki kapal tradisional (Junk boat), dengan menyusuri perairan hijau zamrud dan diantara tebing batu kapur yang megah. Kita akan mengunjungi Thien Cung Cave yang terkenal dengan formasi stalaktit dan stalagmitnya yang menakjubkan. Gua ini baru dibuka untuk umum sejak tahun 1998 dan menjadi salah satu gua paling indah di Ha Long. Selanjutnya, kita juga akan menjelajahi Dau Go Grotto (Gua Pasak Kayu)—tempat bersejarah di mana Jenderal Tran Hung Dao menancapkan ratusan pasak kayu sebagai strategi perang melawan pasukan Mongol pada tahun 1288. Setelah itu, kapal akan berlayar melewati berbagai formasi batu yang unik seperti Chicken Rock, Incense Bowl Islet, Sail Islet, dan Turtle Island yang menjadi ikon Teluk Ha Long. makan siang dengan hidangan seafood disajikan di atas kapal sambil menikmati panorama indah sekitar. Setelah makan siang, kita akan check-out dari kapal dan kembali menuju kota Hanoi. Setibanya di Hanoi, Anda akan diantar menuju bandara untuk penerbangan kembali ke tanah air. Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Minimal keberangkatan 20 peserta dengan 1 tour leader, deposit Rp6.000.000; periode peak season pelunasan 35 hari sebelum keberangkatan.
-- Infant di bawah 23 bulan memiliki flat rate Rp4.200.000 sesuai sumber.
-- Sumber menyatakan tidak ada refund jika peserta ditolak imigrasi setempat.
-- Funicular ke puncak Fansipan bersifat opsional, berbiaya USD14 per orang sesuai sumber; nilai dan ketersediaan perlu dikonfirmasi.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

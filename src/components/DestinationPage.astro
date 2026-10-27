@@ -4,10 +4,10 @@ import { generalPriceDisclaimer } from '../data/site';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BookingSteps from './BookingSteps.astro';
 import FAQ from './FAQ.astro';
-import FleetCard from './FleetCard.astro';
 import Hero from './Hero.astro';
 import PriceTable from './PriceTable.astro';
 import WhatsAppCTA from './WhatsAppCTA.astro';
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   destination: Destination;
@@ -40,7 +40,13 @@ const hasDetails =
 <BaseLayout
   title={destination.seo.title}
   description={destination.seo.description}
+  keywords={[
+    `sewa mobil ${destination.name}`,
+    `private transport ${destination.name}`,
+    ...destination.highlights.map((item) => `${item} ${destination.name}`),
+  ]}
   path={`/${destination.slug}`}
+  image={destination.heroImage}
   destination={destination.name}
   schema={[serviceSchema, faqSchema]}
 >
@@ -60,9 +66,11 @@ const hasDetails =
     <div class="shell grid divide-y divide-brand-900/8 py-3 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
       {destination.highlights.map((item) => (
         <p class="flex min-h-16 items-center gap-3 px-3 py-3 text-sm font-bold text-brand-900 sm:px-6">
-          <span aria-hidden="true" class="text-accent-500">
-            ✓
-          </span>
+          <Icon
+            name="ph:check-circle"
+            aria-hidden="true"
+            class="size-5 shrink-0 text-accent-500"
+          />
           {item}
         </p>
       ))}
@@ -146,9 +154,11 @@ const hasDetails =
               <ul class="mt-4 space-y-3 text-sm text-slate-600">
                 {destination.inclusions.map((item) => (
                   <li class="flex gap-3">
-                    <span aria-hidden="true" class="text-emerald-600">
-                      ✓
-                    </span>
+                    <Icon
+                      name="ph:check-circle"
+                      aria-hidden="true"
+                      class="mt-0.5 size-4 shrink-0 text-emerald-600"
+                    />
                     {item}
                   </li>
                 ))}
@@ -163,9 +173,11 @@ const hasDetails =
               <ul class="mt-4 space-y-3 text-sm text-slate-600">
                 {destination.exclusions.map((item) => (
                   <li class="flex gap-3">
-                    <span aria-hidden="true" class="text-amber-600">
-                      •
-                    </span>
+                    <Icon
+                      name="ph:minus-circle"
+                      aria-hidden="true"
+                      class="mt-0.5 size-4 shrink-0 text-amber-600"
+                    />
                     {item}
                   </li>
                 ))}
@@ -180,9 +192,11 @@ const hasDetails =
               <ul class="mt-4 space-y-3 text-sm text-slate-600">
                 {destination.additional.map((item) => (
                   <li class="flex gap-3">
-                    <span aria-hidden="true" class="text-accent-500">
-                      +
-                    </span>
+                    <Icon
+                      name="ph:plus-circle"
+                      aria-hidden="true"
+                      class="mt-0.5 size-4 shrink-0 text-accent-500"
+                    />
                     {item}
                   </li>
                 ))}
@@ -197,9 +211,11 @@ const hasDetails =
               <ul class="mt-4 space-y-3 text-sm text-slate-600">
                 {destination.terms.map((item) => (
                   <li class="flex gap-3">
-                    <span aria-hidden="true" class="text-brand-600">
-                      →
-                    </span>
+                    <Icon
+                      name="ph:info"
+                      aria-hidden="true"
+                      class="mt-0.5 size-4 shrink-0 text-brand-600"
+                    />
                     {item}
                   </li>
                 ))}
@@ -210,22 +226,6 @@ const hasDetails =
       </div>
     </section>
   )}
-
-  <section class="section bg-white">
-    <div class="shell">
-      <div class="max-w-2xl">
-        <p class="eyebrow">Armada</p>
-        <h2 class="section-title mt-3">
-          Kendaraan untuk perjalanan {destination.name}
-        </h2>
-      </div>
-      <div class="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {destination.fleet.map((name) => (
-          <FleetCard {name} />
-        ))}
-      </div>
-    </div>
-  </section>
 
   <section
     class:list={[

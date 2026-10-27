@@ -17,10 +17,11 @@ keywords:
 - tour Sumba Tambolaka Waingapu
 - open trip Sumba 4D3N
 - open trip Sumba harga 3,1 juta
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-domestik/open-trip-sumba-4d3n.webp
+ogImage: /paket-wisata/wisata-domestik/open-trip-sumba-4d3n.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara Open Trip Sumba 4D3N
+- src: /paket-wisata/wisata-domestik/open-trip-sumba-4d3n.webp
+  alt: Pemandangan perjalanan Open Trip Sumba 4D3N
 featured: false
 published: true
 primaryDestination: sumba
@@ -50,7 +51,7 @@ highlights:
 inclusions:
 - Akomodasi ber-AC di Ella Hotel dan Padadita Hotel.
 - Transportasi ber-AC (Innova/HiAce).
-- Makan dan air mineral selama trip; kuantitas tertulis ambigu dalam sumber.
+- Makan dan air mineral selama perjalanan sesuai itinerary.
 - Tiket wisata dan parkir.
 - Dokumentasi kamera dan drone.
 - Guide dan driver berpengalaman.
@@ -64,28 +65,22 @@ mandatoryFees: []
 optionalFees:
 - label: Biaya tambahan untuk peserta WNA/foreigner
   amountIdr: null
-  note: Besaran tambahan tidak tercantum dalam dokumen; konfirmasi sebelum booking.
+  note: Hubungi tim Piranti Travel untuk mengetahui biaya yang berlaku.
 - label: Transport tambahan Waingapu–Tambolaka (WGP–TMC) apabila penerbangan pulang dari Tambolaka
   amountIdr: null
-  note: Besaran biaya tidak tercantum dalam dokumen.
-criticalNotices:
-- 'Sumber menyebut AVAILABLE: SETIAP KAMIS-JUMAT, tetapi tidak memberikan tanggal spesifik ataupun menegaskan apakah Kamis
-  dan Jumat merupakan pilihan tanggal mulai perjalanan. Konfirmasi ke operator.'
-- Harga Rp3.100.000/orang tercantum dalam DOCX, belum ada validasi ketersediaan atau periode berlakunya.
-- Bagian include menulis “MAKAN 4 AIR MINERAL SELAMA TRIP”, sehingga jumlah/pola makan dan air mineral perlu dikonfirmasi.
-- Tipping guide/driver, tambahan untuk WNA, serta transport Waingapu–Tambolaka jika pulang melalui Bandara Tambolaka tidak
-  termasuk atau berpotensi menambah biaya; nominal tidak diberikan.
+  note: Hubungi tim Piranti Travel untuk mengetahui biaya yang berlaku.
+criticalNotices: []
 source:
   filename: 4D3N Open Trip Sumba(2).docx
   archivePath: null
   importStatus: needs-business-review
 minimumPax: 2
-availabilityNote: 'Dokumen menuliskan AVAILABLE: SETIAP KAMIS-JUMAT; hari mulai, jadwal aktual dan ketersediaan harus dikonfirmasi.'
+availabilityNote: Jadwal perjalanan menyesuaikan ketersediaan. Hubungi tim Piranti Travel untuk memilih tanggal keberangkatan.
 ---
 
 # Ringkasan Perjalanan
 
-Open Trip Sumba **4 hari 3 malam** dimulai dari penjemputan di **Bandara Tambolaka (TMC)** dan berakhir di **Bandara Waingapu (WGP)**. Dokumen mencantumkan harga **Rp3.100.000/orang**, dengan **minimal pemesanan 2 peserta**. Keterangan jadwal berbunyi *“setiap Kamis–Jumat”* tanpa tanggal keberangkatan yang pasti; konfirmasikan jadwal sebelum memesan.
+Nikmati Open Trip Sumba **4 hari 3 malam** dari **Bandara Tambolaka (TMC)** hingga **Bandara Waingapu (WGP)**. Paket seharga **Rp3.100.000 per orang** ini dapat dipesan mulai dari **2 peserta**, dengan rangkaian perjalanan budaya, danau, savana, air terjun, dan pantai yang tersusun dalam satu itinerary.
 
 ## Itinerary
 
@@ -106,7 +101,7 @@ Open Trip Sumba **4 hari 3 malam** dimulai dari penjemputan di **Bandara Tambola
 - **09.00–10.00:** Berfoto dan menjelajahi air terjun.
 - **10.30–12.00:** Kunjungan budaya dan foto di Desa Prai Ijing.
 - **12.00–12.30:** Makan siang (*lunchbox*).
-- **13.00–16.00:** Perjalanan menuju Bukit Wairinding (estimasi perjalanan di sumber 2,5–3 jam).
+- **13.00–16.00:** Perjalanan menuju Bukit Wairinding dengan estimasi 2,5–3 jam.
 - **16.00:** Menikmati sunset di Bukit Wairinding.
 - **19.00–20.00:** Makan malam dan belanja oleh-oleh.
 - **20.00:** Check-in hotel area Sumba Timur dan istirahat.
@@ -121,7 +116,7 @@ Open Trip Sumba **4 hari 3 malam** dimulai dari penjemputan di **Bandara Tambola
 - **11.30–14.00:** Foto, berenang dan makan siang di Air Terjun Tanggedu.
 - **14.30–16.30:** Perjalanan menuju Pantai Walakiri.
 - **17.00–18.00:** Menikmati sunset di Pantai Walakiri.
-- **19.00–20.00:** Makan malam di Dermaga Waingapu (contoh menu yang disebut sumber: ikan bakar).
+- **19.00–20.00:** Makan malam di Dermaga Waingapu, dengan contoh menu ikan bakar.
 - **20.00:** Istirahat.
 
 ### Hari 4 — Waingapu, Kepulangan
@@ -131,12 +126,8 @@ Open Trip Sumba **4 hari 3 malam** dimulai dari penjemputan di **Bandara Tambola
 
 ## Ketentuan dan Informasi Tambahan
 
-- **Harga sumber:** Rp3.100.000 per orang; minimal booking 2 pax.
-- **Ketersediaan:** dokumen berbunyi “setiap Kamis–Jumat”; tanggal dan opsi hari keberangkatan harus dikonfirmasi.
-- **Penginapan:** Ella Hotel dan Padadita Hotel dicantumkan sebagai akomodasi, tanpa detail tipe kamar.
-- Jika kepulangan melalui Bandara Tambolaka, dokumen mencantumkan kemungkinan biaya transport tambahan **WGP–TMC** (tanpa nominal).
-- Tambahan biaya WNA dan tipping guide/driver tidak dijelaskan nilainya dalam sumber.
-
-## Status Verifikasi Konten
-
-Harga, jadwal, komponen makan/air mineral serta biaya tambahan belum diverifikasi oleh Piranti Travel. Pertahankan `published: false` sampai persetujuan operator.
+- **Harga paket:** Rp3.100.000 per orang, dengan minimal pemesanan 2 peserta.
+- **Jadwal:** tanggal keberangkatan menyesuaikan ketersediaan; pilih tanggal bersama admin sebelum memesan.
+- **Penginapan:** Ella Hotel dan Padadita Hotel.
+- Jika penerbangan pulang melalui Bandara Tambolaka, tersedia transport tambahan **Waingapu–Tambolaka (WGP–TMC)** dengan biaya yang perlu dikonfirmasi sebelum memesan.
+- Biaya peserta WNA, tipping guide/driver, dan asuransi perjalanan tidak termasuk dalam harga paket.

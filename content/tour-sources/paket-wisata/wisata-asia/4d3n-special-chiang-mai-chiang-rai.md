@@ -6,10 +6,11 @@ date: '2026-10-22'
 author: Piranti Travel
 tags: [thailand, chiang-mai, chiang-rai, wisata-budaya]
 keywords: [paket tour Chiang Mai Chiang Rai 4D3N, wisata White Temple Blue Temple Thailand, Doi Suthep Long Neck Village, paket Chiang Mai Chiang Rai]
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/4d3n-special-chiang-mai-chiang-rai.webp
+ogImage: /paket-wisata/wisata-asia/4d3n-special-chiang-mai-chiang-rai.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara paket wisata 4D3N Special Chiang Mai – Chiang Rai
+- src: /paket-wisata/wisata-asia/4d3n-special-chiang-mai-chiang-rai.webp
+  alt: Foto perjalanan 4D3N Special Chiang Mai – Chiang Rai
 featured: false
 published: true
 primaryDestination: chiang-mai
@@ -132,7 +133,7 @@ inclusions:
 - Air mineral satu botol per hari.
 - Tour leader.
 - Travel kit berupa luggage tag.
-- Asuransi perjalanan hingga usia 82 tahun sesuai dokumen sumber.
+- Asuransi perjalanan hingga usia 82 tahun.
 exclusions:
 - Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi, serta pengeluaran pribadi di luar fasilitas tercantum.
 mandatoryFees:
@@ -142,14 +143,14 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Basis perhitungan tidak dijelaskan dalam dokumen sumber; perlu konfirmasi sebelum publikasi.
+  note: Detail perhitungan akan dijelaskan setelah menghubungi admin.
 optionalFees:
 - label: Sewa Wi-Fi portabel
   amountIdr: null
 criticalNotices:
-- Dokumen mencantumkan aturan biaya pembatalan jika visa ditolak, tanpa detail nominal atau persyaratan; perlu konfirmasi relevansinya.
-- Jadwal kepulangan memiliki dua alternatif koneksi Malaysia Airlines dari Kuala Lumpur ke Jakarta; penerbangan final perlu dikonfirmasi.
-- Beberapa tanggal memiliki label long weekend/hari libur dari sumber yang belum diverifikasi terhadap kalender resmi.
+- Pembatalan karena penolakan visa dapat dikenakan biaya sesuai ketentuan; detailnya akan diinformasikan setelah menghubungi admin.
+- Penerbangan pulang transit di Kuala Lumpur dengan koneksi lanjutan menuju Jakarta.
+- Label long weekend atau hari libur mengikuti pilihan jadwal paket yang tersedia.
 - Jadwal dapat berubah sewaktu-waktu sesuai operasional.
 source:
   filename: 4D3N SPECIAL CHIANG MAI CHIANG RAI.docx
@@ -161,15 +162,15 @@ source:
 
 Paket **4 hari 3 malam Chiang Mai–Chiang Rai** menggunakan Malaysia Airlines dari Jakarta via Kuala Lumpur. Destinasi utama berupa kuil dan kawasan budaya Thailand Utara, termasuk Doi Suthep, desa Long Neck, White Temple, Blue Temple, dan pasar malam.
 
-Dokumen sumber memuat **13 jadwal keberangkatan** dengan harga dewasa mulai **Rp8.990.000** per orang (berdasarkan tabel, belum termasuk biaya tambahan). Harga dan ketersediaan akhir wajib dikonfirmasi kepada Piranti Travel.
+Tersedia **13 pilihan jadwal keberangkatan** dengan harga dewasa mulai **Rp8.990.000 per orang**, belum termasuk biaya tambahan. Hubungi Piranti Travel untuk mengecek harga dan ketersediaan kursi pilihan Anda.
 
-> **Informasi penting:** Tipping **Rp750.000 per orang** dan **PPN 1,1%** tidak termasuk harga paket; basis pengenaan PPN belum disebutkan.
+> **Informasi penting:** Tipping **Rp750.000 per orang** dan **PPN 1,1%** wajib dibayarkan di luar harga paket. Detail perhitungan PPN akan dijelaskan oleh admin.
 
 ## Itinerary
 
 ### Hari 1 — Jakarta – Chiang Mai
 
-- Penerbangan **MH 726** CGK **04.15** → KUL **07.25**, dilanjutkan **MH 772** KUL **09.50** → CNX **11.40** (jadwal sumber).
+- Penerbangan **MH 726** CGK **04.15** → KUL **07.25**, dilanjutkan **MH 772** KUL **09.50** → CNX **11.40**.
 - Mengunjungi **Doi Suthep** dan **Wat Phra That Doi Suthep** (termasuk *cable car*), kemudian belanja dan wisata kuliner di **Warorot Night Market**.
 - Check-in hotel bintang 3/setaraf. Makan: *meals on board*.
 
@@ -194,14 +195,10 @@ Dokumen sumber memuat **13 jadwal keberangkatan** dengan harga dewasa mulai **Rp
 
 ## Ketentuan dan Informasi Tambahan
 
-- Seluruh harga dewasa, anak dengan extra bed, anak tanpa bed, dan single supplement disimpan per tanggal dalam metadata `departures`—bukan dirata-rata.
+- Harga dewasa, anak dengan extra bed, anak tanpa bed, dan single supplement berbeda menurut tanggal keberangkatan.
 - Paket menginap di hotel bintang 3/setaraf dengan pengaturan kamar twin/triple.
 - Harga tercantum per tipe peserta dan tanggal keberangkatan; single supplement merupakan tambahan biaya kamar sendiri.
-- Dokumen mencantumkan aturan biaya pembatalan jika visa ditolak, tanpa detail nominal atau persyaratan; perlu konfirmasi relevansinya.
-- Jadwal kepulangan memiliki dua alternatif koneksi Malaysia Airlines dari Kuala Lumpur ke Jakarta; penerbangan final perlu dikonfirmasi.
-- Beberapa tanggal memiliki label long weekend/hari libur dari sumber yang belum diverifikasi terhadap kalender resmi.
+- Pembatalan karena penolakan visa dapat dikenakan biaya sesuai ketentuan; detailnya akan diinformasikan oleh admin.
+- Penerbangan pulang transit di Kuala Lumpur dengan koneksi lanjutan menuju Jakarta.
+- Label long weekend atau hari libur mengikuti pilihan jadwal paket yang tersedia.
 - Jadwal dapat berubah sewaktu-waktu sesuai operasional.
-
-## Status Verifikasi Konten
-
-Hasil normalisasi dari **4D3N SPECIAL CHIANG MAI CHIANG RAI.docx**. Dokumen masih berstatus **draft** (`published: false`) hingga pengelola Piranti Travel memastikan harga/ketersediaan tanggal berangkat, penerbangan, perhitungan pajak, biaya tambahan, serta ketentuan yang ditandai di `criticalNotices`.

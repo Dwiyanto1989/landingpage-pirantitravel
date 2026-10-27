@@ -1,5 +1,6 @@
 ---
 import WhatsAppCTA from './WhatsAppCTA.astro';
+import { Icon } from 'astro-icon/components';
 interface Props {
   eyebrow: string;
   title: string;
@@ -65,9 +66,15 @@ const {
         {home ? (
           <>
             <a href="/paket-wisata" class="button-primary">
+              <Icon
+                name="ph:suitcase-rolling"
+                aria-hidden="true"
+                class="size-5"
+              />{' '}
               Lihat paket wisata
             </a>
             <a href="/sewa-mobil" class="button-secondary">
+              <Icon name="ph:car-profile" aria-hidden="true" class="size-5" />{' '}
               Cari sewa mobil
             </a>
           </>
@@ -75,6 +82,7 @@ const {
           <>
             <WhatsAppCTA destination={destination} placement="hero" />
             <a href="#harga" class="button-secondary">
+              <Icon name="ph:arrow-down" aria-hidden="true" class="size-5" />{' '}
               Lihat harga layanan
             </a>
           </>
@@ -115,13 +123,11 @@ const {
           </ul>
           <div class="mt-5 flex items-center justify-between gap-3 rounded-2xl bg-[linear-gradient(135deg,#064a81,#0064c8)] px-4 py-3.5 text-sm font-bold text-white shadow-[0_10px_24px_rgb(0_74_135/.2)]">
             <span>Kirim tanggal, rute & jumlah penumpang</span>
-            <svg
+            <Icon
+              name="ph:arrow-right"
               aria-hidden="true"
-              viewBox="0 0 24 24"
-              class="h-5 w-5 shrink-0 fill-none stroke-current stroke-2"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
+              class="size-5 shrink-0"
+            />
           </div>
         </div>
       </div>

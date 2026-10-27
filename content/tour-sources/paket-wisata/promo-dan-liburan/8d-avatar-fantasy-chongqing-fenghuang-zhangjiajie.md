@@ -15,10 +15,11 @@ keywords:
 - paket Zhangjiajie Avatar 8 hari
 - tour Chongqing Fenghuang Zhangjiajie 2026 2027
 - wisata Tianmen Mountain Bailong Elevator
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/8d-avatar-fantasy-chongqing-fenghuang-zhangjiajie.webp
+ogImage: /paket-wisata/promo-dan-liburan/8d-avatar-fantasy-chongqing-fenghuang-zhangjiajie.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 8D Avatar Fantasy Chongqing, Fenghuang & Zhangjiajie
+- src: /paket-wisata/promo-dan-liburan/8d-avatar-fantasy-chongqing-fenghuang-zhangjiajie.webp
+  alt: Foto paket wisata 8D Avatar Fantasy Chongqing, Fenghuang & Zhangjiajie
 featured: false
 published: true
 primaryDestination: china
@@ -112,7 +113,7 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable
   amountIdr: null
@@ -123,11 +124,11 @@ optionalFees:
 - label: 'Charming Xiangxi: RMB 400/pax Wulong Impression Show: RMB 398/pax'
   amountIdr: null
 criticalNotices:
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 tercantum sebagai biaya tidak termasuk; periksa ketentuan
-  visa aktual.
-- Paket bersubsidi dan mengharuskan kunjungan shopping stop; ada penalti yang tidak disebut nominalnya.
+- Biaya visa berada di luar harga paket, dengan pilihan Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000. Konfirmasikan persyaratan
+  visa terbaru.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
 - Tuojiang boat disebut belum termasuk, sedangkan kegiatan Tianmen Mountain dan Bailong Elevator disebut sudah termasuk.
-- Penolakan visa dapat menyebabkan biaya pembatalan sesuai ketentuan penyelenggara.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 source:
   filename: 8D AVATAR FANTASY CHONGQING FENGHUANG ZHANGJIAJIE.docx
   archivePath: null
@@ -136,15 +137,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **8 hari**: Rute Chongqing–Fenghuang–Zhangjiajie–Yichang–Jingzhou, dengan wisata alam Avatar Mountain dan Grand Canyon Glass Bridge. Dokumen sumber memuat **6 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata China 8 hari rute Chongqing, Fenghuang, Zhangjiajie, Yichang dan Jingzhou, termasuk Tianmen Mountain dan Bailong Elevator.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 8 hari dengan pengalaman pilihan seperti Liziba, Hongyadong, Fenghuang Ancient Town, Tianmen Mountain. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – DEPARTURE (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** CGK (23.20) - CKG (06.20) +1 by MF8674
+- **Penerbangan:** CGK (23.20) - CKG (06.20) +1 by MF8674
 
 Hari ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Chongqing dengan Xiamen Airlines.
 
@@ -188,19 +189,10 @@ Sarapan pagi di hotel. kita akan menuju Yichang menggunakan bus, dan mengunjungi
 
 ### Hari 8 — JINGZHOU – WUHAN - JAKARTA (MAKAN PAGI, MAKAN SIANG, MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** WUH (16.40) – CGK (21.50) by MF 8683
+- **Penerbangan:** WUH (16.40) – CGK (21.50) by MF 8683
 
 Sarapan pagi di hotel, dan melanjutkan perjalanan ke Wuhan dengan bus untuk melakukan penerbangan pulang ke Indonesia. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Visa Group China Rp1.000.000 atau Visa Single China Rp1.100.000 tercantum sebagai biaya tidak termasuk; periksa ketentuan visa aktual.
-- Paket bersubsidi dan mengharuskan kunjungan shopping stop; ada penalti yang tidak disebut nominalnya.
-- Tuojiang boat disebut belum termasuk, sedangkan kegiatan Tianmen Mountain dan Bailong Elevator disebut sudah termasuk.
-- Penolakan visa dapat menyebabkan biaya pembatalan sesuai ketentuan penyelenggara.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

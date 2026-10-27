@@ -6,10 +6,11 @@ date: "2026-10-22"
 author: "Piranti Travel"
 tags: [lebaran, bangkok, pattaya, thailand]
 keywords: [paket wisata Bangkok Pattaya Lebaran 2027, tour Bangkok Pattaya 5 hari, paket Thailand Lebaran, wisata Bangkok Pattaya, liburan Lebaran Thailand 2027]
-image: "/images/PLACEHOLDER.webp"
+image: "/paket-wisata/promo-dan-liburan/5d-special-lebaran-bangkok-pattaya.webp"
+ogImage: "/paket-wisata/promo-dan-liburan/5d-special-lebaran-bangkok-pattaya.webp"
 images:
-  - src: "/images/PLACEHOLDER.webp"
-    alt: "Gambar sementara paket wisata Bangkok dan Pattaya saat liburan Lebaran"
+  - src: "/paket-wisata/promo-dan-liburan/5d-special-lebaran-bangkok-pattaya.webp"
+    alt: "Foto paket wisata Bangkok dan Pattaya saat liburan Lebaran"
 featured: false
 published: true
 primaryDestination: bangkok
@@ -73,7 +74,7 @@ inclusions:
   - "Air mineral satu botol per hari."
   - "Tour leader."
   - "Travel kit berupa luggage tag."
-  - "Asuransi perjalanan hingga usia 82 tahun sesuai dokumen sumber."
+  - "Asuransi perjalanan hingga usia 82 tahun ."
 exclusions:
   - "Tips porter hotel, minibar, laundry, telepon, kelebihan bagasi, dan pengeluaran lain di luar layanan yang disebutkan termasuk."
 mandatoryFees:
@@ -83,19 +84,19 @@ mandatoryFees:
   - label: "PPN"
     percentage: 1.1
     calculationBasis: null
-    note: "Dokumen mencantumkan PPN 1,1% sebagai harga tidak termasuk, tanpa menjelaskan basis penghitungan; konfirmasi sebelum publikasi."
+    note: "paket mencantumkan PPN 1,1% sebagai harga tidak termasuk, tanpa menjelaskan basis penghitungan; konfirmasi sebelum memesan."
 optionalFees:
   - label: "Sewa Wi-Fi portabel"
     amountIdr: null
   - label: "Alcazar Cabaret Show"
     amountIdr: null
-  - label: "Kunjungan Central Festival Mall (opsional menurut itinerary)"
+  - label: "Kunjungan Central Festival Mall (opsional dalam itinerary)"
     amountIdr: null
 criticalNotices:
-  - "Harga anak dengan extra bed untuk usia maksimal 12 tahun; harga anak tanpa tempat tidur untuk usia maksimal 6 tahun, sesuai tabel pada sumber."
-  - "Dokumen sumber menyatakan tidak ada pengembalian dana (refund) jika peserta ditolak imigrasi setempat."
-  - "Jadwal dapat berubah sewaktu-waktu sesuai kondisi operasional."
-  - "Rute/jadwal penerbangan hari pertama dan hari kelima memiliki alternatif pada dokumen sumber; konfirmasi penerbangan yang berlaku untuk setiap keberangkatan."
+- Harga anak dengan extra bed untuk usia maksimal 12 tahun; harga anak tanpa tempat tidur untuk usia maksimal 6 tahun, sesuai tabel.
+- Tidak ada pengembalian dana apabila peserta ditolak oleh imigrasi setempat.
+- Jadwal dapat berubah sewaktu-waktu sesuai kondisi operasional.
+- Maskapai dan jadwal penerbangan menyesuaikan tanggal keberangkatan.
 source:
   filename: "5D SPECIAL LEBARAN BANGKOK - PATTAYA.docx"
   archivePath: "PAKET TOUR/THAILAND/LEBARAN/5D SPECIAL LEBARAN BANGKOK - PATTAYA.docx"
@@ -104,26 +105,24 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **5 hari Bangkok – Pattaya, Thailand**, untuk periode **Lebaran 2027** menggunakan penerbangan Malaysia Airlines dari Jakarta melalui Kuala Lumpur. Destinasi mencakup Asiatique Night Market, Nongnooch Village, Great and Grand Sweet Destination, Wat Arun, kawasan perbelanjaan Bangkok, dan wisata Pattaya.
+Paket wisata Thailand 5 hari periode Lebaran 2027 mengunjungi Bangkok dan Pattaya dengan penerbangan Malaysia Airlines, keberangkatan 7–11 Maret 2027.
 
-Dokumen sumber mencantumkan keberangkatan **7, 8, 9, 10, dan 11 Maret 2027**. Untuk setiap keberangkatan, harga **dewasa (kamar twin/triple) Rp9.999.000 per orang**, **anak dengan extra bed Rp9.999.000**, dan **anak tanpa tempat tidur Rp9.699.000**. Tambahan kamar sendiri (*single supplement*) sebesar **Rp2.250.000**. Semua harga dan ketersediaan memerlukan konfirmasi Piranti Travel.
-
-> **Informasi penting:** Dokumen sumber mencantumkan **tipping Rp850.000 per orang** dan **PPN 1,1%** sebagai biaya yang **tidak termasuk** harga paket. Basis perhitungan PPN belum disebutkan. Sumber juga menyatakan **tidak ada refund apabila peserta ditolak imigrasi setempat**; pastikan syarat ini dipahami sebelum pemesanan.
+Nikmati perjalanan 5 hari dengan pengalaman pilihan seperti Asiatique Night Market, Nongnooch Village, Great and Grand Sweet Destination, Wat Arun. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — Jakarta ke Bangkok
 
-- Berkumpul di Bandara Soekarno-Hatta untuk penerbangan Malaysia Airlines melalui Kuala Lumpur. Dokumen mencantumkan dua alternatif jadwal:
-  - **Alternatif A:** MH 712, Jakarta (CGK) **09.40** → Kuala Lumpur (KUL) **12.55**, dilanjutkan MH 782, Kuala Lumpur (KUL) **14.50** → Bangkok (BKK) **16.05**.
-  - **Alternatif B:** MH 710, Jakarta (CGK) **11.10** → Kuala Lumpur (KUL) **14.20**, dilanjutkan MH 774, Kuala Lumpur (KUL) **16.20** → Bangkok (BKK) **17.40**.
+- Berkumpul di Bandara Soekarno-Hatta untuk penerbangan Malaysia Airlines melalui Kuala Lumpur. paket mencantumkan dua alternatif jadwal:
+ - **Alternatif A:** MH 712, Jakarta (CGK) **09.40** → Kuala Lumpur (KUL) **12.55**, dilanjutkan MH 782, Kuala Lumpur (KUL) **14.50** → Bangkok (BKK) **16.05**.
+ - **Alternatif B:** MH 710, Jakarta (CGK) **11.10** → Kuala Lumpur (KUL) **14.20**, dilanjutkan MH 774, Kuala Lumpur (KUL) **16.20** → Bangkok (BKK) **17.40**.
 - Setibanya di Bangkok, disambut dan diantar mengunjungi **Asiatique Night Market**, pusat perbelanjaan di tepi sungai.
 - Check-in dan istirahat di hotel bintang 3 atau setaraf.
-- Makan: *meals on board* sesuai program sumber.
+- Makan: *meals on board* sesuai program paket.
 
 ### Hari 2 — Bangkok ke Pattaya
 
-- Sarapan di hotel dan menuju Pattaya, dengan perkiraan perjalanan sekitar dua jam menurut itinerary.
+- Sarapan di hotel dan menuju Pattaya, dengan perkiraan perjalanan sekitar dua jam dalam itinerary.
 - Mengunjungi **Erawadee Herb Shop** dan **Laser Buddha Hill**.
 - Berwisata ke **Nongnooch Village** untuk menyaksikan pertunjukan budaya Thailand dan *Elephant Show* sebagaimana tercantum dalam program.
 - Singgah ke **Gems Gallery** dan **Pattaya Beach**.
@@ -143,8 +142,8 @@ Dokumen sumber mencantumkan keberangkatan **7, 8, 9, 10, dan 11 Maret 2027**. Un
 ### Hari 4 — Bangkok: Belanja dan Wisata Kota
 
 - Sarapan di hotel, lalu berkunjung ke **Platinum Fashion Mall** dan **MBK Shopping Mall**.
-- Singgah ke **Bic C Supermarket** (penamaan mengikuti teks dokumen sumber; perlu konfirmasi ejaan lokasi).
-- Mengunjungi kawasan **Chinatown Bangkok** untuk menikmati pilihan kuliner; dokumen tidak mencantumkan makan malam sebagai makanan yang termasuk pada hari ini.
+- Singgah ke **Bic C Supermarket** (penamaan mengikuti informasi paket; perlu konfirmasi ejaan lokasi).
+- Mengunjungi kawasan **Chinatown Bangkok** untuk menikmati pilihan kuliner; paket tidak mencantumkan makan malam sebagai makanan yang termasuk pada hari ini.
 - Kembali ke hotel bintang 3 atau setaraf untuk istirahat.
 - Makan: pagi.
 
@@ -152,24 +151,12 @@ Dokumen sumber mencantumkan keberangkatan **7, 8, 9, 10, dan 11 Maret 2027**. Un
 
 - Sarapan di hotel dan transfer menuju bandara.
 - Penerbangan Malaysia Airlines melalui Kuala Lumpur dengan alternatif koneksi kembali ke Jakarta:
-  - **MH 785:** Bangkok (BKK) **11.10** → Kuala Lumpur (KUL) **14.35**.
-  - **Alternatif A, MH 723:** Kuala Lumpur (KUL) **16.20** → Jakarta (CGK) **17.30**.
-  - **Alternatif B, MH 725:** Kuala Lumpur (KUL) **17.55** → Jakarta (CGK) **19.05**.
+ - **MH 785:** Bangkok (BKK) **11.10** → Kuala Lumpur (KUL) **14.35**.
+ - **Alternatif A, MH 723:** Kuala Lumpur (KUL) **16.20** → Jakarta (CGK) **17.30**.
+ - **Alternatif B, MH 725:** Kuala Lumpur (KUL) **17.55** → Jakarta (CGK) **19.05**.
 - Program tur berakhir setelah perjalanan kembali ke Jakarta.
-- Makan: pagi dan *meals on board* sesuai program sumber.
+- Makan: pagi dan *meals on board* sesuai program paket.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Paket tersedia dalam dokumen sumber untuk tanggal keberangkatan **7–11 Maret 2027**, dengan label **Lebaran** pada kelima tanggal tersebut.
-- Harga dewasa berlaku untuk kamar **twin/triple**; anak dengan *extra bed* usia **maksimal 12 tahun** dan anak *no bed* usia **maksimal 6 tahun**, sesuai tabel sumber.
-- **Single supplement Rp2.250.000** adalah biaya tambahan untuk pengaturan kamar sendiri, bukan harga dasar.
-- Tiket penerbangan grup mengikuti tanggal tetap dan tidak dapat diperpanjang (*fixed date & no extend*).
-- **Tipping Rp850.000 per orang** serta **PPN 1,1%** dicantumkan terpisah sebagai harga tidak termasuk; basis PPN perlu dikonfirmasi.
-- **Sewa Wi-Fi portabel** dan **Alcazar Cabaret Show** adalah opsi tambahan tanpa harga tercantum. Kunjungan **Central Festival Mall** juga ditandai opsional dalam itinerary.
-- **Tidak ada refund untuk peserta yang ditolak imigrasi setempat**, sesuai pernyataan dokumen. Rincian kebijakan pembatalan lainnya tidak tersedia pada sumber.
-- Jadwal perjalanan dapat berubah sesuai kondisi operasional. Jadwal penerbangan memiliki alternatif dan perlu dipastikan untuk setiap tanggal keberangkatan.
-- Harga final, ketersediaan kursi, biaya tambahan, dan syarat perjalanan harus dikonfirmasi sebelum transaksi.
-
-## Status Verifikasi Konten
-
-Dokumen ini merupakan hasil normalisasi dari **5D SPECIAL LEBARAN BANGKOK - PATTAYA.docx**, mengikuti struktur `markdown-sample.md`. Sebelum mengubah `published: false` menjadi `published: true`, pengelola Piranti Travel perlu menyetujui **harga dan ketersediaan setiap tanggal, pilihan penerbangan, basis PPN, ketentuan non-refund imigrasi, serta nama lokasi yang berpotensi salah eja**.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

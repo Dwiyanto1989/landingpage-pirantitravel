@@ -8,6 +8,7 @@ import {
   type TourCategory,
 } from '../../../lib/tours';
 import {
+  categoryMeta,
   requiredDestinations,
   titleFromSlug,
 } from '../../../lib/tour-taxonomy';
@@ -30,7 +31,9 @@ interface Props {
   destination: string;
 }
 const { category, destination } = Astro.props;
-const title = `Paket Wisata ${titleFromSlug(destination)}`;
+const destinationName = titleFromSlug(destination);
+const title = `Paket Wisata ${destinationName}`;
+const categoryName = categoryMeta[category].title;
 const entries = getToursByDestination(
   await getTourEntries(),
   destination,
@@ -39,7 +42,13 @@ const entries = getToursByDestination(
 
 <TourListingPage
   {title}
-  description={`Pilihan paket perjalanan untuk ${titleFromSlug(destination)} yang telah dipublikasikan Piranti Travel.`}
+  seoTitle={`${title} - ${categoryName} | Piranti Travel`}
+  description={`Temukan pilihan paket wisata ${destinationName} dalam kategori ${categoryName.toLowerCase()}. Bandingkan rute, jadwal, fasilitas, dan harga bersama Piranti Travel.`}
+  keywords={[
+    `paket wisata ${destinationName}`,
+    `tour ${destinationName}`,
+    `${categoryName} ${destinationName}`,
+  ]}
   path={`/${category}/destinasi/${destination}`}
   {entries}
   eyebrow="Pilih berdasarkan destinasi"

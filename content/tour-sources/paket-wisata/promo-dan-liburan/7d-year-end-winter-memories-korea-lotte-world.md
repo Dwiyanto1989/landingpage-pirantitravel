@@ -15,10 +15,11 @@ keywords:
 - paket Korea winter akhir tahun 2026
 - tour Seoul Nami Island Lotte World 7 hari
 - paket liburan Korea musim dingin
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/promo-dan-liburan/7d-year-end-winter-memories-korea-lotte-world.webp
+ogImage: /paket-wisata/promo-dan-liburan/7d-year-end-winter-memories-korea-lotte-world.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar sementara untuk paket wisata 7D Year End Winter Memories Korea + Lotte World
+- src: /paket-wisata/promo-dan-liburan/7d-year-end-winter-memories-korea-lotte-world.webp
+  alt: Foto paket wisata 7D Year End Winter Memories Korea + Lotte World
 featured: false
 published: true
 primaryDestination: korea-selatan
@@ -123,18 +124,16 @@ mandatoryFees:
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan PPN tidak dijelaskan dalam dokumen sumber; verifikasi sebelum publikasi.
+  note: Dasar pengenaan PPN akan dikonfirmasi sebelum pemesanan.
 optionalFees:
 - label: Rental Wifi Portable/SimCard
   amountIdr: null
 criticalNotices:
-- Terdapat dua keberangkatan pada 22 Desember 2026 dengan maskapai berbeda (Garuda Indonesia dan Singapore Airlines)
-  dan harga sama; jangan gabungkan keduanya.
+- Jadwal dan detail penerbangan menyesuaikan tanggal serta maskapai pilihan.
 - Ski Resort hanya photo stop; peralatan ski tidak termasuk.
-- Group Visa Korea mengikuti penilaian kelayakan; jika tidak memenuhi syarat diarahkan ke Visa Individual dengan biaya
-  Rp1.100.000, sesuai sumber (wajib konfirmasi aturan aktual).
-- Paket bersubsidi dengan shopping stop dan penalti bila tidak mengikuti, besaran penalti tidak dijelaskan.
-- Penolakan visa Korea dapat menimbulkan biaya pembatalan sesuai aturan wholesaler.
+- Pengajuan Group Visa Korea mengikuti persyaratan yang berlaku. Jika tidak memenuhi syarat, tersedia opsi Visa Individual; konfirmasikan biaya dan dokumen yang diperlukan sebelum memesan.
+- Paket bersubsidi ini mencakup kunjungan wajib ke shopping stop sesuai itinerary. Konfirmasikan ketentuan kunjungan sebelum memesan.
+- Penolakan visa dapat dikenakan biaya pembatalan sesuai ketentuan perjalanan. Konfirmasikan kebijakan pembatalan sebelum mengajukan visa.
 source:
   filename: 7D YEAR END WINTER MEMORIES KOREA + LOTTE WORLD.docx
   archivePath: null
@@ -143,15 +142,15 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket **7 hari**: Nami Island, Mt. Sorak, Seoul, Lotte World, dan Gyeongbokgung Palace dalam paket winter Korea 7 hari. Dokumen sumber memuat **6 penawaran keberangkatan**; tanggal, harga dan ketersediaan wajib diverifikasi dengan Piranti Travel sebelum booking.
+Paket wisata Korea Selatan 7 hari akhir 2026 ke Nami Island, Mt. Sorak, Seoul, Lotte World dan Gyeongbokgung Palace.
 
-> **Penting:** Informasi tiket pesawat, visa, jadwal perjalanan, biaya tambahan dan kebijakan penyelenggara mengikuti dokumen pemasok, serta dapat berubah. Sebelum menerbitkan konten, konfirmasikan seluruh ketentuan kepada pengelola Piranti Travel.
+Nikmati perjalanan 7 hari dengan pengalaman pilihan seperti Ski Resort (photo stop), Nami Island, Starfield Library, N Seoul Tower. Pilih jadwal yang sesuai, lalu hubungi tim Piranti Travel untuk mengecek harga dan ketersediaan kursi.
 
 ## Itinerary
 
 ### Hari 1 — JAKARTA – INCHEON (MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** CGK (23.15) – ICN (08.30)+1 by GA 878
+- **Penerbangan:** CGK (23.15) – ICN (08.30)+1 by GA 878
 
 Para hari ini kita akan berkumpul di Soekarno Hatta terminal 3 untuk penerbangan menuju Incheon dengan maskapai Premium.
 
@@ -189,20 +188,10 @@ Sarapan pagi di hotel. Kita akan diantar menuju Healthcare Shop dan belajar cara
 
 ### Hari 7 — INCHEON - JAKARTA (MAKAN PAGI, MEALS ON BOARD)
 
-- **Penerbangan (jadwal sumber):** ICN (10.35) – CGK (15.40) by GA 879
+- **Penerbangan:** ICN (10.35) – CGK (15.40) by GA 879
 
 Sarapan pagi. Kita akan mengunjungi Local Supermarket untuk berbelanja oleh-oleh sebelum diantar ke bandara untuk kepulangan ke Indonesia. Sampai jumpa di tour selanjutnya bersama kami.
 
-## Ketentuan dan Informasi Tambahan
+## Siap Memilih Jadwal?
 
-- Terdapat dua keberangkatan pada 22 Desember 2026 dengan maskapai berbeda (Garuda Indonesia dan Singapore Airlines) dan harga sama; jangan gabungkan keduanya.
-- Ski Resort hanya photo stop; peralatan ski tidak termasuk.
-- Group Visa Korea mengikuti penilaian kelayakan; jika tidak memenuhi syarat diarahkan ke Visa Individual dengan biaya Rp1.100.000, sesuai sumber (wajib konfirmasi aturan aktual).
-- Paket bersubsidi dengan shopping stop dan penalti bila tidak mengikuti, besaran penalti tidak dijelaskan.
-- Penolakan visa Korea dapat menimbulkan biaya pembatalan sesuai aturan wholesaler.
-
-Biaya termasuk, tidak termasuk, biaya wajib, biaya opsional, dan harga tiap tanggal disimpan secara terstruktur pada YAML frontmatter agar dapat ditampilkan konsisten di halaman paket.
-
-## Status Verifikasi Konten
-
-Dokumen Markdown ini dinormalisasi dari DOCX pemasok dan **belum merupakan konfirmasi harga, jadwal atau ketersediaan**. Tinjau seluruh informasi, khususnya biaya visa/pajak, keberangkatan dan syarat booking, sebelum mengubah `published: false` menjadi `published: true`.
+Harga, jadwal, dan ketersediaan dapat berubah mengikuti kondisi perjalanan. Kirim nama paket, tanggal pilihan, kota keberangkatan, dan jumlah peserta melalui WhatsApp agar tim kami dapat mengecek ketersediaan serta rincian terbaru.

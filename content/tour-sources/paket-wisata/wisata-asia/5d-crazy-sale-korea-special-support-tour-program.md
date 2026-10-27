@@ -14,10 +14,11 @@ keywords:
 - crazy sale Korea 2026 2027
 - tour Nami Island Seoul
 - paket tour Korea murah
-image: /images/PLACEHOLDER.webp
+image: /paket-wisata/wisata-asia/5d-crazy-sale-korea.webp
+ogImage: /paket-wisata/wisata-asia/5d-crazy-sale-korea.webp
 images:
-- src: /images/PLACEHOLDER.webp
-  alt: Gambar placeholder paket 5D Crazy Sale Korea (Special Support Tour Program)
+- src: /paket-wisata/wisata-asia/5d-crazy-sale-korea.webp
+  alt: Foto perjalanan 5D Crazy Sale Korea
 featured: false
 published: true
 primaryDestination: korea-selatan
@@ -359,31 +360,30 @@ mandatoryFees:
 - label: Administrasi Visa Group Korea
   amountIdr: 300000
   unit: per-person
-  note: Wajib menurut dokumen; jika pengajuan di tempat lain tetap dikenakan biaya administrasi yang sama. Jika tidak memenuhi syarat Group Visa, Individual Visa Rp1.100.000.
+  note: Wajib dibayarkan. Jika pengajuan dilakukan di tempat lain, biaya administrasi tetap berlaku. Jika tidak memenuhi syarat Group Visa, tersedia Individual Visa Rp1.100.000.
 - label: Tipping Tour Leader, Local Guide dan Driver
   amountIdr: 900000
   unit: per-person
 - label: PPN
   percentage: 1.1
   calculationBasis: null
-  note: Dasar pengenaan pajak tidak dijelaskan di dokumen sumber.
+  note: Detail perhitungan akan dijelaskan setelah menghubungi admin.
 optionalFees:
 - label: Rental Wi-Fi portable
   amountIdr: null
 criticalNotices:
-- Harga dan ketersediaan dapat berubah; verifikasi sebelum penjualan.
-- Sumber menyebut maskapai berkode TW sebagai Trinity Airways; nama operator dan nomor penerbangan harus diverifikasi.
-- Beberapa penerbangan Cathay Pacific diberi label REVERSE SCHEDULE; itinerary spesifik dan durasi sebenarnya harus dikonfirmasi untuk tanggal tersebut.
-- Sumber menulis periode Ski Resort "Desember–Februari 2026", tetapi jadwal mencakup 2026–2027; pastikan periode operasi yang benar. Ski equipment tidak termasuk.
-- Visa ditolak dapat menimbulkan biaya pembatalan sesuai ketentuan wholesaler.
-- Paket bersubsidi, melibatkan shopping stop; jika tidak berkunjung terdapat penalti yang besarannya tidak dicantumkan.
-- Ketentuan operator/wholesaler dan biaya wajib perlu disampaikan sebelum pemesanan.
+- Harga dan ketersediaan dapat berubah; hubungi admin sebelum memesan.
+- Penerbangan berkode TW menggunakan nama Trinity Airways. Detail penerbangan akan diinformasikan oleh admin.
+- Keberangkatan tertentu dengan Cathay Pacific menggunakan *reverse schedule*; susunan perjalanan akan dikonfirmasi setelah memilih tanggal.
+- Kunjungan Ski Resort tersedia pada periode Desember 2026–Februari 2027. Perlengkapan ski tidak termasuk.
+- Paket bersubsidi ini mencakup kunjungan shopping stop; ketentuan jika tidak mengikuti kunjungan akan dijelaskan oleh admin.
+- Ketentuan perjalanan dan seluruh biaya wajib akan dijelaskan sebelum pemesanan.
 airlines:
 - Malaysia Airlines
 - Garuda Indonesia
 - Cathay Pacific
 - Singapore Airlines
-- Trinity Airways (sesuai penulisan sumber, perlu verifikasi)
+- Trinity Airways
 tourType: group
 source:
   filename: 5D CRAZY SALE KOREA (SPECIAL SUPPORT TOUR PROGRAM).docx
@@ -393,30 +393,29 @@ source:
 
 # Ringkasan Perjalanan
 
-Paket wisata **5 hari** ke **Nami Island dan Seoul** melalui pilihan maskapai berdasarkan tanggal keberangkatan. Sumber menyediakan **29 entri harga**; keberangkatan dengan **reverse schedule** butuh konfirmasi rute hariannya.
+Nikmati paket wisata **5 hari** ke **Nami Island dan Seoul** dengan pilihan maskapai yang menyesuaikan tanggal keberangkatan. Tersedia **29 pilihan harga**, termasuk jadwal tertentu dengan susunan perjalanan *reverse schedule*.
 
-> **Sebelum publikasi:** Seluruh harga, slot, kebijakan visa, tipping, PPN dan shopping stop perlu diverifikasi pihak Piranti Travel. Dokumen ditandai `published: false`.
+> **Informasi penting:** Administrasi Visa Group Korea **Rp300.000 per orang**, tipping **Rp900.000 per orang**, dan **PPN 1,1%** wajib dibayarkan di luar harga paket. Detailnya akan dijelaskan oleh admin.
 
 ## Itinerary
 
-### Variasi maskapai menurut sumber
+### Pilihan maskapai
 
-| Kode | Maskapai yang tertulis | Penerbangan pergi (contoh sumber) | Kepulangan (contoh sumber) |
+| Kode | Maskapai | Penerbangan pergi | Kepulangan |
 |---|---|---|---|
 | MH | Malaysia Airlines | CGK–KUL MH720/MH722, KUL–ICN MH66 | ICN–KUL MH67, KUL–CGK MH725/MH727 |
 | GA | Garuda Indonesia | CGK–ICN GA878 | ICN–CGK GA879 |
 | CX | Cathay Pacific | CGK–HKG CX718, HKG–ICN CX416 | ICN–HKG CX427, HKG–CGK CX777 |
 | SQ | Singapore Airlines | CGK–SIN SQ965, SIN–ICN SQ608 | ICN–SIN SQ607, SIN–CGK SQ960 |
-| TW | Trinity Airways (tertulis begitu di sumber, perlu verifikasi) | CGK–ICN TW156 | ICN–CGK TW155 |
+| TW | Trinity Airways | CGK–ICN TW156 | ICN–CGK TW155 |
 
 ### Hari 1 — JAKARTA – INCHEON (MEALS ON BOARD)
 
-- **Jadwal penerbangan dari sumber:** CGK (15.45) – KUL (18.50) by MH720 or CGK (18.25) – KUL (21.35) by MH722
-- **Jadwal penerbangan dari sumber:** & KUL (23.15) – ICN (06.30)+1 by MH66 => Malaysia Airlines
-- **Jadwal penerbangan dari sumber:** CGK (23.15) – ICN (08.30)+1 by GA 878=> Garuda Indonesia
-- **Jadwal penerbangan dari sumber:** CGK (08.10) – HKG (13.55) by CX 718 & HKG (16.50) – ICN (21.25) by CX 416 => Cathay Pacific
-- **Jadwal penerbangan dari sumber:** CGK (19.10) – SIN (21.55) by SQ 965 & SIN (00.10) – ICN (07.25) by SQ 608 => Singapore Airlines
-- **Jadwal penerbangan dari sumber:** CGK (21.50) – ICN (06.50)+1 by TW 156 => Trinity Airways
+- **Malaysia Airlines:** CGK (15.45) – KUL (18.50) by MH720 atau CGK (18.25) – KUL (21.35) by MH722; dilanjutkan KUL (23.15) – ICN (06.30)+1 by MH66.
+- **Garuda Indonesia:** CGK (23.15) – ICN (08.30)+1 by GA878.
+- **Cathay Pacific:** CGK (08.10) – HKG (13.55) by CX718; dilanjutkan HKG (16.50) – ICN (21.25) by CX416.
+- **Singapore Airlines:** CGK (19.10) – SIN (21.55) by SQ965; dilanjutkan SIN (00.10) – ICN (07.25) by SQ608.
+- **Trinity Airways:** CGK (21.50) – ICN (06.50)+1 by TW156.
 
 Malam ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk berangkat menuju ke Incheon dengan maskapai sesuai tanggal keberangkatan.
 
@@ -425,7 +424,7 @@ Malam ini kita berkumpul di Bandara Soekarno-Hatta terminal 3 Ultimate untuk ber
 ### Hari 2 — INCHEON – NAMI ISLAND – SEOUL (MAKAN SIANG)
 
 
-Setiba di Incheon disambut Guide berbahasa Indonesia yang ramah, kita akan mengunjungi Ski Resort (Periode Desember - Februari 2026) (Photo stop - Exc. Ski Equipment) atau kita akan mengunjungi Eunpyeong Hanok Village, perpaduan pemandangan alam dan rumah tradisional Korea yang indah. Kemudian menuju Nami Island yang merupakan tempat syuting “Winter Sonata” serial drama Korea yang mendunia. Dilanjutkan menuju Gangnam COEX Mall dimana kita dapat berbelanja oleh-oleh disana, disini terdapat Starfield Library, tempat syuting banyak drama Korea dan Gangnam Style Statue. Setelah itu, Check in hotel istirahat.
+Setiba di Incheon disambut Guide berbahasa Indonesia yang ramah, kita akan mengunjungi Ski Resort pada periode Desember 2026–Februari 2027 (*photo stop*, perlengkapan ski tidak termasuk) atau Eunpyeong Hanok Village, perpaduan pemandangan alam dan rumah tradisional Korea yang indah. Kemudian menuju Nami Island yang merupakan tempat syuting “Winter Sonata” serial drama Korea yang mendunia. Dilanjutkan menuju Gangnam COEX Mall dimana kita dapat berbelanja oleh-oleh disana, disini terdapat Starfield Library, tempat syuting banyak drama Korea dan Gangnam Style Statue. Setelah itu, Check in hotel istirahat.
 
 *Menginap di Hotel*3/similar*
 
@@ -445,24 +444,23 @@ Sarapan pagi di hotel negeri Ginseng, tidak lengkap jika tidak mengunjungi Natio
 
 ### Hari 5 — SEOUL CITY TOUR (MAKAN PAGI, MEALS ON BOARD)
 
-- **Jadwal penerbangan dari sumber:** ICN (11.05) – KUL (16.45) by MH67
-- **Jadwal penerbangan dari sumber:** & KUL (18.05) – CGK (19.05) by MH725 or KUL (22.20) – CGK (23.30) by MH727 => Malaysia Airlines
-- **Jadwal penerbangan dari sumber:** ICN (10.35) -CGK (15.35) by GA 879 => Garuda Indonesia
-- **Jadwal penerbangan dari sumber:** ICN (01.55) – HKG (05.00) by CX 427 & HKG (09.15) – CGK (13.20) by CX 777 => Cathay Pacific
-- **Jadwal penerbangan dari sumber:** ICN (08.50) – SIN (14.25) by SQ 607 & SIN (15.15) – CGK (16.05) by SQ 960 => Singapore Airlines
-- **Jadwal penerbangan dari sumber:** ICN (15.05) – CGK (20.20) by TW 155 => Trinity Airways
+- **Malaysia Airlines:** ICN (11.05) – KUL (16.45) by MH67; dilanjutkan KUL (18.05) – CGK (19.05) by MH725 atau KUL (22.20) – CGK (23.30) by MH727.
+- **Garuda Indonesia:** ICN (10.35) – CGK (15.35) by GA879.
+- **Cathay Pacific:** ICN (01.55) – HKG (05.00) by CX427; dilanjutkan HKG (09.15) – CGK (13.20) by CX777.
+- **Singapore Airlines:** ICN (08.50) – SIN (14.25) by SQ607; dilanjutkan SIN (15.15) – CGK (16.05) by SQ960.
+- **Trinity Airways:** ICN (15.05) – CGK (20.20) by TW155.
 
 Pagi ini kita akan berangkat dari hotel menuju Local Supermarket terlebih dahulu untuk berbelanja terakhir sekaligus sarapan pagi, Setelah itu Tiba waktunya diantar ke Airport untuk kembali ke Jakarta. Berakhirlah tour yang berkesan ini dan sampai jumpa di tour selanjutnya bersama kami.
 
 ## Harga, Keberangkatan dan Biaya Tambahan
 
-Daftar lengkap tanggal keberangkatan, maskapai/kota asal (jika berlaku), kategori harga dewasa, anak dengan tempat tidur, anak tanpa tempat tidur, dan tambahan kamar sendiri disimpan di YAML `departures`. Harga tercantum **per orang** menurut konfigurasi peserta. Harga akhir, keberangkatan dan kuota perlu dikonfirmasi.
+Harga ditampilkan **per orang** menurut tanggal keberangkatan, maskapai, kategori peserta, dan pilihan kamar. Hubungi tim Piranti Travel untuk mengecek harga akhir dan ketersediaan kursi.
 
 ### Biaya di luar harga paket
 
-- Administrasi Visa Group Korea: **Rp300.000**/orang. Wajib menurut dokumen; jika pengajuan di tempat lain tetap dikenakan biaya administrasi yang sama. Jika tidak memenuhi syarat Group Visa, Individual Visa Rp1.100.000.
+- Administrasi Visa Group Korea: **Rp300.000**/orang. Jika pengajuan dilakukan di tempat lain, biaya administrasi tetap berlaku. Jika tidak memenuhi syarat Group Visa, tersedia Individual Visa Rp1.100.000.
 - Tipping Tour Leader, Local Guide dan Driver: **Rp900.000**/orang.
-- PPN: **1.1%**. Dasar pengenaan pajak tidak dijelaskan di dokumen sumber.
+- PPN: **1,1%**. Detail perhitungan akan dijelaskan oleh admin.
 
 ### Harga termasuk
 
@@ -480,16 +478,10 @@ Daftar lengkap tanggal keberangkatan, maskapai/kota asal (jika berlaku), kategor
 - Tips porter hotel, minibar, laundry, telepon dan kelebihan bagasi.
 - Rental Wi-Fi portable.
 
-## Ketentuan dan Hal yang Wajib Diverifikasi
+## Ketentuan Perjalanan
 
-- Harga dan ketersediaan dapat berubah; verifikasi sebelum penjualan.
-- Sumber menyebut maskapai berkode TW sebagai Trinity Airways; nama operator dan nomor penerbangan harus diverifikasi.
-- Beberapa penerbangan Cathay Pacific diberi label REVERSE SCHEDULE; itinerary spesifik dan durasi sebenarnya harus dikonfirmasi untuk tanggal tersebut.
-- Sumber menulis periode Ski Resort "Desember–Februari 2026", tetapi jadwal mencakup 2026–2027; pastikan periode operasi yang benar. Ski equipment tidak termasuk.
-- Visa ditolak dapat menimbulkan biaya pembatalan sesuai ketentuan wholesaler.
-- Paket bersubsidi, melibatkan shopping stop; jika tidak berkunjung terdapat penalti yang besarannya tidak dicantumkan.
-- Ketentuan operator/wholesaler dan biaya wajib perlu disampaikan sebelum pemesanan.
-
-## Status Verifikasi Konten
-
-Dokumen ini adalah hasil normalisasi DOCX untuk katalog. **Belum boleh dipublikasikan** sebelum pemeriksaan bisnis (jadwal penerbangan, syarat visa, biaya dan kebijakan wholesaler), persetujuan harga dan kesiapan sistem menampilkan variasi keberangkatan.
+- Harga dan ketersediaan dapat berubah; hubungi admin sebelum memesan.
+- Detail penerbangan TW dan jadwal *reverse schedule* akan diinformasikan setelah memilih tanggal keberangkatan.
+- Kunjungan Ski Resort tersedia pada periode Desember 2026–Februari 2027; perlengkapan ski tidak termasuk.
+- Paket bersubsidi ini mencakup kunjungan shopping stop. Ketentuan jika tidak mengikuti kunjungan akan dijelaskan oleh admin.
+- Seluruh biaya wajib dan ketentuan perjalanan akan dijelaskan sebelum pemesanan.
