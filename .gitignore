@@ -11,3 +11,4 @@ dist/
 _revisi/
 workflow/
 workflow-update-paket/
+.codebase-memory/
