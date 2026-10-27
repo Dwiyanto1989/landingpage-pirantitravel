@@ -1,0 +1,46 @@
+---
+import TourListingPage from '../../../components/TourListingPage.astro';
+import { getTourEntries } from '../../../lib/tour-content';
+import {
+  getPublishedTours,
+  getToursByDestination,
+  TOUR_CATEGORIES,
+  type TourCategory,
+} from '../../../lib/tours';
+import {
+  requiredDestinations,
+  titleFromSlug,
+} from '../../../lib/tour-taxonomy';
+export async function getStaticPaths() {
+  const entries = getPublishedTours(await getTourEntries());
+  return TOUR_CATEGORIES.flatMap((category) => {
+    const discovered = entries
+      .filter((entry) => entry.data.category === category)
+      .flatMap((entry) => entry.data.destinations);
+    return [...new Set([...requiredDestinations[category], ...discovered])].map(
+      (destination) => ({
+        params: { category, destination },
+        props: { category, destination },
+      }),
+    );
+  });
+}
+interface Props {
+  category: TourCategory;
+  destination: string;
+}
+const { category, destination } = Astro.props;
+const title = `Paket Wisata ${titleFromSlug(destination)}`;
+const entries = getToursByDestination(
+  await getTourEntries(),
+  destination,
+).filter((entry) => entry.data.category === category);
+---
+
+<TourListingPage
+  {title}
+  description={`Pilihan paket perjalanan untuk ${titleFromSlug(destination)} yang telah dipublikasikan Piranti Travel.`}
+  path={`/${category}/destinasi/${destination}`}
+  {entries}
+  eyebrow="Pilih berdasarkan destinasi"
+/>

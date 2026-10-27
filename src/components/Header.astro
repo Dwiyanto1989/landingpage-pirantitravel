@@ -1,6 +1,23 @@
 ---
-import { navigation } from '../data/site';
 import WhatsAppCTA from './WhatsAppCTA.astro';
+const packageLinks = [
+  ['/wisata-indonesia', 'Wisata Indonesia'],
+  ['/wisata-asia', 'Wisata Asia'],
+  ['/wisata-multi-negara', 'Multi-Negara'],
+  ['/promo-dan-liburan', 'Promo & Liburan'],
+];
+const rentalLinks = [
+  ['/sewa-mobil', 'Semua Sewa Mobil'],
+  ['/japan', 'Jepang'],
+  ['/korea', 'Korea'],
+  ['/bangkok', 'Bangkok'],
+  ['/singapore', 'Singapore'],
+];
+const promoLinks = [
+  ['/promo-dan-liburan/tema/lebaran', 'Libur Lebaran'],
+  ['/promo-dan-liburan/tema/akhir-tahun', 'Akhir Tahun'],
+  ['/promo-dan-liburan/tema/liburan-sekolah', 'Liburan Sekolah'],
+];
 ---
 
 <header class="brand-gradient sticky top-0 z-50 border-b border-white/20 text-white shadow-[0_10px_30px_rgb(0_54_112/.18)]">
@@ -15,29 +32,64 @@ import WhatsAppCTA from './WhatsAppCTA.astro';
         width="256"
         height="256"
         alt=""
-        fetchpriority="low"
-        decoding="async"
-        class="h-12 w-12 object-contain"
+        class="h-11 w-11 object-contain"
       />
-      <span class="text-xl font-extrabold tracking-[-.03em] sm:text-2xl">
+      <span class="text-xl font-extrabold tracking-[-.03em] xl:text-2xl">
         Piranti Travel
       </span>
     </a>
     <nav aria-label="Navigasi utama" class="hidden items-center gap-1 lg:flex">
-      {navigation.map(({ href, label }) => (
-        <a
-          href={href}
-          class="rounded-lg px-3 py-3 text-[.9375rem] font-extrabold tracking-[.01em] text-white/90 hover:bg-white/10 hover:text-white"
-        >
-          {label}
-        </a>
-      ))}
+      <a href="/" class="nav-link">
+        Beranda
+      </a>
+      <details class="nav-menu relative">
+        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+          Paket Wisata <span aria-hidden="true">⌄</span>
+        </summary>
+        <div class="absolute left-0 top-14 w-72 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
+          {packageLinks.map(([href, label]) => (
+            <a href={href} class="menu-link">
+              {label}
+            </a>
+          ))}
+        </div>
+      </details>
+      <details class="nav-menu relative">
+        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+          Sewa Mobil <span aria-hidden="true">⌄</span>
+        </summary>
+        <div class="absolute left-0 top-14 w-64 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
+          {rentalLinks.map(([href, label]) => (
+            <a href={href} class="menu-link">
+              {label}
+            </a>
+          ))}
+        </div>
+      </details>
+      <details class="nav-menu relative">
+        <summary class="nav-link cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+          Promo <span aria-hidden="true">⌄</span>
+        </summary>
+        <div class="absolute left-0 top-14 w-64 rounded-2xl bg-white p-3 text-ink shadow-soft ring-1 ring-brand-900/10">
+          {promoLinks.map(([href, label]) => (
+            <a href={href} class="menu-link">
+              {label}
+            </a>
+          ))}
+        </div>
+      </details>
+      <a href="/about" class="nav-link">
+        Tentang
+      </a>
+      <a href="/contact" class="nav-link">
+        Hubungi
+      </a>
     </nav>
-    <div class="hidden lg:block">
+    <div class="hidden xl:block">
       <WhatsAppCTA placement="hero" label="Tanya via WhatsApp" compact />
     </div>
-    <details class="group relative lg:hidden">
-      <summary class="flex min-h-11 min-w-11 cursor-pointer list-none items-center justify-center rounded-xl bg-white/8 font-semibold [&::-webkit-details-marker]:hidden">
+    <details class="mobile-menu group relative lg:hidden">
+      <summary class="flex min-h-11 min-w-11 cursor-pointer list-none items-center justify-center rounded-xl bg-white/10 [&::-webkit-details-marker]:hidden">
         <span class="sr-only">Buka menu</span>
         <svg
           aria-hidden="true"
@@ -47,16 +99,82 @@ import WhatsAppCTA from './WhatsAppCTA.astro';
           <path d="M4 7h16M4 12h16M4 17h16" />
         </svg>
       </summary>
-      <div class="absolute right-0 top-14 w-64 rounded-2xl bg-white p-3 text-ink shadow-soft">
-        {navigation.map(({ href, label }) => (
-          <a
-            href={href}
-            class="block min-h-11 rounded-xl px-4 py-3 font-bold hover:bg-brand-50"
-          >
-            {label}
-          </a>
-        ))}
+      <div class="absolute right-0 top-14 max-h-[calc(100vh-6rem)] w-[min(21rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl bg-white p-3 text-ink shadow-soft">
+        <a href="/" class="menu-link">
+          Beranda
+        </a>
+        <details>
+          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
+            Paket Wisata ＋
+          </summary>
+          <div class="ml-3 border-l border-brand-200 pl-2">
+            {packageLinks.map(([href, label]) => (
+              <a href={href} class="menu-link">
+                {label}
+              </a>
+            ))}
+          </div>
+        </details>
+        <details>
+          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
+            Sewa Mobil ＋
+          </summary>
+          <div class="ml-3 border-l border-brand-200 pl-2">
+            {rentalLinks.map(([href, label]) => (
+              <a href={href} class="menu-link">
+                {label}
+              </a>
+            ))}
+          </div>
+        </details>
+        <details>
+          <summary class="menu-link cursor-pointer list-none font-extrabold [&::-webkit-details-marker]:hidden">
+            Promo ＋
+          </summary>
+          <div class="ml-3 border-l border-brand-200 pl-2">
+            {promoLinks.map(([href, label]) => (
+              <a href={href} class="menu-link">
+                {label}
+              </a>
+            ))}
+          </div>
+        </details>
+        <a href="/about" class="menu-link">
+          Tentang Kami
+        </a>
+        <a href="/contact" class="menu-link">
+          Hubungi Kami
+        </a>
       </div>
     </details>
   </div>
 </header>
+<script is:inline>
+  const menus = [...document.querySelectorAll('.nav-menu,.mobile-menu')];
+  menus.forEach((menu) => {
+    const summary = menu.querySelector(':scope > summary');
+    summary?.setAttribute('aria-expanded', String(menu.open));
+    menu.addEventListener('toggle', () => {
+      summary?.setAttribute('aria-expanded', String(menu.open));
+      if (menu.open)
+        menus
+          .filter((other) => other !== menu)
+          .forEach((other) => other.removeAttribute('open'));
+    });
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape')
+      menus.forEach((menu) => {
+        if (menu.open) {
+          menu.removeAttribute('open');
+          menu.querySelector(':scope > summary')?.focus();
+        }
+      });
+  });
+  document.addEventListener('click', (event) =>
+    menus.forEach((menu) => {
+      if (menu.open && !menu.contains(event.target))
+        menu.removeAttribute('open');
+    }),
+  );
+</script>

@@ -10,6 +10,13 @@ import FAQ from '../components/FAQ.astro';
 import WhatsAppCTA from '../components/WhatsAppCTA.astro';
 import { destinations } from '../data/destinations';
 import { homeFaqs } from '../data/site';
+import TourCard from '../components/TourCard.astro';
+import { getTourEntries } from '../lib/tour-content';
+import {
+  getFeaturedTours,
+  getToursByCategory,
+  getUpcomingDepartures,
+} from '../lib/tours';
 
 const title =
   'Piranti Travel | Private Transport Jepang, Korea, Bangkok & Singapore';
@@ -32,15 +39,163 @@ const fleet = [
   'Coaster',
   'Bus',
 ];
+const tourEntries = await getTourEntries();
+const featuredTours = getFeaturedTours(tourEntries);
+const promoTours = getToursByCategory(tourEntries, 'promo-dan-liburan').filter(
+  (entry) => getUpcomingDepartures(entry).length > 0,
+);
+const categories = [
+  {
+    href: '/wisata-indonesia',
+    title: 'Paket Wisata Indonesia',
+    text: 'Jelajahi keindahan Indonesia lewat pilihan paket wisata domestik ke berbagai destinasi favorit Nusantara.',
+    cta: 'Lihat Paket Wisata',
+  },
+  {
+    href: '/wisata-asia',
+    title: 'Paket Tour Asia',
+    text: 'Wujudkan liburan ke luar negeri dengan pilihan paket tour Asia, mulai dari Jepang, Korea, hingga destinasi menarik lainnya.',
+    cta: 'Jelajahi Tour Asia',
+  },
+  {
+    href: '/wisata-multi-negara',
+    title: 'Tour Multi-Negara',
+    text: 'Satu perjalanan, banyak destinasi! Nikmati pengalaman menjelajahi beberapa negara dalam satu paket tour.',
+    cta: 'Lihat Tour Multi-Negara',
+  },
+  {
+    href: '/promo-dan-liburan',
+    title: 'Promo Liburan',
+    text: 'Temukan penawaran paket liburan, promo wisata, dan pilihan perjalanan berdasarkan musim serta jadwal keberangkatan.',
+    cta: 'Lihat Promo Liburan',
+  },
+];
+const rentalCopy = {
+  japan: {
+    title: 'Sewa Mobil & Private Tour Jepang',
+    summary:
+      'Jelajahi Tokyo, Osaka, Kyoto, hingga Gunung Fuji dengan Toyota Alphard atau HiAce untuk perjalanan privat yang nyaman.',
+  },
+  korea: {
+    title: 'Sewa Mobil & Airport Transfer Korea',
+    summary:
+      'Nikmati perjalanan privat dengan Hyundai Staria untuk airport transfer, city tour Seoul, Nami Island, dan destinasi lainnya.',
+  },
+  bangkok: {
+    title: 'Sewa VIP Van Bangkok, Thailand',
+    summary:
+      'Jelajahi Bangkok dan sekitarnya dengan VIP van berkapasitas 2–13 penumpang untuk perjalanan privat hingga 12 jam.',
+  },
+  singapore: {
+    title: 'Sewa Bus & Private Transport Singapura',
+    summary:
+      'Pilihan kendaraan 12, 22, hingga 48 kursi untuk airport transfer, city tour, dan perjalanan rombongan di Singapura.',
+  },
+};
+const homeBookingSteps = [
+  {
+    title: 'Pilih Destinasi',
+    text: 'Mau ke Jepang, Korea, Bangkok, atau Singapura? Temukan pilihan kendaraan dan layanan yang cocok untuk liburanmu.',
+  },
+  {
+    title: 'Ceritakan Rencanamu',
+    text: 'Kirim tanggal perjalanan, lokasi penjemputan, tujuan wisata, dan jumlah penumpang melalui WhatsApp.',
+  },
+  {
+    title: 'Terima Penawaran',
+    text: 'Kami bantu cek ketersediaan, informasikan harga final, dan pandu proses pemesanan hingga konfirmasi.',
+  },
+] as const;
 ---
 
 <BaseLayout {title} {description} path="/" schema={faqSchema}>
   <Hero
-    eyebrow="Private transport untuk perjalanan Asia"
-    title="Perjalanan privat, dari bandara hingga destinasi pilihan"
-    description="Lihat referensi harga transport untuk Japan, Korea, Bangkok, dan Singapore. Pilih layanan, kirim detail perjalanan, lalu dapatkan penawaran sesuai kebutuhan Anda."
+    eyebrow="Paket wisata & private transport"
+    title="Satu partner untuk perjalanan Anda"
+    description="Temukan paket wisata Indonesia dan Asia, perjalanan multi-negara, serta layanan sewa mobil untuk rencana perjalanan yang lebih praktis."
     home
   />
+
+  <section class="section bg-brand-50">
+    <div class="shell">
+      <div class="max-w-2xl">
+        <p class="eyebrow">Jelajahi Destinasi Pilihan</p>
+        <h2 class="section-title mt-3">
+          Liburan ke Mana? Temukan Paket Wisata Impianmu!
+        </h2>
+        <p class="mt-5 leading-7 text-slate-600">
+          Jelajahi pilihan paket wisata Indonesia, tour Asia, perjalanan
+          multi-negara, hingga promo liburan menarik. Pilih destinasi favorit
+          dan rencanakan perjalanan berikutnya bersama kami.
+        </p>
+      </div>
+      <div class="mt-9 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {categories.map((item) => (
+          <a
+            href={item.href}
+            class="card group flex h-full flex-col overflow-hidden ring-1 ring-brand-900/8"
+          >
+            <div class="aspect-[16/10] overflow-hidden bg-brand-100">
+              <img
+                src="/images/PLACEHOLDER.webp"
+                width="640"
+                height="400"
+                alt={`Gambar sementara ${item.title}`}
+                loading="lazy"
+                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+              />
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="text-xl font-extrabold text-brand-900 group-hover:text-brand-600">
+                {item.title}
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-slate-600">{item.text}</p>
+              <span class="mt-auto inline-block pt-5 font-extrabold text-brand-700">
+                {item.cta} →
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {featuredTours.length > 0 && (
+    <section class="section">
+      <div class="shell">
+        <p class="eyebrow">Liburan Rekomendasi</p>
+        <h2 class="section-title mt-3">Paket Wisata ke Destinasi Favorit</h2>
+        <div class="mt-9 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredTours.slice(0, 6).map((entry) => (
+            <TourCard {entry} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {promoTours.length > 0 && (
+    <section class="section bg-brand-900 text-white">
+      <div class="shell">
+        <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <p class="eyebrow text-white/75">Promo & liburan</p>
+            <h2 class="mt-3 text-3xl font-extrabold sm:text-5xl">
+              Pilihan untuk musim liburan
+            </h2>
+          </div>
+          <a href="/promo-dan-liburan" class="button-secondary">
+            Lihat semua promo
+          </a>
+        </div>
+        <div class="mt-9 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {promoTours.slice(0, 3).map((entry) => (
+            <TourCard {entry} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section
     aria-label="Keunggulan layanan"
@@ -65,18 +220,26 @@ const fleet = [
   <section id="destinasi" class="section scroll-mt-4">
     <div class="shell">
       <div class="max-w-2xl">
-        <p class="eyebrow">Pilih destinasi</p>
+        <p class="eyebrow">Transportasi Privat Luar Negeri</p>
         <h2 class="section-title mt-3">
-          Mulai dari kota yang ingin Anda jelajahi
+          Sewa Mobil & Private Transport di Destinasi Favorit
         </h2>
         <p class="mt-5 leading-7 text-slate-600">
-          Setiap halaman memuat kendaraan, rute, ketentuan, dan referensi harga
-          yang berbeda.
+          Nikmati perjalanan lebih nyaman dengan layanan sewa mobil,
+          antar-jemput bandara, dan transportasi privat di Jepang, Korea,
+          Thailand, hingga Singapura. Pilih kendaraan sesuai kebutuhan, dari
+          perjalanan keluarga hingga rombongan.
         </p>
       </div>
       <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {destinations.map((destination) => (
-          <DestinationCard {destination} />
+          <DestinationCard
+            {destination}
+            title={rentalCopy[destination.slug].title}
+            summary={rentalCopy[destination.slug].summary}
+            ctaLabel="Lihat Armada & Tarif"
+            showHighlights={false}
+          />
         ))}
       </div>
     </div>
@@ -145,13 +308,15 @@ const fleet = [
   <section class="section">
     <div class="shell grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
       <div>
-        <p class="eyebrow">Kenapa Piranti Travel</p>
+        <p class="eyebrow">Kenapa Pilih Piranti Travel?</p>
         <h2 class="section-title mt-3">
-          Lebih mudah membandingkan sebelum bertanya
+          Sewa Mobil Luar Negeri, Liburan Tanpa Ribet
         </h2>
         <p class="mt-5 leading-7 text-slate-600">
-          Informasi disusun per destinasi agar Anda bisa memahami pilihan
-          sebelum mengirim detail perjalanan.
+          Nikmati perjalanan yang lebih nyaman dengan layanan transportasi
+          privat di Jepang, Korea, Bangkok, dan Singapura. Dari airport transfer
+          hingga city tour, pilih kendaraan dan rute yang sesuai dengan
+          kebutuhan liburanmu.
         </p>
       </div>
       <FeatureGrid />
@@ -163,13 +328,18 @@ const fleet = [
   >
     <div class="shell">
       <div class="max-w-2xl">
-        <p class="eyebrow">Cara booking</p>
+        <p class="eyebrow">Cara Booking</p>
         <h2 class="section-title mt-3">
-          Detail yang tepat, penawaran yang lebih relevan
+          Mau Liburan? Booking Transportasi Semudah Ini!
         </h2>
+        <p class="mt-5 leading-7 text-slate-600">
+          Sewa mobil dan transportasi privat di luar negeri kini lebih praktis.
+          Pilih destinasi, ceritakan rencana perjalananmu, dan dapatkan
+          penawaran sesuai kebutuhan.
+        </p>
       </div>
       <div class="mt-9">
-        <BookingSteps />
+        <BookingSteps items={homeBookingSteps} padded />
       </div>
     </div>
   </section>

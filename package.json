@@ -10,7 +10,8 @@
     "check": "astro check",
     "lint": "npm run check && prettier --check .",
     "format": "prettier --write .",
-    "test": "node --experimental-strip-types --test tests/*.test.ts"
+    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/*.test.ts",
+    "content:audit": "node scripts/audit-content.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",

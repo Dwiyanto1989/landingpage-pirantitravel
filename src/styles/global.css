@@ -164,6 +164,62 @@
   .price {
     font-variant-numeric: tabular-nums;
   }
+  .nav-link {
+    display: flex;
+    min-height: 2.75rem;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 0.75rem;
+    padding-inline: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: rgb(255 255 255 / 0.92);
+  }
+  .nav-link:hover {
+    background: rgb(255 255 255 / 0.1);
+    color: white;
+  }
+  .menu-link {
+    display: flex;
+    min-height: 2.75rem;
+    align-items: center;
+    border-radius: 0.75rem;
+    padding: 0.65rem 0.8rem;
+    font-weight: 750;
+  }
+  .menu-link:hover {
+    background: var(--color-brand-50);
+    color: var(--color-brand-800);
+  }
+  .tour-content h2 {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--color-brand-900);
+  }
+  .tour-content h3 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--color-brand-900);
+  }
+  .tour-content p,
+  .tour-content li {
+    margin-top: 0.75rem;
+    line-height: 1.75;
+    color: #475569;
+  }
+  .tour-content ul,
+  .tour-content ol {
+    margin-top: 0.75rem;
+    padding-left: 1.25rem;
+  }
+  .tour-content ul {
+    list-style: disc;
+  }
+  .tour-content ol {
+    list-style: decimal;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

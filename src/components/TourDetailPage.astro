@@ -1,0 +1,298 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import type { TourEntry } from '../lib/tour-content';
+import { formatCurrency } from '../lib/format';
+import {
+  getCanonicalTourUrl,
+  getStartingPrice,
+  getUpcomingDepartures,
+} from '../lib/tours';
+import { buildTourWhatsAppLink } from '../lib/whatsapp';
+import { siteConfig } from '../config/site';
+import { resolveTourImages } from '../lib/tour-media';
+
+interface Props {
+  entry: TourEntry;
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const path = getCanonicalTourUrl(entry);
+const departures = getUpcomingDepartures(entry);
+const startingPrice = getStartingPrice(entry);
+const waHref = buildTourWhatsAppLink(
+  siteConfig.whatsappNumber,
+  entry.data.title,
+  new URL(path, siteConfig.origin).toString(),
+);
+const dateFormat = new Intl.DateTimeFormat('id-ID', {
+  dateStyle: 'long',
+  timeZone: 'Asia/Jakarta',
+});
+const images = resolveTourImages(
+  entry.data.image,
+  entry.data.images,
+  entry.data.title,
+);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'TouristTrip',
+  name: entry.data.title,
+  description: entry.data.description,
+  url: new URL(path, siteConfig.origin).toString(),
+  touristType: entry.data.tags,
+};
+---
+
+<BaseLayout
+  title={`${entry.data.title} | Piranti Travel`}
+  description={entry.data.description}
+  {path}
+  {schema}
+  destination={entry.data.primaryDestination}
+  showMobileStickyCTA={false}
+>
+  <section class="relative isolate overflow-hidden bg-brand-900 text-white">
+    <img
+      src={images[0].src}
+      alt=""
+      width="1600"
+      height="900"
+      class="absolute inset-0 -z-20 h-full w-full object-cover"
+    />
+    <div class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(0,40,78,.9),rgba(0,88,170,.68))]"></div>
+    <div class="shell py-16 sm:py-24">
+      <nav aria-label="Breadcrumb" class="text-sm text-white/70">
+        <a href="/paket-wisata" class="hover:text-white">
+          Paket Wisata
+        </a>{' '}
+        <span aria-hidden="true">/</span>{' '}
+        <span>{entry.data.primaryDestination.replaceAll('-', ' ')}</span>
+      </nav>
+      <p class="eyebrow mt-8 text-white/85">
+        {entry.data.duration.days} hari ·{' '}
+        {entry.data.bookingMode === 'scheduled'
+          ? 'Keberangkatan terjadwal'
+          : 'Sesuai permintaan'}
+      </p>
+      <h1 class="mt-3 max-w-4xl text-4xl font-extrabold leading-[1.05] sm:text-6xl">
+        {entry.data.title}
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-8 text-white/80">
+        {entry.data.description}
+      </p>
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        {waHref && (
+          <a
+            href={waHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-conversion="whatsapp"
+            data-destination={entry.data.primaryDestination}
+            data-placement="tour-hero"
+            data-product-line="paket-wisata"
+            data-product-title={entry.data.title}
+            class="button-whatsapp"
+          >
+            Tanya paket via WhatsApp
+          </a>
+        )}
+        {startingPrice && (
+          <p>
+            <span class="block text-xs text-white/65">Mulai dari</span>
+            <strong class="price text-2xl">
+              {formatCurrency(startingPrice)}
+            </strong>
+          </p>
+        )}
+      </div>
+    </div>
+  </section>
+  <div class="shell grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:py-16">
+    <article class="min-w-0">
+      <section
+        aria-label="Galeri paket"
+        class={`grid gap-3 ${images.length > 1 ? 'sm:grid-cols-2' : ''}`}
+      >
+        {images.map((image, index) => (
+          <a
+            href={image.src}
+            target="_blank"
+            rel="noopener noreferrer"
+            class={`block overflow-hidden rounded-2xl bg-brand-50 ${index === 0 && images.length > 2 ? 'sm:col-span-2' : ''}`}
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              width="960"
+              height="600"
+              loading="lazy"
+              class="aspect-[16/10] h-full w-full object-cover"
+            />
+          </a>
+        ))}
+      </section>
+      {entry.data.highlights.length > 0 && (
+        <section>
+          <h2 class="text-3xl font-extrabold text-brand-900">
+            Highlight Perjalanan
+          </h2>
+          <ul class="mt-5 grid gap-3 sm:grid-cols-2">
+            {entry.data.highlights.map((item) => (
+              <li class="rounded-2xl bg-brand-50 p-4 font-semibold text-brand-900">
+                ✓ {item}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <section class="mt-12">
+        <h2 class="text-3xl font-extrabold text-brand-900">Jadwal dan harga</h2>
+        {departures.length ? (
+          <div class="mt-5 overflow-x-auto rounded-2xl ring-1 ring-brand-900/10">
+            <table class="w-full min-w-[42rem] text-left text-sm">
+              <thead class="bg-brand-900 text-white">
+                <tr>
+                  <th class="p-4">Tanggal</th>
+                  <th class="p-4">Dewasa</th>
+                  <th class="p-4">Anak + bed</th>
+                  <th class="p-4">Anak tanpa bed</th>
+                </tr>
+              </thead>
+              <tbody>
+                {departures.map((departure) => (
+                  <tr class="border-t border-brand-900/8">
+                    <td class="p-4 font-bold">
+                      {dateFormat.format(
+                        new Date(`${departure.date}T12:00:00+07:00`),
+                      )}
+                    </td>
+                    <td class="p-4">
+                      {departure.prices.general ||
+                      departure.prices.adultTwinTriple
+                        ? formatCurrency(
+                            (departure.prices.general ||
+                              departure.prices.adultTwinTriple) as number,
+                          )
+                        : 'Konfirmasi'}
+                    </td>
+                    <td class="p-4">
+                      {departure.prices.childWithExtraBed
+                        ? formatCurrency(departure.prices.childWithExtraBed)
+                        : '—'}
+                    </td>
+                    <td class="p-4">
+                      {departure.prices.childNoBed
+                        ? formatCurrency(departure.prices.childNoBed)
+                        : '—'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p class="mt-4 rounded-2xl bg-brand-50 p-5 leading-7 text-slate-700">
+            Jadwal keberangkatan tersedia sesuai permintaan atau sedang menunggu
+            pembaruan. Hubungi kami untuk mengecek pilihan terkini.
+          </p>
+        )}
+      </section>
+      <section class="tour-content mt-12">
+        <Content />
+      </section>
+      <div class="mt-12 grid gap-6 sm:grid-cols-2">
+        <section class="rounded-2xl bg-emerald-50 p-6">
+          <h2 class="text-xl font-extrabold text-emerald-900">Termasuk</h2>
+          <ul class="mt-4 space-y-2 text-sm">
+            {entry.data.inclusions.map((item) => (
+              <li>✓ {item}</li>
+            ))}
+          </ul>
+        </section>
+        <section class="rounded-2xl bg-rose-50 p-6">
+          <h2 class="text-xl font-extrabold text-rose-900">Tidak termasuk</h2>
+          <ul class="mt-4 space-y-2 text-sm">
+            {entry.data.exclusions.map((item) => (
+              <li>• {item}</li>
+            ))}
+          </ul>
+        </section>
+      </div>
+      {entry.data.mandatoryFees.length > 0 && (
+        <aside class="mt-8 rounded-2xl border border-orange-300 bg-orange-50 p-6">
+          <h2 class="text-xl font-extrabold text-orange-950">
+            Biaya wajib di luar harga paket
+          </h2>
+          <ul class="mt-3 space-y-3 text-sm leading-6 text-orange-950">
+            {entry.data.mandatoryFees.map((fee) => (
+              <li>
+                <strong>{fee.label}</strong>
+                {typeof fee.amountIdr === 'number'
+                  ? ` — ${formatCurrency(fee.amountIdr)}`
+                  : ''}
+                {typeof fee.percentage === 'number'
+                  ? ` — ${fee.percentage}%`
+                  : ''}
+                {fee.note ? ` (${fee.note})` : ''}
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+      {entry.data.optionalFees.length > 0 && (
+        <section class="mt-8 rounded-2xl bg-slate-50 p-6">
+          <h2 class="text-xl font-extrabold text-brand-900">Biaya opsional</h2>
+          <ul class="mt-3 space-y-2 text-sm leading-6 text-slate-700">
+            {entry.data.optionalFees.map((fee) => (
+              <li>
+                • {fee.label}
+                {typeof fee.amountIdr === 'number'
+                  ? ` — ${formatCurrency(fee.amountIdr)}`
+                  : ''}
+                {fee.note ? ` (${fee.note})` : ''}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {entry.data.criticalNotices.length > 0 && (
+        <aside class="mt-8 rounded-2xl border border-amber-300 bg-amber-50 p-6">
+          <h2 class="text-xl font-extrabold text-amber-950">
+            Informasi penting
+          </h2>
+          <ul class="mt-3 space-y-2 text-sm leading-6 text-amber-950">
+            {entry.data.criticalNotices.map((item) => (
+              <li>• {item}</li>
+            ))}
+          </ul>
+        </aside>
+      )}
+    </article>
+    <aside class="h-fit rounded-3xl bg-brand-50 p-6 ring-1 ring-brand-900/8 lg:sticky lg:top-28">
+      <p class="eyebrow">Butuh bantuan?</p>
+      <h2 class="mt-2 text-2xl font-extrabold text-brand-900">
+        Konsultasikan paket ini
+      </h2>
+      <p class="mt-3 text-sm leading-6 text-slate-600">
+        Kirim nama paket, tanggal pilihan, dan jumlah peserta agar tim kami
+        dapat membantu.
+      </p>
+      {waHref && (
+        <a
+          href={waHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-conversion="whatsapp"
+          data-destination={entry.data.primaryDestination}
+          data-placement="tour-sidebar"
+          data-product-line="paket-wisata"
+          data-product-title={entry.data.title}
+          class="button-whatsapp mt-6 w-full"
+        >
+          Chat WhatsApp
+        </a>
+      )}
+    </aside>
+  </div>
+</BaseLayout>

@@ -1,0 +1,20 @@
+---
+import TourDetailPage from '../../components/TourDetailPage.astro';
+import { getTourEntries, type TourEntry } from '../../lib/tour-content';
+import { getPublishedTours, getTourIdentity } from '../../lib/tours';
+export async function getStaticPaths() {
+  return getPublishedTours(await getTourEntries()).map((entry) => {
+    const identity = getTourIdentity(entry.id, entry.data.category);
+    return {
+      params: { category: identity.category, slug: identity.slug },
+      props: { entry },
+    };
+  });
+}
+interface Props {
+  entry: TourEntry;
+}
+const { entry } = Astro.props;
+---
+
+<TourDetailPage {entry} />

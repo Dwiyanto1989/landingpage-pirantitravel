@@ -27,6 +27,8 @@ const defaultLabels: Record<CTAConfig['placement'], string> = {
   final: destination
     ? `Rencanakan Trip ${destination}`
     : 'Kirim Rencana Perjalanan',
+  'catalog-empty': 'Tanyakan paket via WhatsApp',
+  'rental-page': 'Konsultasi via WhatsApp',
 };
 const ctaLabel = label ?? defaultLabels[placement];
 const classes = `button-whatsapp ${compact ? 'min-h-11 px-4 py-2.5 text-sm' : ''} ${className}`;

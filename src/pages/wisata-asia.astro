@@ -1,0 +1,15 @@
+---
+import TourListingPage from '../components/TourListingPage.astro';
+import { getTourEntries } from '../lib/tour-content';
+import { getToursByCategory } from '../lib/tours';
+import { categoryMeta } from '../lib/tour-taxonomy';
+const meta = categoryMeta['wisata-asia'];
+const entries = getToursByCategory(await getTourEntries(), 'wisata-asia');
+---
+
+<TourListingPage
+  title={meta.title}
+  description={meta.description}
+  path="/wisata-asia"
+  {entries}
+/>

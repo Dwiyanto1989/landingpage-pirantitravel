@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import type { TourEntry } from '../lib/tour-content';
+import TourCard from './TourCard.astro';
+import WhatsAppCTA from './WhatsAppCTA.astro';
+import { requiredDestinations, titleFromSlug } from '../lib/tour-taxonomy';
+import { TOUR_CATEGORIES, type TourCategory } from '../lib/tours';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  eyebrow?: string;
+  entries: TourEntry[];
+}
+const {
+  title,
+  description,
+  path,
+  eyebrow = 'Paket wisata',
+  entries,
+} = Astro.props;
+const category = TOUR_CATEGORIES.includes(path.slice(1) as TourCategory)
+  ? (path.slice(1) as TourCategory)
+  : undefined;
+const destinations = category
+  ? [
+      ...new Set([
+        ...requiredDestinations[category],
+        ...entries.flatMap((entry) => entry.data.destinations),
+      ]),
+    ]
+  : [];
+---
+
+<BaseLayout title={`${title} | Piranti Travel`} {description} {path}>
+  <section class="brand-gradient py-16 text-white sm:py-20">
+    <div class="shell max-w-4xl">
+      <p class="eyebrow text-white/85">{eyebrow}</p>
+      <h1 class="mt-3 text-4xl font-extrabold leading-tight sm:text-6xl">
+        {title}
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-8 text-white/80">
+        {description}
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
+      {destinations.length > 0 && (
+        <nav aria-label="Pilih destinasi" class="mb-9 flex flex-wrap gap-2">
+          {destinations.map((destination) => (
+            <a
+              href={`/${category}/destinasi/${destination}`}
+              class="min-h-11 rounded-full bg-brand-50 px-4 py-3 text-sm font-extrabold text-brand-800 ring-1 ring-brand-200 hover:bg-brand-100"
+            >
+              {titleFromSlug(destination)}
+            </a>
+          ))}
+        </nav>
+      )}
+      {path === '/promo-dan-liburan' && (
+        <nav aria-label="Pilih tema liburan" class="mb-9 flex flex-wrap gap-2">
+          <a href="/promo-dan-liburan/tema/lebaran" class="button-secondary">
+            Libur Lebaran
+          </a>
+          <a
+            href="/promo-dan-liburan/tema/akhir-tahun"
+            class="button-secondary"
+          >
+            Akhir Tahun
+          </a>
+          <a
+            href="/promo-dan-liburan/tema/liburan-sekolah"
+            class="button-secondary"
+          >
+            Liburan Sekolah
+          </a>
+        </nav>
+      )}
+      {entries.length ? (
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {entries.map((entry) => (
+            <TourCard {entry} />
+          ))}
+        </div>
+      ) : (
+        <div class="card mx-auto max-w-2xl p-8 text-center ring-1 ring-brand-900/8 sm:p-12">
+          <p class="eyebrow">Segera hadir</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-brand-900">
+            Paket sedang kami siapkan
+          </h2>
+          <p class="mx-auto mt-4 max-w-lg leading-7 text-slate-600">
+            Belum ada paket yang dipublikasikan di halaman ini. Sampaikan
+            destinasi dan rencana perjalanan Anda untuk mendapatkan pilihan yang
+            sesuai.
+          </p>
+          <div class="mt-7">
+            <WhatsAppCTA
+              destination={title}
+              placement="catalog-empty"
+              label="Tanyakan paket via WhatsApp"
+            />
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,18 @@
+---
+import TourListingPage from '../components/TourListingPage.astro';
+import { getTourEntries } from '../lib/tour-content';
+import { getToursByCategory } from '../lib/tours';
+import { categoryMeta } from '../lib/tour-taxonomy';
+const meta = categoryMeta['wisata-multi-negara'];
+const entries = getToursByCategory(
+  await getTourEntries(),
+  'wisata-multi-negara',
+);
+---
+
+<TourListingPage
+  title={meta.title}
+  description={meta.description}
+  path="/wisata-multi-negara"
+  {entries}
+/>

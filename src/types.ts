@@ -19,7 +19,14 @@ export type FAQ = { question: string; answer: string };
 
 export type CTAConfig = {
   destination?: string;
-  placement: 'hero' | 'pricing' | 'sticky-mobile' | 'footer' | 'final';
+  placement:
+    | 'hero'
+    | 'pricing'
+    | 'sticky-mobile'
+    | 'footer'
+    | 'final'
+    | 'catalog-empty'
+    | 'rental-page';
   label?: string;
 };
 

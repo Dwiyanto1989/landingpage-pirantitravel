@@ -2,8 +2,18 @@
 import type { Destination } from '../types';
 interface Props {
   destination: Destination;
+  title?: string;
+  summary?: string;
+  ctaLabel?: string;
+  showHighlights?: boolean;
 }
-const { destination } = Astro.props;
+const {
+  destination,
+  title = destination.name,
+  summary = destination.summary,
+  ctaLabel = 'Lihat harga & layanan',
+  showHighlights = true,
+} = Astro.props;
 const destinationImages: Record<string, string> = {
   japan: '/images/card-japan.webp',
   korea: '/images/card-korea.webp',
@@ -11,6 +21,7 @@ const destinationImages: Record<string, string> = {
   singapore: '/images/card-singapore.webp',
 };
 const image = destinationImages[destination.slug];
+const usesCustomTitle = title !== destination.name;
 ---
 
 <article class="card group flex h-full flex-col overflow-hidden">
@@ -25,27 +36,34 @@ const image = destinationImages[destination.slug];
       class="h-full w-full object-cover"
     />
     <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,39,77,.04)_20%,rgba(0,39,77,.88)_100%)]"></div>
-    <div class="absolute bottom-5 left-6 text-3xl font-black text-white [text-shadow:0_2px_12px_rgb(0_0_0/.35)]">
-      {destination.name}
+    <div
+      class:list={[
+        'absolute inset-x-6 bottom-5 font-black leading-tight text-white [text-shadow:0_2px_12px_rgb(0_0_0/.35)]',
+        usesCustomTitle ? 'text-2xl' : 'text-3xl',
+      ]}
+    >
+      {title}
     </div>
   </div>
   <div class="flex flex-1 flex-col p-6">
-    <p class="text-sm leading-6 text-slate-600">{destination.summary}</p>
-    <ul class="mt-5 space-y-2 text-sm text-slate-700">
-      {destination.highlights.slice(0, 2).map((item) => (
-        <li class="flex gap-2">
-          <span aria-hidden="true" class="text-accent-500">
-            ●
-          </span>
-          {item}
-        </li>
-      ))}
-    </ul>
+    <p class="text-sm leading-6 text-slate-600">{summary}</p>
+    {showHighlights && (
+      <ul class="mt-5 space-y-2 text-sm text-slate-700">
+        {destination.highlights.slice(0, 2).map((item) => (
+          <li class="flex gap-2">
+            <span aria-hidden="true" class="text-accent-500">
+              ●
+            </span>
+            {item}
+          </li>
+        ))}
+      </ul>
+    )}
     <a
       href={`/${destination.slug}`}
-      class="mt-6 inline-flex min-h-11 items-center gap-2 self-start rounded-lg font-bold text-brand-700 group-hover:text-brand-500"
+      class="mt-auto inline-flex min-h-11 items-center gap-2 self-start rounded-lg pt-6 font-bold text-brand-700 group-hover:text-brand-500"
     >
-      Lihat harga & layanan <span aria-hidden="true">→</span>
+      {ctaLabel} <span aria-hidden="true">→</span>
     </a>
   </div>
 </article>

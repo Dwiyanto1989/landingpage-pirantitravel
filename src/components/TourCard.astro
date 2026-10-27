@@ -1,0 +1,91 @@
+---
+import type { TourEntry } from '../lib/tour-content';
+import { formatCurrency } from '../lib/format';
+import {
+  getCanonicalTourUrl,
+  getStartingPrice,
+  getUpcomingDepartures,
+} from '../lib/tours';
+import { resolveTourImages } from '../lib/tour-media';
+import { categoryMeta } from '../lib/tour-taxonomy';
+
+interface Props {
+  entry: TourEntry;
+}
+const { entry } = Astro.props;
+const href = getCanonicalTourUrl(entry);
+const price = getStartingPrice(entry);
+const image = resolveTourImages(
+  entry.data.image,
+  entry.data.images,
+  entry.data.title,
+)[0];
+const nextDeparture = getUpcomingDepartures(entry)[0];
+const dateFormat = new Intl.DateTimeFormat('id-ID', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+  timeZone: 'Asia/Jakarta',
+});
+---
+
+<article class="card group flex h-full flex-col overflow-hidden ring-1 ring-brand-900/8">
+  <a
+    href={href}
+    class="flex h-full flex-col focus-visible:outline-offset-[-3px]"
+  >
+    <div class="aspect-[16/10] overflow-hidden bg-brand-100">
+      <img
+        src={image.src}
+        alt={image.alt}
+        width="720"
+        height="450"
+        loading="lazy"
+        class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+      />
+    </div>
+    <div class="flex flex-1 flex-col p-5">
+      <p class="eyebrow">{categoryMeta[entry.data.category].title}</p>
+      <h3 class="mt-2 text-xl font-extrabold leading-tight text-brand-900">
+        {entry.data.title}
+      </h3>
+      <p class="mt-3 line-clamp-3 text-sm leading-6 text-slate-600">
+        {entry.data.description}
+      </p>
+      <p class="mt-4 text-xs font-bold text-slate-500">
+        {entry.data.duration.days} hari ·{' '}
+        {entry.data.destinations
+          .map((item) => item.replaceAll('-', ' '))
+          .join(', ')}
+      </p>
+      {nextDeparture && (
+        <p class="mt-2 text-xs font-bold text-brand-700">
+          Keberangkatan berikutnya:{' '}
+          {dateFormat.format(new Date(`${nextDeparture.date}T12:00:00+07:00`))}
+        </p>
+      )}
+      <div class="mt-3 flex flex-wrap gap-1.5">
+        {entry.data.tags.slice(0, 3).map((tag) => (
+          <span class="rounded-full bg-brand-50 px-2.5 py-1 text-xs font-bold text-brand-800">
+            {tag.replaceAll('-', ' ')}
+          </span>
+        ))}
+      </div>
+      <div class="mt-auto flex items-end justify-between gap-3 border-t border-brand-900/8 pt-4">
+        <p class="text-sm text-slate-500">
+          {price ? (
+            <>
+              <span class="block text-xs">Mulai dari</span>
+              <strong class="price text-base text-brand-800">
+                {formatCurrency(price)}
+              </strong>
+            </>
+          ) : (
+            <strong class="text-brand-800">Hubungi kami untuk harga</strong>
+          )}
+        </p>
+        <span class="font-extrabold text-brand-700">Lihat paket →</span>
+      </div>
+    </div>
+  </a>
+</article>

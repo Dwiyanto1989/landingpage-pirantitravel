@@ -1,5 +1,5 @@
-dist
-node_modules
-.astro
-.codebase-memory
-workflow
+content/tour-sources/
+workflow/
+workflow-update-paket/
+.superpowers/
+.codebase-memory/

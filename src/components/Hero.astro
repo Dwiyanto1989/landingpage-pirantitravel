@@ -62,15 +62,22 @@ const {
         {description}
       </p>
       <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-        <WhatsAppCTA destination={destination} placement="hero" />
         {home ? (
-          <a href="#destinasi" class="button-secondary">
-            Lihat pilihan destinasi
-          </a>
+          <>
+            <a href="/paket-wisata" class="button-primary">
+              Lihat paket wisata
+            </a>
+            <a href="/sewa-mobil" class="button-secondary">
+              Cari sewa mobil
+            </a>
+          </>
         ) : (
-          <a href="#harga" class="button-secondary">
-            Lihat harga layanan
-          </a>
+          <>
+            <WhatsAppCTA destination={destination} placement="hero" />
+            <a href="#harga" class="button-secondary">
+              Lihat harga layanan
+            </a>
+          </>
         )}
       </div>
     </div>
@@ -93,9 +100,9 @@ const {
             {(highlights.length
               ? highlights
               : [
-                  'Japan · Korea',
-                  'Bangkok · Singapore',
-                  'Private transport · Airport transfer',
+                  'Paket wisata Indonesia & Asia',
+                  'Perjalanan multi-negara',
+                  'Sewa mobil & private transport',
                 ]
             ).map((item, index) => (
               <li class="flex items-center gap-3 rounded-2xl bg-white px-3 py-3 text-sm font-extrabold shadow-[0_8px_24px_rgb(0_100_200/.08)] ring-1 ring-brand-900/5 sm:text-base">

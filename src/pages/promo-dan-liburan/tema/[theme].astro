@@ -1,0 +1,33 @@
+---
+import TourListingPage from '../../../components/TourListingPage.astro';
+import { getTourEntries } from '../../../lib/tour-content';
+import {
+  getPublishedTours,
+  getPromoDepartures,
+  PROMO_THEMES,
+  type PromoTheme,
+} from '../../../lib/tours';
+import { promoThemeMeta } from '../../../lib/tour-taxonomy';
+export async function getStaticPaths() {
+  return PROMO_THEMES.map((theme) => ({ params: { theme }, props: { theme } }));
+}
+interface Props {
+  theme: PromoTheme;
+}
+const { theme } = Astro.props;
+const meta = promoThemeMeta[theme];
+const entries = getPublishedTours(await getTourEntries()).flatMap((entry) => {
+  const departures = getPromoDepartures(entry, theme);
+  return departures.length
+    ? [{ ...entry, data: { ...entry.data, departures } }]
+    : [];
+});
+---
+
+<TourListingPage
+  title={meta.title}
+  description={meta.description}
+  path={`/promo-dan-liburan/tema/${theme}`}
+  {entries}
+  eyebrow="Tema liburan"
+/>
