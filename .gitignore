@@ -12,3 +12,5 @@ _revisi/
 workflow/
 workflow-update-paket/
 .codebase-memory/
+# Local codebase knowledge graph
+.codebase-memory/
